@@ -1,0 +1,40 @@
+2024-11-17 04:03:22,541 - INFO - A conexão com o banco de dados foi estabelecida com sucesso!
+2024-11-17 04:03:22,546 - INFO - Tabela tbl_canal_vendas criada ou já existe.
+2024-11-17 04:03:22,547 - INFO - Leitura do arquivo tbl_canal_vendas.csv realizada com sucesso.
+2024-11-17 04:03:22,549 - INFO - Dados inseridos com sucesso na tabela tbl_canal_vendas.
+2024-11-17 04:03:22,574 - INFO - Tabela tbl_status_pagamentos criada ou já existe.
+2024-11-17 04:03:22,574 - INFO - Leitura do arquivo tbl_status_pagamentos.csv realizada com sucesso.
+2024-11-17 04:03:22,576 - INFO - Dados inseridos com sucesso na tabela tbl_status_pagamentos.
+2024-11-17 04:03:22,590 - INFO - Tabela tbl_forma_pagamentos criada ou já existe.
+2024-11-17 04:03:22,590 - INFO - Leitura do arquivo tbl_forma_pagamentos.csv realizada com sucesso.
+2024-11-17 04:03:22,592 - INFO - Dados inseridos com sucesso na tabela tbl_forma_pagamentos.
+2024-11-17 04:03:22,610 - INFO - Tabela tbl_status_pedidos criada ou já existe.
+2024-11-17 04:03:22,610 - INFO - Leitura do arquivo tbl_status_pedidos.csv realizada com sucesso.
+2024-11-17 04:03:22,613 - INFO - Dados inseridos com sucesso na tabela tbl_status_pedidos.
+2024-11-17 04:03:22,630 - INFO - Tabela tbl_referencias criada ou já existe.
+2024-11-17 04:03:22,630 - INFO - Leitura do arquivo tbl_referencias.csv realizada com sucesso.
+2024-11-17 04:03:22,633 - INFO - Dados inseridos com sucesso na tabela tbl_referencias.
+2024-11-17 04:03:22,658 - INFO - Tabela tbl_paises criada ou já existe.
+2024-11-17 04:03:22,659 - INFO - Leitura do arquivo tbl_paises.csv realizada com sucesso.
+2024-11-17 04:03:22,661 - INFO - Dados inseridos com sucesso na tabela tbl_paises.
+2024-11-17 04:03:22,693 - INFO - Tabela tbl_estados criada ou já existe.
+2024-11-17 04:03:22,694 - INFO - Leitura do arquivo tbl_estados.csv realizada com sucesso.
+2024-11-17 04:03:22,698 - INFO - Dados inseridos com sucesso na tabela tbl_estados.
+2024-11-17 04:03:22,747 - INFO - Tabela tbl_cidades criada ou já existe.
+2024-11-17 04:03:22,752 - INFO - Leitura do arquivo tbl_cidades.csv realizada com sucesso.
+2024-11-17 04:03:22,864 - INFO - Dados inseridos com sucesso na tabela tbl_cidades.
+2024-11-17 04:03:22,882 - INFO - Tabela tbl_bairros criada ou já existe.
+2024-11-17 04:03:22,888 - INFO - Leitura do arquivo tbl_bairros.csv realizada com sucesso.
+2024-11-17 04:03:23,233 - INFO - Dados inseridos com sucesso na tabela tbl_bairros.
+2024-11-17 04:03:23,257 - INFO - Tabela tbl_enderecos criada ou já existe.
+2024-11-17 04:03:23,489 - INFO - Leitura do arquivo tbl_enderecos.csv realizada com sucesso.
+2024-11-17 04:03:27,280 - INFO - Dados inseridos com sucesso na tabela tbl_enderecos.
+2024-11-17 04:03:27,335 - INFO - Tabela tbl_tipos_contatos criada ou já existe.
+2024-11-17 04:03:27,337 - INFO - Leitura do arquivo tbl_tipos_contatos.csv realizada com sucesso.
+2024-11-17 04:03:27,364 - INFO - Dados inseridos com sucesso na tabela tbl_tipos_contatos.
+2024-11-17 04:03:27,389 - INFO - Tabela tbl_contatos criada ou já existe.
+2024-11-17 04:03:28,231 - INFO - Leitura do arquivo tbl_contatos.csv realizada com sucesso.
+2024-11-17 04:03:44,248 - INFO - Dados inseridos com sucesso na tabela tbl_contatos.
+2024-11-17 04:03:44,257 - ERROR - Erro ao criar ou inserir dados na tabela tbl_clientes.
+
+Erro: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 16

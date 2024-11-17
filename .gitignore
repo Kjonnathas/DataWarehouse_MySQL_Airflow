@@ -1,0 +1,6 @@
+.venv
+.env
+files/tbl_pagamentos.csv
+files/tbl_pedidos.csv
+files/tbl_vendas.csv
+airflow
