@@ -116,15 +116,14 @@ CREATE TABLE IF NOT EXISTS tbl_contatos (
     id_contato INTEGER AUTO_INCREMENT,
     id_tipo_contato INTEGER NOT NULL,
     id_referencia INTEGER NOT NULL,
-    valor VARCHAR (50) NOT NULL,
+    telefone VARCHAR (13),
+    email VARCHAR (50) NOT NULL,
     status_contato CHAR (1) NOT NULL,
     CONSTRAINT tbl_contatos_id_contato_pk PRIMARY KEY (id_contato),
     CONSTRAINT tbl_contatos_id_tipo_contato_fk FOREIGN KEY (id_tipo_contato) REFERENCES tbl_tipo_contatos (id_tipo_contato),
     CONSTRAINT tbl_contatos_id_ref_fk FOREIGN KEY (id_referencia) REFERENCES tbl_referencias (id_referencia),
-    CONSTRAINT tbl_contatos_valor_ck CHECK (
-        (id_tipo_contato = 4 AND valor LIKE '%@%') OR 
-        (id_tipo_contato IN (1, 2, 3) AND valor NOT LIKE '%@%')
-    )
+    CONSTRAINT tbl_contatos_telefone_ck CHECK (id_tipo_contato IN (1, 2, 3) AND telefone NOT LIKE '%@%'),
+    CONSTRAINT tbl_contatos_email_ck CHECK (id_tipo_contato = 4 AND email LIKE '%@%')
 );
 
 -- Criando a tabela de Clientes
@@ -143,7 +142,7 @@ CREATE TABLE IF NOT EXISTS tbl_clientes (
     CONSTRAINT tbl_cli_id_cli_pk PRIMARY KEY (id_cliente),
     CONSTRAINT tbl_cli_cpf_un UNIQUE (cpf),
     CONSTRAINT tbl_cli_id_contato_fk FOREIGN KEY (id_contato) REFERENCES tbl_contatos (id_contato),
-    CONSTRAINT tbl_cli_id_endereco_fk FOREIGN KEY (id_endereco) REFERENCES tbl_enderecos (id_endereco),
+    CONSTRAINT tbl_cli_id_endereco_fk FOREIGN KEY (id_endereco) REFERENCES tbl_enderecos (id_endereco)
 );
 
 -- Criando a tabela de Categorias
@@ -168,7 +167,7 @@ CREATE TABLE IF NOT EXISTS tbl_subcategorias (
 
 CREATE TABLE IF NOT EXISTS tbl_marcas (
     id_marca INTEGER AUTO_INCREMENT,
-    marca VARCHAR(50),
+    marca VARCHAR(50) NOT NULL,
     CONSTRAINT tbl_marcas_id_marca_pk PRIMARY KEY (id_marca)
 );
 
@@ -259,6 +258,7 @@ CREATE TABLE IF NOT EXISTS tbl_funcionarios (
     id_funcionario INTEGER AUTO_INCREMENT,
     id_departamento INTEGER NOT NULL,
     id_cargo INTEGER NOT NULL,
+    id_loja INTEGER NOT NULL,
     id_contato INTEGER NOT NULL,
     id_endereco INTEGER NOT NULL,
     nome VARCHAR (50) NOT NULL,

@@ -62,7 +62,7 @@ def normalize_text(text: str) -> str:
     return unicodedata.normalize("NFC", without_accent)
 
 
-def read_files(folder_path: str, file_name: str) -> Optional[Iterator[list]] | None:
+def read_files(folder_path: str, file_name: str) -> Optional[Iterator[list]]:
     """
     Lê o conteúdo de um arquivo CSV em uma pasta especificada.
 
@@ -100,7 +100,7 @@ def read_files(folder_path: str, file_name: str) -> Optional[Iterator[list]] | N
 
             next(reader)
 
-            data = [[normalize_text(cell) for cell in row] for row in reader]
+            data = [[normalize_text(_) for _ in row] for row in reader]
 
             logging.info(f"Leitura do arquivo {file_name} realizada com sucesso.")
 

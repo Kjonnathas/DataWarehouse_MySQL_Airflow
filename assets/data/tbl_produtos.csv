@@ -1,0 +1,1007 @@
+id_marca;id_categoria;id_fornecedor;modelo;produto;preco_unitario;custo_unitario
+132;14;98;UDL43919;Abajur de mesa  ;1531.38;268.76
+165;10;88;MAE11353;Adaptador de tomada universal  ;4147.26;727.84
+114;11;40;GXQ55443;Agulha de tricô  ;2897.06;508.43
+34;8;186;ULG84992;Almofada decorativa  ;3785.77;664.4
+177;6;168;SKI65575;Amortecedor para carro  ;103.35;18.14
+148;13;35;IGH14438;Antena digital  ;2256.23;395.97
+147;5;149;DLW41881;Aparelho de barbear elétrico  ;1253.65;220.02
+61;4;120;DCU28667;Apontador de lápis  ;1488.01;261.15
+4;2;49;NRV19546;Aquecedor elétrico  ;1023.41;179.61
+222;9;30;LDA94267;Aspirador de pó portátil  ;3071.55;539.06
+212;6;138;NKO66493;Balcão de cozinha  ;2660.61;466.94
+113;10;92;ATO71195;Banqueta alta  ;1455.05;255.36
+59;9;14;MJP46155;Barbeador manual  ;2023.83;355.18
+284;3;174;MQO74367;Base para notebook com ventilação  ;4374.45;767.72
+168;12;66;IKH15959;Bebedouro elétrico  ;4244.03;744.83
+83;5;138;JUB74231;Berço desmontável  ;227.88;39.99
+240;12;35;XAF99159;Bicicleta ergométrica  ;2122.94;372.58
+116;14;113;OKW49514;Bicicleta infantil  ;3226.53;566.26
+78;11;63;NON26681;Binóculos compactos  ;3995.23;701.16
+224;8;26;XOC65451;Bloco de anotações  ;515.98;90.55
+136;12;177;UBG81448;Bolsa térmica  ;4773.0;837.66
+134;13;64;PPC31482;Botijão de gás  ;2303.33;404.23
+219;9;1;NCW45742;Brinquedo educativo  ;148.34;26.03
+183;3;183;BJJ25754;Cadeira de balanço  ;759.44;133.28
+295;10;163;MHS41669;Cadeira de escritório ergonômica  ;4025.38;706.45
+70;6;41;HSP73783;Cafeteira elétrica  ;2712.56;476.05
+197;10;62;VRV19694;Caixa de ferramentas  ;2946.67;517.14
+10;11;36;UKB86815;Caixa de som Bluetooth  ;4901.38;860.19
+223;11;13;AEI98981;Cama dobrável  ;909.54;159.62
+120;9;46;ZKI51392;Câmera de segurança  ;1334.44;234.19
+195;14;121;POA59812;Caneca térmica  ;1616.73;283.74
+123;3;68;YRH56241;Carregador portátil (power bank)  ;4945.91;868.01
+210;9;151;EWA28787;Carro de brinquedo  ;509.42;89.4
+176;9;149;LOH18319;Chave de fenda  ;4780.76;839.02
+215;1;89;SRX68228;Chave de impacto elétrica  ;4445.89;780.25
+95;10;68;KOR94378;Chinelos confortáveis  ;4393.7;771.09
+174;8;53;MGH92616;Churrasqueira elétrica  ;2367.11;415.43
+177;11;160;FRN57637;Cinto de segurança para pets  ;4429.54;777.38
+271;2;114;QOP93382;Colchão inflável  ;2394.8;420.29
+17;6;56;LSM23299;Coleira ajustável para cães  ;306.64;53.82
+204;4;152;HPI21114;Computador all-in-one  ;3447.13;604.97
+60;7;134;LZG66391;Conjunto de facas de cozinha  ;1386.18;243.27
+246;9;184;RFO52816;Conjunto de panelas antiaderentes  ;4910.89;861.86
+262;13;76;QXW77573;Conjunto de pincéis para pintura  ;4426.06;776.77
+223;6;173;HBB56814;Cooler para bebidas  ;994.42;174.52
+185;13;172;XQT29552;Cortador de grama  ;941.01;165.15
+130;14;30;CAV44659;Cortina blackout  ;3880.44;681.02
+187;11;120;QUP92622;Cuba de cozinha em aço inox  ;1477.88;259.37
+270;4;166;CKZ52567;Detector de fumaça  ;2972.69;521.71
+98;6;33;ZWS23184;Disco de corte para madeira  ;1779.31;312.27
+127;6;179;PJI17283;Display de mesa para tablets  ;1039.86;182.5
+55;1;152;TXP62931;Dock station para notebook  ;2086.56;366.19
+270;10;45;LJE25234;Drone com câmera  ;1498.03;262.9
+253;14;50;IFX16543;Escada dobrável  ;1333.48;234.03
+274;9;70;ZFI47447;Escova de cabelo elétrica  ;1921.73;337.26
+38;5;151;PKM32738;Espelho de aumento para maquiagem  ;112.92;19.82
+292;3;125;IBR54515;Extensão elétrica com múltiplas entradas  ;893.15;156.75
+260;3;38;HGJ72292;Ferro de passar roupa a vapor  ;649.12;113.92
+105;11;192;FCQ35288;Fita adesiva resistente  ;2632.94;462.08
+49;7;133;CCG88133;Fogão portátil  ;1692.16;296.97
+3;12;143;LRB47584;Fonte para computador  ;2894.83;508.04
+190;2;182;TPL62368;Fragmentadora de papel  ;1581.38;277.53
+247;3;79;MFA37197;Fritadeira elétrica (air fryer)  ;2182.37;383.01
+298;6;57;ISX14664;Fruteira de mesa  ;3720.36;652.92
+298;8;107;SFO53785;Furadeira elétrica portátil  ;4734.84;830.96
+79;10;68;BPJ57578;Gamepad para celular  ;2035.09;357.16
+275;8;34;YQF23996;Garrafa esportiva  ;3392.3;595.35
+5;11;184;YPL22364;Geladeira de 2 portas  ;2831.65;496.95
+225;6;64;VXC38698;Grampeador de mesa  ;1466.51;257.37
+120;13;72;FQR43988;Grelha para churrasqueira  ;508.07;89.17
+271;13;152;BER97922;Grill elétrico  ;4815.9;845.19
+198;6;36;EBG27483;Guarda-chuva resistente ao vento  ;3458.54;606.97
+19;7;87;EEM76418;Headset gamer  ;2853.55;500.8
+162;1;140;TOH53572;Hidratador de ar portátil  ;2089.0;366.62
+245;4;188;KDI78483;Home theater compacto  ;690.13;121.12
+70;3;68;WFT31153;Impressora multifuncional  ;3520.37;617.82
+193;2;81;UKV75817;Jarra medidora com escala  ;4750.77;833.76
+263;7;87;LDI65392;Kit de jardinagem  ;945.05;165.86
+64;9;166;JIA55267;Kit de primeiros socorros  ;348.18;61.11
+47;2;115;KXY64458;Lâmpada LED inteligente  ;3109.52;545.72
+219;3;184;ZAJ51463;Lanterna recarregável  ;4397.44;771.75
+151;14;190;JQK89813;Lente de aumento portátil  ;2677.8;469.95
+155;1;72;MRI39389;Liquidificador industrial  ;1686.47;295.98
+96;9;3;KWL81112;Lixeira com pedal  ;2486.05;436.3
+301;14;179;DPQ82763;Luminária de parede  ;2911.18;510.91
+188;14;170;QNK29489;Maleta para ferramentas  ;4941.92;867.31
+181;11;39;ERH39772;Martelo de borracha  ;2101.32;368.78
+266;3;79;OUK51128;Mesa dobrável para camping  ;1698.99;298.17
+147;7;179;JKT14396;Mesa para computador  ;3897.14;683.95
+109;4;84;MPR45739;Mini ventilador USB  ;380.22;66.73
+267;5;112;SBY58369;Moedor de café manual  ;1254.26;220.12
+73;12;12;PZG51246;Mochila anti-roubo  ;3587.62;629.63
+268;14;16;BLR47952;Monitor de frequência cardíaca  ;2993.31;525.33
+224;12;108;VLR82833;Monitor para computador  ;3343.73;586.82
+1;5;50;MLJ25313;Mouse sem fio  ;1149.42;201.72
+2;10;64;MKP58695;Multiuso para banheiro  ;3928.49;689.45
+123;7;1;WYH18924;Notebook  ;2977.7;522.59
+198;6;43;GMV99357;Óculos de realidade virtual  ;1510.2;265.04
+256;8;159;OBT65435;Organizador de cabos  ;3092.13;542.67
+164;4;22;UAE18164;Organizador de gavetas  ;4885.94;857.48
+108;3;27;YPL24437;Painel solar portátil  ;3836.37;673.28
+62;4;189;XNN58111;Paleteira manual  ;134.21;23.55
+73;12;162;UHQ74845;Panela elétrica multifuncional  ;4435.23;778.38
+40;7;54;CXA25295;Parafusadeira sem fio  ;2201.74;386.41
+188;7;25;ISN52212;Película para smartphone  ;226.72;39.79
+120;13;135;PPF61558;Pendrive de alta capacidade  ;4738.93;831.68
+247;1;48;JUH97942;Pen drive com conector duplo  ;4574.95;802.9
+231;9;169;LRJ39655;Penteadeira com espelho  ;4133.09;725.36
+80;6;183;WEV18438;Pipoqueira elétrica  ;1412.65;247.92
+93;9;72;HRT73351;Placa de vídeo para computador  ;3380.77;593.33
+177;2;111;GMZ73491;Plaina elétrica  ;2979.15;522.84
+40;13;112;IWM26233;Poltrona reclinável  ;1766.51;310.02
+224;2;113;EKY81228;Porta cápsulas de café  ;3016.66;529.42
+227;6;39;ZOT76826;Porta condimentos giratório  ;2999.97;526.49
+236;14;121;UZS42249;Porta ferramentas  ;3831.85;672.49
+76;4;116;OQM78566;Porta retrato digital  ;4661.03;818.01
+41;7;93;EMP48367;Projetor portátil  ;3010.37;528.32
+289;2;155;LYU95751;Puff organizador  ;2215.95;388.9
+264;1;146;IEY25155;Rack para TV  ;4591.65;805.83
+96;10;5;GUQ39226;Ralador de alimentos  ;597.1;104.79
+143;2;143;JHV62824;Receptor de TV digital  ;2985.02;523.87
+212;8;165;ARW18186;Relógio de parede  ;3592.36;630.46
+174;13;116;NRI51629;Relógio inteligente  ;1307.5;229.47
+76;2;88;TVM44273;Retrovisor para bicicleta  ;1165.0;204.46
+1;5;121;RJO82472;Rolo de pintura anti respingo  ;191.94;33.69
+103;3;20;SAD18539;Roteador de alta performance  ;341.79;59.98
+226;1;73;MLV32747;Sapateira compacta  ;419.61;73.64
+107;12;80;NTO52341;Scanner portátil  ;384.38;67.46
+302;1;145;CJE12417;Secador de cabelo profissional  ;1976.15;346.81
+270;9;11;FXA82735;Sofá cama  ;1881.66;330.23
+162;10;44;HSD23293;Suporte para celular no carro  ;1997.77;350.61
+183;10;9;MGF57264;Suporte para TV de parede  ;2063.53;362.15
+126;4;51;RYI26435;Tablet  ;2531.27;444.24
+170;5;172;CEX44749;Tapete antiderrapante  ;1110.46;194.89
+149;10;139;DIJ94577;Teclado mecânico gamer  ;3603.54;632.42
+225;3;114;OBW78925;Tenda para acampamento  ;4789.24;840.51
+225;3;117;ASJ84987;Torneira com filtro acoplado  ;2225.06;390.5
+69;1;33;TXR15346;Torradeira elétrica  ;1949.07;342.06
+117;9;64;KDX32834;Transformador de energia  ;2166.67;380.25
+265;1;71;SKC48683;Travesseiro ortopédico  ;4730.01;830.12
+216;8;177;OOS61851;Tripé para câmera  ;1309.68;229.85
+51;13;17;JOH48516;TV 4K  ;216.58;38.01
+279;6;137;RUT16114;Umidificador de ar  ;712.86;125.11
+135;12;58;PJB19845;Ventilador de teto  ;1577.15;276.79
+277;3;55;WZJ86467;Geladeira Inox;2537.22;445.28
+56;14;1;LLU13585; Micro-ondas Digital;2754.43;483.4
+127;3;123;XTY86757; Camiseta Estampada;4129.69;724.76
+233;14;43;EMT66627; Tênis Casual;663.05;116.37
+64;6;173;CDY79792; Smartphone Dual SIM;340.98;59.84
+104;4;90;NAB46641; Televisor LED;85.45;15.0
+114;8;97;GIE97646; Fritadeira Elétrica;21.79;3.82
+228;7;11;LWJ15959; Livro de Romance;1713.3;300.68
+38;13;63;QLC33367; Cerveja Long Neck;261.63;45.92
+111;2;114;VEG41736; Café Moído;1484.74;260.57
+221;8;89;LLI75129; Farinha de Trigo;3109.14;545.65
+145;2;161;FCK89995; Arroz Branco;309.73;54.36
+184;4;20;SYG85123; Feijão Preto;1550.93;272.19
+104;2;130;ZSU61969; Óleo de Soja;1094.68;192.12
+53;1;74;QBC83926; Sabão em Pó;296.18;51.98
+15;5;154;EDU27892; Papel Higiênico;4678.38;821.06
+114;1;16;AME15818; Shampoo Hidratante;458.07;80.39
+184;13;39;JOS26614; Desodorante Roll-on;1825.16;320.32
+291;7;143;XYI79313; Escova de Dente;1179.84;207.06
+253;4;23;FGJ73671; Pasta de Dente;1398.73;245.48
+213;12;43;AEM49686; Fralda Descartável;2098.79;368.34
+6;2;173;CCQ18224; Lâmpada LED;4347.42;762.97
+146;4;38;PDZ77973; Bicicleta Urbana;964.03;169.19
+70;6;185;TBO97468; Cadeira de Escritório;1920.43;337.04
+85;2;110;TXF59385; Cama Box;1297.21;227.66
+222;11;7;EDA87879; Sofá Retrátil;4671.31;819.81
+273;11;178;XPY54956; Cozinha Compacta;1155.42;202.78
+18;13;2;TUR29484; Fogão 4 Bocas;2772.31;486.54
+89;2;190;HTN64798; Lava Louças;1629.8;286.03
+227;3;86;KAG63472; Máquina de Lavar Roupas;2253.23;395.44
+62;10;15;VDW91275; Lavadora de Alta Pressão;48.43;8.5
+275;8;93;NCW24157; Saco de Lixo;1231.2;216.08
+283;10;127;QJE35337; Luva de Borracha;963.77;169.14
+66;12;92;MRY94758; Mochila Escolar;544.3;95.52
+58;7;44;UBM41547; Bolsa de Couro;3144.6;551.88
+165;8;47;FUT76951; Blusa Feminina;4118.44;722.79
+137;7;92;BSR95127; Calça Jeans;2430.47;426.55
+67;14;149;SXH17468; Jaqueta de Couro;810.14;142.18
+125;4;88;CMJ94117; Tênis Esportivo;1625.56;285.29
+163;13;61;UNY48327; Bermuda de Praia;1796.42;315.27
+103;5;57;EAC47371; Relógio Digital;3867.17;678.69
+208;1;134;JXL26991; Óculos de Sol;3541.38;621.51
+172;13;38;BRA37967; Carregador de Celular;4843.09;849.96
+170;14;38;ADQ91211; Bateria Automotiva;2471.48;433.74
+28;5;117;DWM69361; Óleo Lubrificante;68.66;12.05
+113;11;44;LNU45895; Filtro de Ar;1088.64;191.06
+188;8;91;UQD39831; Placa de Circuito;3092.69;542.77
+95;7;96;EYN67923; Mouse Sem Fio;4855.68;852.17
+212;8;86;DET49332; Teclado Mecânico;800.82;140.54
+157;3;10;XIW63243; Caixa de Som Bluetooth;341.98;60.02
+201;13;160;GED38676; Headset Gamer;2823.78;495.57
+87;12;15;ZCU75323; Câmera Fotográfica;2430.52;426.56
+16;2;84;PMX48697; Tripé Fotográfico;947.28;166.25
+45;13;109;DIQ77921; HD Externo;67.07;11.77
+143;8;122;RVZ23848; Pen Drive USB;976.82;171.43
+28;12;35;HBB17411; SSD Externo;2460.98;431.9
+169;6;23;ZNK18167; Cartucho de Tinta;2289.73;401.85
+196;10;72;OXA49619; Papel A4;171.58;30.11
+160;14;33;EMH57551; Agenda 2024;3379.29;593.07
+185;2;153;SWG35896; Caneta Esferográfica;2617.48;459.37
+154;11;101;FMB32355; Fita Adesiva;547.56;96.1
+21;9;90;USJ42819; Tesoura Escolar;3203.02;562.13
+101;4;188;MTJ37549; Régua de Alumínio;3231.55;567.14
+207;9;124;ZAB49944; Compasso Escolar;95.44;16.75
+21;9;165;FEB75624; Caderno Universitário;53.12;9.32
+24;10;80;WUO22776; Borracha Escolar;1434.51;251.76
+153;3;118;JEQ23332; Fichário Universitário;3173.09;556.88
+100;3;188;YXE22737; Calculadora Científica;4419.24;775.58
+269;8;122;URC73799; Cola Branca;648.14;113.75
+55;13;106;UEE56762; Tesoura de Costura;1371.25;240.65
+174;11;4;ZPS65623; Cesto de Lixo;4306.31;755.76
+89;3;26;FGE22694; Vassoura de Pia;4196.74;736.53
+201;6;15;GYQ67638; Esponja de Aço;1863.14;326.98
+252;13;131;TRB77649; Detergente Neutro;892.79;156.68
+55;12;101;WUB58742; Desinfetante de Ambientes;3258.08;571.79
+257;11;97;HBF77791; Amaciante de Roupas;2678.73;470.12
+8;6;72;GDF66779; Limpa Vidros;1337.52;234.73
+265;12;21;PYW24661; Água Sanitária;4251.83;746.2
+61;3;175;LZB97715; Desinfetante de Roupas;4336.22;761.01
+14;8;167;AEW59434; Polvilho Doce;3003.59;527.13
+145;2;73;EMZ83813; Chocolate ao Leite;1315.12;230.8
+237;6;71;MUN23592; Biscoito Recheado;2101.88;368.88
+185;3;51;VRN76132; Bolacha Maria;2270.4;398.46
+200;2;131;ODK57316; Suco de Fruta Natural;2052.77;360.26
+195;9;175;SVG85269; Refrigerante de Cola;881.65;154.73
+232;6;167;BYE85769; Água Mineral;2567.07;450.52
+177;10;141;AEE46715; Salgadinho de Milho;2197.71;385.7
+227;11;172;TFN27835; Batata Frita;1333.4;234.01
+47;10;170;TVT79377; Cereal Matinal;1885.83;330.96
+204;12;118;GYX16891; Café Torrado;4838.65;849.18
+299;7;114;BEG52175; Leite Condensado;4930.29;865.27
+54;1;5;WER84423; Margarina Cremosa;1239.62;217.55
+286;10;80;HSG48797; Maionese Cremosa;1111.9;195.14
+155;7;191;ZDY97486; Tomate Pelado;4927.51;864.78
+51;9;192;ZKW64527; Azeite de Oliva;3193.85;560.52
+158;6;78;KFS13871; Pasta de Amendoim;689.05;120.93
+292;11;13;ZLU72225; Creme de Leite;293.15;51.45
+153;10;21;RAD74131; Frango Congelado;3869.5;679.1
+185;2;1;GMI55718; Linguiça Calabresa;2311.88;405.73
+292;6;183;MIH72889; Bacon Defumado;3312.98;581.43
+133;2;32;PUS39756; Carne Moída;463.44;81.33
+300;7;148;GNH58499; Peito de Frango;1336.98;234.64
+207;2;59;YXN67855; Salsicha de Frango;1625.01;285.19
+210;12;119;HJB67799; Queijo Mussarela;587.95;103.19
+86;2;142;DPR35628; Presunto de Perdigão;273.03;47.92
+40;11;8;FEC59667; Requeijão Cremoso;1827.2;320.67
+40;4;78;TFY58113; Picanha Bovina;4517.91;792.89
+15;8;60;TEX33748; Peixe Congelado;3120.31;547.61
+38;10;10;ASO17444; Pão de Forma Integral;1468.59;257.74
+297;8;185;SRN42717; Pão Francês;2779.2;487.75
+165;1;179;VUE46617; Pizza Congelada;2413.35;423.54
+151;10;106;OSI47196; Bolo de Chocolate;3563.08;625.32
+150;6;6;BGH55664; Pipoca para Micro-ondas;1194.02;209.55
+143;1;99;ZJV48597; Bacon Frito;766.54;134.53
+118;1;18;UZQ43962; Costela de Boi;1664.5;292.12
+166;8;128;ZJJ11129; Coxinha de Frango;1849.86;324.65
+89;4;77;SZD59941; Sopa Instantânea;1701.17;298.56
+260;5;165;IYD21769; Purê de Batata;1097.4;192.59
+101;1;177;PMG76568; Focaccia de Tomate;3821.52;670.68
+168;12;133;LLI68165; Bolinho de Arroz;318.3;55.86
+39;12;148;RCF19721; Massa de Pizza;1838.67;322.69
+266;4;84;GAY27356; Lasanha Congelada;432.98;75.99
+53;2;32;GIT75528; Pudim de Leite;328.35;57.63
+55;10;33;MEJ81152; Pudim de Chocolate;833.96;146.36
+126;10;167;JUD37976; Chá de Camomila;1185.99;208.14
+208;9;135;FDS31774; Cereal de Aveia;2448.41;429.7
+300;2;58;JZF49739; Biscoito Integral;2194.3;385.1
+69;10;65;LRK78158; Gelatina de Morango;3795.11;666.04
+167;8;95;NTG62941; Sopa de Legumes;833.67;146.31
+279;5;96;VYJ88132; Mistura para Bolo;1556.39;273.15
+3;6;62;TIO29781; Margarina Vegetal;1392.19;244.33
+247;13;10;ATP38121; Molho Shoyu;431.13;75.66
+179;9;58;BJE44918; Leite de Coco;3070.63;538.9
+182;2;157;VIK26411; Carne de Sol;2383.97;418.39
+5;12;6;WDP24493; Queijo Coalho;4513.72;792.16
+82;7;76;UZW89964; Carne de Cordeiro;2919.68;512.4
+152;14;142;RJU91179; Frango Assado;2918.9;512.27
+100;13;187;EWI17552; Picanha de Alcatra;988.98;173.57
+272;13;150;GZZ53411; Móvel para Escritório;490.87;86.15
+225;2;26;GYZ28796; Estante para Sala;296.71;52.07
+167;13;131;ZSO72926; Mesa de Jantar;4439.97;779.21
+284;4;111;HHZ66451; Cadeira para Cozinha;3496.18;613.58
+191;4;129;URB15935; Sofá de 2 Lugares;375.43;65.89
+62;12;168;OAL15814; Poltrona Reclinável;1476.47;259.12
+157;2;152;QIS48559; Prateleira de Madeira;3747.65;657.71
+140;3;158;YNK36716; Cômoda para Quarto;4445.06;780.11
+147;2;146;BZB95895; Armário de Cozinha;45.94;8.06
+110;11;113;YDE27413; Guarda-Roupa;3171.3;556.56
+16;11;169;SMZ38117; Penteadeira de Canto;1015.28;178.18
+49;6;28;QQN48385; Espelho de Parede;4937.03;866.45
+40;9;117;YYU55686; Mesinha de Centro;1078.24;189.23
+84;12;43;VPQ18535; Banco de Madeira;1002.94;176.02
+5;10;131;HRA54615; Cortina para Sala;1527.99;268.16
+45;14;48;RHD53232; Tapete de Pelo;1258.77;220.91
+295;14;81;JWD81457; Almofada Decorativa;4651.29;816.3
+235;3;35;AVY14964; Abajur de Mesa;4686.64;822.51
+157;5;79;APT38736; Luminária LED;3513.42;616.61
+274;5;188;XYX22195; Cesto Organizacional;2046.54;359.17
+133;7;123;HSM94944; Puff para Sala;3232.24;567.26
+154;13;63;SJQ71972; Roupas de Cama;1500.01;263.25
+181;1;156;SRX34698; Lençol de Algodão;113.17;19.86
+233;7;144;APK49221; Cobertor de Lã;1824.2;320.15
+237;7;35;UCR83629; Travesseiro de Espuma;4234.58;743.17
+242;6;39;ISY21162; Colchão de Molas;2321.33;407.39
+270;5;117;CFL67744; Manta de Sofá;2236.42;392.49
+261;4;41;PDV73119; Toalha de Banho;3578.35;628.0
+136;1;173;CVN97698; Jogo de Toalhas;3312.44;581.33
+40;14;68;HQY18574; Kit de Utensílios de Cozinha;3636.26;638.16
+19;2;95;SJS22976; Panela de Pressão;2650.67;465.19
+236;1;9;OSO17592; Frigideira de Alumínio;3797.07;666.39
+264;7;75;ZPE97584; Conjunto de Facas;2365.16;415.09
+293;12;88;PTU93154; Tábua de Corte;4960.36;870.54
+220;13;165;LPE57832; Assadeira Retangular;4147.33;727.86
+67;13;158;MOC28147; Escorredor de Louça;4577.35;803.32
+164;10;12;BRH65476; Escova de Limpeza;2263.89;397.31
+5;6;111;HIG54942; Centrífuga de Roupas;1172.9;205.84
+138;6;56;XLX27731; Arara de Roupas;834.35;146.43
+123;11;77;LQL49751; Secador de Cabelo;4063.72;713.18
+210;11;145;UNW13287; Corta Unhas;1916.65;336.37
+40;3;50;HZD79913; Lixas de Unha;1533.01;269.04
+20;8;51;MEB44952; Secador de Unhas;457.08;80.22
+138;7;31;IEX55937; Rolo de Massagem;4739.42;831.77
+71;6;28;PDP36266; Kit de Maquiagem;2334.29;409.67
+244;3;41;OSC97241; Escova de Cabelo;4608.96;808.87
+158;13;181;QMR18781; Secador de Cabelos Profissional;3553.77;623.69
+127;9;130;QWS22143; Espelho de Maquiagem;3058.52;536.77
+146;12;42;ZVE93316; Kit de Manicure;1773.65;311.28
+170;3;111;YVT21352; Aparelho de Barbear;3681.25;646.06
+173;3;13;WOV46754; Cera Depilatória;404.16;70.93
+168;8;23;GAW62189; Pomada para Cabelo;18.48;3.24
+139;6;85;LFM82338; Shampoo a Seco;874.27;153.43
+234;12;5;KHI34123; Protetor Solar;4019.81;705.48
+80;2;125;XWM15373; Hidratante Corporal;3058.64;536.79
+167;7;34;MXE24553; Creme para Pentear;185.52;32.56
+165;8;177;ZSY71776; Sabonete Líquido;4010.08;703.77
+166;5;21;KMH68834; Desodorante Aerosol;4856.75;852.36
+41;6;139;CUB97213; Limpador Facial;1827.77;320.77
+234;11;61;YQR53634; Kit de Escova Dental;1831.61;321.45
+261;9;84;TPU42376; Papel Toalha;1182.4;207.51
+24;12;42;SKG95283; Higienizador de Ar;3979.07;698.33
+105;12;53;RUO27564; Purificador de Água;1513.68;265.65
+33;4;169;DZW47734; Aspirador de Pó;1610.57;282.66
+60;8;179;VZW95918; Secadora de Roupas;1541.87;270.6
+191;8;2;ICR66187; Máquina de Cortar Cabelo;2786.26;488.99
+124;11;184;UOL73435; Chuveiro Elétrico;2335.87;409.95
+118;4;131;GUI37336; Ventilador de Teto;488.16;85.67
+116;1;5;HGQ86964; Ar Condicionado Split;2529.15;443.87
+175;9;174;SZI26375; Aquecedor de Ambiente;4586.71;804.97
+286;8;112;FZK19582; Rádio AM/FM;3583.78;628.95
+184;10;146;YCE19998; Caixa de Ferramentas;876.82;153.88
+127;13;126;DIW81295; Lixa para Madeira;668.15;117.26
+296;2;175;HKD55111; Serra Circular;1253.56;220.0
+230;14;165;ROV71593; Furadeira Elétrica;3566.23;625.87
+203;2;112;YQK76125; Brocas para Furadeira;926.57;162.61
+206;4;134;HUJ38941; Chave Inglesa;4982.98;874.51
+105;12;138;ADA45574; Alicate de Corte;2299.53;403.57
+257;1;14;MID12267; Martelo de Borracha;2406.67;422.37
+183;10;77;JKJ42743; Trena de Aço;340.75;59.8
+154;11;87;NCL82581; Nivelador de Laser;4930.86;865.37
+270;7;92;DJP94785; Escada de Alumínio;1297.56;227.72
+169;2;158;KVH39136; Pá de Jardinagem;4765.82;836.4
+118;3;65;UBS46718; Regador de Jardim;204.84;35.95
+177;2;138;GHQ72142; Vaso de Flores;2050.6;359.88
+266;12;88;UWA98924; Sementes para Jardim;2396.31;420.55
+88;13;65;QSP92588; Luva de Jardinagem;3003.94;527.19
+55;10;119;HUE99646; Cadeira de Praia;2713.67;476.25
+281;13;3;NFM39994; Guarda-sol de Praia;2625.1;460.71
+13;9;125;LQP65189; Cadeira de Camping;1245.28;218.55
+183;11;110;VAS26234; Barraca de Camping;4975.18;873.14
+137;7;62;PDB85913; Saco de Dormir;2279.59;400.07
+73;4;79;HQB23539; Lanterna de LED;1686.37;295.96
+83;9;121;RCX59221; Faca de Acampamento;2368.33;415.64
+291;11;108;HGD87273; Kit de Pesca;3317.4;582.2
+81;6;152;LSZ55747; Relógio de Pulso;1948.28;341.92
+46;4;191;HJP96931; Balança de Cozinha;643.64;112.96
+132;9;27;ENC25916; Termômetro Digital;271.95;47.73
+229;4;186;ZCK71228; Aparelho de Pressão;1186.41;208.21
+21;4;12;KKC52954; Kit de Primeiros Socorros;3294.17;578.13
+272;7;72;JQQ15563; Caixa de Som para Smartphone;2960.28;519.53
+259;1;128;CZO95924; Bateria Externa;3391.26;595.17
+123;10;2;OYF15947; Capa de Smartphone;1504.84;264.1
+180;3;146;QQI75244; Película Protetora;1996.04;350.31
+209;12;155;YSU85358; Suporte para Celular;4120.81;723.2
+40;7;2;DOJ21195; Carregador Portátil;1141.66;200.36
+184;12;79;CHN36691; Fones de Ouvido;3345.54;587.14
+167;8;182;MBE83941; Alto-falante Bluetooth;2909.91;510.69
+134;2;122;FSS67271; Rádio Digital;968.0;169.88
+201;10;48;PQX99158; Equipamento de Ginástica;62.48;10.97
+37;6;107;UTG97443; Halteres de Metal;1402.91;246.21
+30;13;25;MAF31245; Saco de Boxe;1778.24;312.08
+282;7;30;QIZ38757; Corda de Pular;3798.69;666.67
+43;8;11;BCG58676; Tênis de Corrida;2000.32;351.06
+245;1;56;AHQ11391; Protetor Bucal;186.59;32.75
+82;5;79;SFF71148; Sunga de Natação;2004.83;351.85
+281;12;144;KXY45896; Camiseta de Corrida;4679.84;821.31
+260;10;23;URI45655; Bermuda de Ciclismo;605.91;106.34
+151;13;79;QKV49937; Equipamento de Yoga;4873.2;855.25
+270;11;24;OAJ86682; Tábua de Surfe;4964.09;871.2
+133;12;87;BBN43428; Raquete de Tênis;4648.15;815.75
+202;9;29;KXE46918; Bola de Futebol;4303.97;755.35
+286;6;138;LXK43822; Bola de Basquete;1259.56;221.05
+298;7;160;TCY29668; Pá de Beisebol;1721.56;302.13
+55;5;20;JPZ31424; Raquete de Squash;1827.22;320.68
+113;13;49;YZA27644; Abajur de mesa  ;1317.92;231.29
+103;14;51;GZT55736; Adaptador de tomada universal  ;3066.4;538.15
+266;5;167;VPD33896; Agulha de tricô  ;3159.88;554.56
+255;8;152;XOS43762; Almofada decorativa  ;4305.64;755.64
+118;6;85;SJB65895; Amortecedor para carro  ;3847.18;675.18
+188;4;77;KMX37812; Antena digital  ;4574.64;802.85
+280;13;4;PIM64697; Aparelho de barbear elétrico  ;313.62;55.04
+62;10;59;SOP87748; Apontador de lápis  ;4837.16;848.92
+39;7;1;VDA77682; Aquecedor elétrico  ;4874.8;855.53
+217;13;5;MSB28498; Aspirador de pó portátil  ;2931.14;514.42
+168;4;158;YNX16812; Balcão de cozinha  ;4367.22;766.45
+81;11;153;KPE88516; Banqueta alta  ;1430.25;251.01
+158;9;37;AYT99795; Barbeador manual  ;2194.55;385.14
+206;3;154;KCF77828; Base para notebook com ventilação  ;2570.3;451.09
+174;12;16;BVK92311; Bebedouro elétrico  ;1607.73;282.16
+124;4;176;HHD75823; Berço desmontável  ;1106.45;194.18
+135;6;43;MHI72356; Bicicleta ergométrica  ;3783.62;664.03
+274;7;93;XDN97746; Bicicleta infantil  ;1944.7;341.29
+44;10;109;UMI96481; Binóculos compactos  ;560.41;98.35
+193;14;46;FCO94128; Bloco de anotações  ;4609.82;809.02
+172;10;111;FIM33671; Bolsa térmica  ;3142.0;551.42
+36;13;153;UFN97824; Botijão de gás  ;1811.91;317.99
+266;7;32;BQA71672; Brinquedo educativo  ;3453.52;606.09
+136;10;168;QVW31718; Cadeira de balanço  ;1513.29;265.58
+103;12;32;PMJ63961; Cadeira de escritório ergonômica  ;4798.65;842.16
+76;5;44;DUC88464; Cafeteira elétrica  ;3761.37;660.12
+69;7;114;LQQ77526; Caixa de ferramentas  ;2787.73;489.25
+213;13;178;VOU69955; Caixa de som Bluetooth  ;1558.52;273.52
+133;6;59;TTZ99156; Cama dobrável  ;3959.89;694.96
+258;3;181;BQN95711; Câmera de segurança  ;3656.85;641.78
+11;9;187;RAA62149; Caneca térmica  ;4709.51;826.52
+65;7;156;CMG29496; Carregador portátil (power bank)  ;1561.19;273.99
+198;13;30;EBA84239; Carro de brinquedo  ;4722.44;828.79
+253;4;90;ELP72865; Chave de fenda  ;1036.91;181.98
+94;6;73;IAY89697; Chave de impacto elétrica  ;4938.33;866.68
+178;13;19;JUO44344; Chinelos confortáveis  ;2204.44;386.88
+14;4;131;MEM26833; Churrasqueira elétrica  ;4987.99;875.39
+190;13;142;TYQ59457; Cinto de segurança para pets  ;2593.39;455.14
+101;11;123;QGK81359; Colchão inflável  ;317.87;55.79
+51;14;112;GVH16719; Coleira ajustável para cães  ;2381.29;417.92
+231;8;178;LCQ74983; Computador all-in-one  ;706.17;123.93
+293;12;79;HHF28988; Conjunto de facas de cozinha  ;3254.02;571.08
+42;6;163;XPZ77758; Conjunto de panelas antiaderentes  ;2943.54;516.59
+245;12;185;TDV75225; Conjunto de pincéis para pintura  ;2060.37;361.59
+173;10;52;JYN23945; Cooler para bebidas  ;2643.06;463.86
+244;8;38;VPP54144; Cortador de grama  ;2527.31;443.54
+284;1;15;VKA34431; Cortina blackout  ;4864.5;853.72
+297;13;72;BZH68579; Cuba de cozinha em aço inox  ;4396.97;771.67
+137;14;43;UMI22911; Detector de fumaça  ;4287.7;752.49
+27;5;150;XHT65689; Disco de corte para madeira  ;2936.34;515.33
+132;2;147;IFB21486; Display de mesa para tablets  ;516.22;90.6
+78;1;186;XGK79512; Dock station para notebook  ;356.21;62.51
+90;4;61;GOV13772; Drone com câmera  ;558.81;98.07
+35;14;106;CBT38986; Escada dobrável  ;4636.65;813.73
+49;3;93;IHA62818; Escova de cabelo elétrica  ;1652.3;289.98
+153;8;174;IIB81863; Espelho de aumento para maquiagem  ;68.19;11.97
+244;10;173;ITL52248; Extensão elétrica com múltiplas entradas  ;1896.62;332.86
+177;3;26;XJV62422; Ferro de passar roupa a vapor  ;4465.24;783.65
+170;9;183;SLH74739; Fita adesiva resistente  ;364.95;64.05
+128;11;123;CCI34119; Fogão portátil  ;2698.86;473.65
+55;9;166;AXP65713; Fonte para computador  ;820.4;143.98
+227;6;89;ZQH22416; Fragmentadora de papel  ;4177.22;733.1
+12;8;167;DEP87496; Fritadeira elétrica (air fryer)  ;4404.97;773.07
+99;2;9;GZH21569; Fruteira de mesa  ;4405.35;773.14
+121;3;93;EMM53696; Furadeira elétrica portátil  ;1923.95;337.65
+129;7;39;MQJ71723; Gamepad para celular  ;930.54;163.31
+127;13;72;NEF88669; Garrafa esportiva  ;961.24;168.7
+37;6;189;PDY18769; Geladeira de 2 portas  ;3793.68;665.79
+263;12;88;HRC56351; Grampeador de mesa  ;777.97;136.53
+40;4;39;GCY56685; Grelha para churrasqueira  ;4483.96;786.93
+15;12;184;MTI29319; Grill elétrico  ;4793.12;841.19
+170;2;71;JER58945; Guarda-chuva resistente ao vento  ;640.62;112.43
+148;8;101;EGX73144; Headset gamer  ;1629.76;286.02
+113;4;19;IEE36597; Hidratador de ar portátil  ;2140.26;375.62
+66;4;34;TQT53852; Home theater compacto  ;4495.11;788.89
+40;7;191;JII91474; Impressora multifuncional  ;2258.15;396.31
+11;10;136;KHO36348; Jarra medidora com escala  ;3073.7;539.43
+291;12;186;GPZ55398; Kit de jardinagem  ;3779.35;663.28
+79;3;155;OPV97419; Kit de primeiros socorros  ;3516.6;617.16
+108;11;182;XVQ19127; Lâmpada LED inteligente  ;910.23;159.75
+132;5;70;DWG43219; Lanterna recarregável  ;3629.78;637.03
+91;4;170;TJX14959; Lente de aumento portátil  ;2459.91;431.71
+104;10;129;ULK58485; Liquidificador industrial  ;2503.45;439.36
+95;9;41;BYN44971; Lixeira com pedal  ;956.49;167.86
+129;3;84;KDK64557; Luminária de parede  ;965.28;169.41
+169;10;20;QAZ54764; Maleta para ferramentas  ;4009.11;703.6
+44;2;170;ZBA24687; Martelo de borracha  ;292.3;51.3
+258;13;68;POH77676; Mesa dobrável para camping  ;3589.75;630.0
+207;3;37;MYP41659; Mesa para computador  ;1907.09;334.69
+144;8;61;MJC45533; Mini ventilador USB  ;4234.65;743.18
+61;14;121;DFG34864; Moedor de café manual  ;2254.24;395.62
+255;14;83;AHC44642; Mochila anti-roubo  ;4045.75;710.03
+176;1;127;ODR36743; Monitor de frequência cardíaca  ;126.46;22.19
+26;14;32;TTX69642; Monitor para computador  ;4614.27;809.8
+234;8;162;LHE34251; Mouse sem fio  ;428.44;75.19
+20;6;30;FUT34641; Multiuso para banheiro  ;1770.99;310.81
+246;5;135;TLD96958; Notebook  ;83.58;14.67
+34;7;108;GXH62581; Óculos de realidade virtual  ;698.74;122.63
+98;6;100;TDS16949; Organizador de cabos  ;1560.17;273.81
+154;4;79;KYU13668; Organizador de gavetas  ;3070.56;538.88
+16;3;30;KDX22732; Painel solar portátil  ;674.27;118.33
+97;14;167;PNG31346; Paleteira manual  ;4501.61;790.03
+7;7;169;ZKW99216; Panela elétrica multifuncional  ;1425.16;250.12
+302;12;19;LRD62917; Parafusadeira sem fio  ;815.52;143.12
+35;12;57;DHH66324; Película para smartphone  ;1438.64;252.48
+194;1;9;BUM87418; Pendrive de alta capacidade  ;2560.98;449.45
+44;11;92;ZBW84871; Pen drive com conector duplo  ;2552.69;448.0
+71;9;100;VGV82825; Penteadeira com espelho  ;3444.88;604.58
+53;14;17;PQD53922; Pipoqueira elétrica  ;3710.67;651.22
+236;12;119;LEF84149; Placa de vídeo para computador  ;1532.66;268.98
+26;6;39;VMD17745; Plaina elétrica  ;4412.14;774.33
+235;13;152;CEO11167; Poltrona reclinável  ;1646.24;288.92
+242;1;33;YLV52929; Porta cápsulas de café  ;88.35;15.51
+142;12;84;WTF74841; Porta condimentos giratório  ;3732.64;655.08
+187;2;178;NGH48433; Porta ferramentas  ;1523.33;267.34
+223;8;102;CPQ16752; Porta retrato digital  ;4259.06;747.47
+151;8;66;QBQ66213; Projetor portátil  ;2705.7;474.85
+125;14;34;VJZ94578; Puff organizador  ;4746.54;833.02
+267;8;142;TDF28998; Rack para TV  ;1453.03;255.01
+53;7;126;BYH92957; Ralador de alimentos  ;1068.68;187.55
+230;13;166;IEX54236; Receptor de TV digital  ;183.96;32.28
+103;8;157;XGQ26589; Relógio de parede  ;1882.75;330.42
+133;1;85;WPB24756; Relógio inteligente  ;3758.59;659.63
+114;13;181;FJP68171; Retrovisor para bicicleta  ;2073.4;363.88
+287;4;36;QYM75542; Rolo de pintura anti respingo  ;2372.3;416.34
+210;1;99;COG15527; Roteador de alta performance  ;1775.09;311.53
+217;2;13;RZE31789; Sapateira compacta  ;3002.62;526.96
+186;13;143;YFL78862; Scanner portátil  ;2253.22;395.44
+262;12;50;PLU16747; Secador de cabelo profissional  ;662.94;116.35
+73;7;149;OAV13234; Sofá cama  ;3616.47;634.69
+81;10;59;KMY97581; Suporte para celular no carro  ;871.53;152.95
+62;1;187;XSH53972; Suporte para TV de parede  ;565.65;99.27
+283;10;186;EJM47948; Tablet  ;4599.78;807.26
+28;10;83;BNJ73144; Tapete antiderrapante  ;2383.16;418.24
+294;10;105;PXS78347; Teclado mecânico gamer  ;4519.45;793.16
+173;3;99;DFW18416; Tenda para acampamento  ;3761.55;660.15
+76;9;28;HCD96766; Torneira com filtro acoplado  ;284.97;50.01
+83;9;48;EFT45122; Torradeira elétrica  ;1112.25;195.2
+207;11;39;DRA23579; Transformador de energia  ;2787.56;489.22
+187;4;9;SJV84442; Travesseiro ortopédico  ;2331.19;409.12
+96;10;127;DPK45737; Tripé para câmera  ;1103.83;193.72
+167;2;66;CTK47652; TV 4K  ;833.63;146.3
+219;13;157;JLG45559; Umidificador de ar  ;90.09;15.81
+285;1;72;NZF86815; Ventilador de teto  ;108.3;19.01
+127;10;58;VOH26494; Ventilador de mesa  ;1446.2;253.81
+34;2;58;HYH54394; Caixa organizadora empilhável  ;1313.42;230.51
+239;14;14;QTS81495; Tábua de passar roupa  ;2620.59;459.91
+85;13;150;PSA27124; Fone de ouvido sem fio  ;1446.07;253.79
+234;6;12;DWD43697; Chave combinada  ;2652.47;465.51
+79;13;144;LRB22651; Organizador de sapatos  ;2496.35;438.11
+23;1;13;APB72429; Cadeira de praia dobrável  ;3876.87;680.39
+59;13;96;EXC57172; Kit de pintura artística  ;3908.55;685.95
+168;14;26;MBZ14237; Carregador sem fio para celulares  ;56.66;9.94
+204;13;118;AWI59368; Smartwatch esportivo  ;1869.38;328.08
+201;12;125;SMB14911; Mala de viagem rígida  ;1276.19;223.97
+31;10;89;YKI54663; Cavalete de madeira  ;713.61;125.24
+129;8;121;BPB78489; Jogo de pneus para carros  ;1036.28;181.87
+265;14;43;GBG85169; Lava-jato portátil  ;4148.94;728.14
+194;4;189;LUE84782; Cabides antideslizantes  ;2616.37;459.17
+37;6;52;WAE71333; Espremedor de frutas  ;706.24;123.95
+20;7;47;YEL87667; Mousepad ergonômico  ;2687.26;471.61
+195;14;115;YCC29526; Micro-ondas compacto  ;4473.0;785.01
+137;7;89;ISS84448; Aparelho de som portátil  ;3520.45;617.84
+239;11;44;AIY45783; Fone de ouvido intra-auricular  ;4180.37;733.65
+15;14;99;IQC19784; Cama elástica infantil  ;3444.58;604.52
+199;2;186;XOD61298; Banco de academia ajustável  ;2554.05;448.24
+87;2;182;ZAU84285; Corda de pular fitness  ;363.58;63.81
+249;1;20;WOA23673; Jogo de chaves allen  ;841.36;147.66
+212;6;30;NFT65814; Smartphone  ;4411.66;774.25
+265;11;171;IDS26485; Base de carregamento para relógio inteligente  ;3175.49;557.3
+54;10;11;KEH64236; Capa protetora para tablet  ;4570.13;802.06
+27;14;172;HBM95852; Relógio despertador digital  ;898.51;157.69
+269;2;105;PEM24291; Frigobar compacto  ;3375.6;592.42
+158;14;177;FWL65979; Estante de livros  ;871.19;152.89
+113;1;165;PAA47523; Kit de rolo para pintura  ;1556.88;273.23
+302;11;108;RRL52715; Armário de aço  ;1228.55;215.61
+215;5;145;XER22632; Pipoqueira de alumínio  ;3997.42;701.55
+205;6;88;OXY51544; Ferro de passar a seco  ;1276.76;224.07
+173;14;94;USD79273; Purificador de água  ;135.07;23.7
+142;9;48;TVO94422; Batedeira planetária  ;1541.09;270.46
+183;11;50;KIS62233; Cortador de cerâmica  ;3908.81;686.0
+79;4;39;IUO13967; Rolo de espuma para pintura  ;4043.17;709.58
+96;3;10;LOC58777; Detector de metais portátil  ;3169.0;556.16
+118;7;170;LJG66748; Estufa para plantas  ;357.12;62.67
+137;14;49;BNU52553; Torneira gourmet  ;595.18;104.45
+295;13;56;XTQ71728; Base para ducha higiênica  ;1002.79;175.99
+86;6;5;LWJ67656; Luminária articulada de mesa  ;1741.58;305.65
+35;11;33;QGW31966; Cortador de legumes em espiral  ;4867.95;854.33
+93;1;130;PLP56112; Mochila com compartimento para notebook  ;2709.17;475.46
+38;11;89;KAK98138; Bomba elétrica para encher pneus  ;2357.07;413.67
+295;9;56;ZCN92467; Suporte ajustável para notebook  ;1406.7;246.88
+24;14;179;DUE61139; Relógio de ponto eletrônico  ;4507.83;791.12
+69;14;123;OVT25354; Chave de roda articulada  ;1069.59;187.71
+212;6;108;KQF12229; Capa de chuva impermeável  ;4838.8;849.21
+105;1;189;JDD71971; Mesa de centro retrátil  ;1721.05;302.04
+179;4;2;LMQ25532; Jogo americano de mesa  ;572.43;100.46
+114;9;89;KFE92497; Moldura para quadro  ;420.22;73.75
+215;2;8;GUX88931; Banco dobrável portátil  ;4629.8;812.53
+54;6;27;QII11832; Aspirador robô  ;667.29;117.11
+9;3;120;WEJ99997; Câmera fotográfica DSLR  ;1680.41;294.91
+292;3;143;QWT24839; Dispenser automático de sabonete  ;2172.83;381.33
+249;6;102;YXT16287; Caneta 3D para desenho  ;984.88;172.85
+261;14;153;WIW81381; Máquina de lavar portátil  ;1118.31;196.26
+19;2;85;SGJ78636; Painel de ferramentas magnético  ;4009.33;703.64
+87;14;154;UYS19579; Extensor de sinal Wi-Fi  ;1368.74;240.21
+208;13;86;PQL24732; Suporte para bicicleta de parede  ;451.24;79.19
+49;3;188;ULL75959; Fritadeira elétrica de grande capacidade  ;3870.16;679.21
+164;10;7;LCY52822; Luminária solar de jardim  ;3634.49;637.85
+191;9;31;PAI46422; Placa de corte para cozinha  ;207.45;36.41
+26;11;40;BQU65357; Relógio de mesa vintage  ;4562.98;800.8
+29;3;119;OCI67514; Triciclo infantil  ;310.42;54.48
+17;10;2;XAW53764; Aquecedor de água instantâneo  ;3987.43;699.79
+227;12;25;AXW45391; Ventilador de torre  ;2926.47;513.6
+103;1;154;LGY88538; Mixer de alimentos  ;1644.63;288.63
+45;11;5;FPP61915; Jogo de talheres de inox  ;2277.7;399.74
+4;6;17;XFW17279; Cortador de vidro manual  ;3545.83;622.29
+32;10;183;WOV63915; Moedor de carne manual  ;2071.18;363.49
+168;6;33;QAL88542; Panela de pressão elétrica  ;15.24;2.67
+258;6;79;BCG55273; Faca elétrica para cozinha  ;2929.05;514.05
+287;9;20;HKY86447; Fonte para aquário  ;1721.7;302.16
+196;1;188;WHJ89388; Mala organizadora para ferramentas  ;378.26;66.38
+2;14;149;XJA95311; Tapete de ioga antiderrapante  ;2737.27;480.39
+16;9;44;IJK66625; Caixa de som à prova d'água  ;4061.55;712.8
+84;12;171;QKI87579; Rede de descanso com suporte  ;968.13;169.91
+166;3;187;MQZ33767; Jogo de lençóis de algodão  ;1820.8;319.55
+47;14;88;MVF26715; Prancha alisadora de cabelo  ;130.64;22.93
+213;14;139;IJE52415; Tenda gazebo para eventos  ;624.44;109.59
+241;11;16;PKN69822; Lâmpada de emergência recarregável  ;4139.12;726.42
+112;2;48;NNX33399; Organizador de bancada de cozinha  ;3878.47;680.67
+158;4;30;JPQ71221; Balde dobrável de silicone  ;1979.2;347.35
+252;2;87;YMS93588; Pistola de pintura elétrica  ;4855.68;852.17
+109;8;5;NZK72214; Forno elétrico  ;1604.06;281.51
+131;6;34;LJA78526; Estante de aço modular  ;769.42;135.03
+242;2;118;OYG67994; Kit de conserto de pneus  ;1863.83;327.1
+18;8;80;HPR98722; Guarda-sol articulado  ;2512.42;440.93
+268;4;58;FEG33719; Relógio analógico resistente à água  ;2714.47;476.39
+62;8;126;QDD87511; Maleta de maquiagem profissional  ;1809.95;317.65
+268;14;39;KTT76177; Cabine de luz UV para unhas  ;4032.8;707.76
+192;9;17;WJR64573; Termômetro digital de cozinha  ;58.54;10.27
+12;3;47;GRU17969; Vassoura elétrica sem fio  ;2018.79;354.3
+75;8;163;VKE32836; Limpador a vapor portátil  ;4843.41;850.02
+15;1;98;FLW56555; Carrinho de compras dobrável  ;3061.66;537.32
+191;12;89;OKG45276; Pistola de cola quente  ;4907.56;861.28
+48;6;66;KGF65315; Cortador de frios elétrico  ;3376.66;592.6
+249;10;81;YRZ57256; Aparelho de massagem portátil  ;4485.63;787.23
+121;3;87;IZG36494; Espelho retrovisor inteligente  ;2188.89;384.15
+78;9;83;JES68126; Ventilador de chão industrial  ;3907.69;685.8
+174;8;24;NBV33255; Rádio portátil retrô  ;977.72;171.59
+75;12;113;IBR66225; Caixa de armazenamento empilhável  ;2136.67;374.99
+217;1;147;OAW61846; Mochila tática militar  ;547.86;96.15
+172;2;124;JGZ71759; Conjunto de churrasco em aço inox  ;477.98;83.89
+45;14;141;UUB87232; Câmera esportiva à prova d'água  ;2732.41;479.54
+275;3;82;CYA25265; Jogo de chaves combinadas  ;2350.09;412.44
+162;8;112;CHW29744; Panela wok antiaderente  ;4571.69;802.33
+42;12;72;RZZ14519; Máquina de costura portátil  ;4990.17;875.77
+43;4;40;UNT62941; Mini compressor de ar  ;2843.3;499.0
+79;6;129;NAT38465; Óculos de sol polarizado  ;580.83;101.94
+39;12;148;JSO85948; Alicate universal  ;2277.15;399.64
+29;11;69;RMW92521; Suporte para TV articulado  ;4134.08;725.53
+94;1;136;DUW74167; Rede mosquiteiro portátil  ;1736.63;304.78
+278;1;67;WEQ16653; Alarme residencial sem fio  ;1739.02;305.2
+66;7;23;VJP15378; Disco rígido externo  ;1989.91;349.23
+147;14;142;WTC26768; Prateleira flutuante de madeira  ;1684.49;295.63
+216;7;169;JRN53587; Máquina de cortar cabelo  ;3806.67;668.07
+166;1;81;RRK18657; Balança digital para cozinha  ;3617.06;634.79
+126;5;5;TSZ59669; Bomba submersa para água  ;919.45;161.36
+1;10;145;CBZ41682; Cabideiro de madeira  ;3331.04;584.6
+102;12;84;HHD92862; Fita métrica retrátil  ;2315.54;406.38
+102;13;138;WLB14852; Cesto de roupas dobrável  ;2417.72;424.31
+183;8;108;XQG65156; Garrafa térmica de inox  ;4841.83;849.74
+223;7;30;LLO56894; Aspirador de pó automotivo  ;4061.98;712.88
+234;9;5;ENW82183; Canivete multiuso  ;2067.52;362.85
+227;9;43;PGX96345; Filtro de linha com proteção  ;4972.51;872.68
+285;12;45;OPV55658; Organizador de documentos  ;917.46;161.01
+121;14;43;LGS92926; Mesa de jantar extensível  ;3086.55;541.69
+295;8;32;VIO85721; Cadeira de refeição para bebês  ;2825.71;495.91
+264;2;45;LNO46747; Aquário com iluminação LED  ;2320.87;407.31
+103;13;47;VMI74521; Kit de microferramentas  ;1360.24;238.72
+259;3;116;WZT93383; Lixeira para carro  ;2011.82;353.07
+97;6;116;ERN55516; Tesoura de poda  ;2809.02;492.98
+135;3;118;KDX83629; Espelho decorativo  ;1548.42;271.75
+19;12;180;VCE62528; Cortador de unhas elétrico  ;1477.17;259.24
+53;10;155;GOA18742; Máquina de fazer pão  ;1767.47;310.19
+70;14;144;SMR62387; Martelo de carpinteiro  ;2895.29;508.12
+49;8;80;DEU81137; Painel de LED decorativo  ;736.22;129.21
+29;4;101;JIB25426; Fritadeira sem óleo de grande porte  ;1531.3;268.74
+148;7;181;JRS92738; Relógio de pulso esportivo  ;4460.57;782.83
+2;1;169;HVF38956; Rodo mágico para limpeza  ;958.93;168.29
+275;12;49;YRA55742; Fechadura eletrônica  ;511.31;89.73
+33;12;74;JNQ79946; Torre de tomadas retrátil  ;2718.65;477.12
+181;8;28;BYL31616; Estufa elétrica para alimentos  ;797.68;139.99
+88;8;114;PTN43836; Organizador de porta  ;1704.1;299.07
+39;11;20;OUX45384; Colchão ortopédico  ;1184.61;207.9
+300;5;162;IWV97384; Sensor de movimento para lâmpadas  ;3546.89;622.48
+182;7;15;ADT81971; Caixa de som com rádio FM  ;4026.53;706.66
+207;7;70;MQG35675; Espátula de silicone para cozinha  ;2184.84;383.44
+181;1;40;ICG75257; Guarda-roupa modular  ;729.45;128.02
+196;4;19;SKE81913; Máquina de lavar louça  ;306.2;53.74
+284;7;74;AHL46335; Banco de ferramentas hidráulico  ;3135.78;550.33
+2;14;168;UKV85312; Suporte para micro-ondas de parede  ;2436.53;427.61
+267;8;56;KCF85226; Microfone de lapela  ;1763.96;309.57
+54;4;153;WVX22357; Toalheiro elétrico  ;1882.93;330.45
+285;11;52;RSJ88319; Relógio de parede digital  ;58.43;10.25
+133;8;110;IIA47352; Capas protetoras para cadeiras  ;3371.46;591.69
+172;4;45;LLI41181; Kit de resistência elástica para exercícios  ;2464.85;432.58
+83;1;114;KIF76294; Jogo de copos de vidro  ;4631.69;812.86
+61;6;80;CAQ49554; Dispenser de água automático  ;4024.01;706.21
+76;14;55;RJN49539; Kit de travesseiros ortopédicos  ;2077.86;364.66
+117;1;1;VBU37595; Máquina de estampar camisetas  ;196.87;34.55
+215;12;79;JUW16987; Forno micro-ondas com grill  ;1406.76;246.89
+27;7;7;GFS56726; Chave de torque ajustável  ;2036.39;357.39
+268;9;160;TDB65233; Banqueta dobrável portátil  ;1962.84;344.48
+285;5;163;FSQ85352; Tapete de entrada antiderrapante  ;2326.31;408.27
+214;14;56;XUQ76226; Bebedouro para pets  ;1716.68;301.28
+166;8;54;XAE45241; Conjunto de ferramentas elétricas  ;2936.64;515.38
+6;14;105;DKH92886; Vaso de plantas decorativo  ;3682.97;646.36
+101;3;86;GBC49622; Trava de segurança para janelas  ;1494.81;262.34
+178;9;94;GYC42314; Conjunto de organizadores de plástico  ;4785.61;839.87
+272;6;37;IQV88833; Aparelho de ginástica multifuncional  ;3723.69;653.51
+23;14;79;NKH38147; Balcão buffet com gavetas  ;2293.31;402.48
+87;1;99;XJD19792; Dispenser de álcool em gel automático  ;2685.98;471.39
+159;12;182;XBX45948; Base giratória para televisão  ;3102.35;544.46
+266;10;16;CCV79194; Fogão cooktop de indução  ;2228.53;391.11
+156;5;112;JYT68997; Conjunto de malas de viagem  ;3265.61;573.11
+190;6;63;RCA12676; Fechadura biométrica  ;4703.56;825.47
+177;7;102;TKO35688; Parafuso de expansão  ;964.03;169.19
+226;5;36;JPO17445; Maçarico culinário  ;1282.98;225.16
+224;3;87;KDO11648; Protetor de colchão impermeável  ;1851.73;324.98
+234;13;145;SIL65885; Almofada massageadora elétrica  ;2027.25;355.78
+225;13;131;MEN94712; Berço portátil com mosquiteiro  ;3363.45;590.29
+145;11;90;BHV95955; Disco para halteres  ;4878.01;856.09
+87;1;98;QPE52652; Ventilador de exaustão  ;3610.29;633.61
+256;7;65;GNM91871; Jogo de brocas para furadeira  ;4755.35;834.56
+259;7;109;JEZ92535; Tapete lavável  ;3638.75;638.6
+124;1;119;ERY21787; Conjunto de potes herméticos  ;136.53;23.96
+36;2;101;PUY88648; Máquina de corte a laser  ;1301.61;228.43
+39;11;103;IEC46294; Roteador mesh Wi-Fi  ;694.58;121.9
+113;9;92;HRB28829; Carrinho de mão dobrável  ;245.51;43.09
+13;7;65;CBU83195; Manta térmica para sofá  ;3539.17;621.12
+76;7;103;CJB33962; Organizador de panelas  ;4793.82;841.32
+278;1;123;LFS15361; Kit de suporte para bicicletas  ;901.72;158.25
+130;4;117;CFL17645; Caixa de som torre  ;257.32;45.16
+218;11;122;CNP79185; Filtro de água portátil  ;1005.04;176.38
+293;6;125;UNN37759; Mesa de cabeceira com gavetas  ;3451.73;605.78
+56;6;144;TLD55139; Poltrona de balanço moderna  ;1431.94;251.31
+115;4;24;UHW52577; Relógio despertador analógico  ;4286.17;752.22
+186;11;18;NSA61428; Toalha de microfibra  ;3517.58;617.34
+284;14;113;ZIB64944; Espremedor de laranja manual  ;3787.27;664.67
+68;4;96;QEB75963; Organizador de pia de cozinha  ;2957.99;519.13
+178;11;68;HRC35583; Prancha de remo inflável  ;2143.34;376.16
+155;3;7;BWC86977; Lixeira inox com pedal  ;436.33;76.58
+165;5;177;LJD54741; Rede de proteção para varandas  ;4984.55;874.79
+278;14;59;JZV29585; Maleta organizadora com divisórias  ;2275.19;399.3
+101;6;64;FAM89234; Escada multiuso articulada  ;277.93;48.78
+196;9;138;IXF43822; Conjunto de tapetes para banheiro  ;1055.15;185.18
+222;6;175;OZI27934; Caneta laser para apresentações  ;4807.45;843.71
+224;7;117;LAL55476; Organizador de ferramentas magnético  ;2846.43;499.55
+203;9;7;ZAA16247; Fone de ouvido bluetooth com cancelamento de ruído  ;3808.13;668.33
+163;5;70;XBE16653; Kit de costura completo  ;3429.93;601.95
+186;13;23;HQO22988; Carrinho de transporte dobrável  ;4788.66;840.41
+213;1;150;TWX48155; Conjunto de vasos autoirrigáveis  ;3890.03;682.7
+245;9;76;MJZ54734; Aparelho de barbear elétrico  ;2049.07;359.61
+210;13;149;SRO52431; Coifa de parede inox  ;1436.38;252.08
+264;11;68;NJR63449; Espelho para maquiagem com LED  ;4440.78;779.36
+207;14;37;VAM61934; Aquecedor portátil a óleo  ;351.49;61.69
+283;7;139;YBR57983; Conjunto de porta-retratos decorativos  ;3699.76;649.31
+249;14;182;UPY29814; Mochila para camping impermeável  ;63.6;11.16
+256;6;186;RGM91492; Balança digital para bagagem  ;794.15;139.37
+300;8;114;YFQ53295; Lupa de bancada com iluminação  ;3867.24;678.7
+54;11;121;ZJY54932; Mesa de estudo com regulagem de altura  ;3420.83;600.36
+296;3;107;PRF17135; Serra tico-tico elétrica  ;4822.72;846.39
+70;1;50;VRH61288; Organizador de cabos flexível  ;832.85;146.17
+218;6;83;MKQ56325; Cadeira de massagem reclinável  ;1507.44;264.56
+215;8;151;UKT59162; Aparelho de pressão digital  ;230.36;40.43
+37;12;191;ARE54822; Aspirador de pó sem fio  ;3422.4;600.63
+295;5;21;JFT43721; Máquina de lavar pressão  ;1239.64;217.56
+63;3;148;XQX47218; Conjunto de potes para armazenamento a vácuo  ;3301.69;579.45
+260;12;122;NER64161; Triciclo dobrável para adultos  ;1863.8;327.1
+195;8;9;MFW31125; Mochila escolar com rodinhas  ;4046.59;710.18
+139;4;113;KTR42993; Ventilador de teto com luminária  ;2943.31;516.55
+296;4;66;ZPG48894; Protetor de sofá impermeável  ;3508.01;615.66
+263;14;14;TPL33767; Luminária pendente decorativa  ;3256.0;571.43
+191;9;155;JUQ26436; Suporte para ferro de passar roupa  ;3963.09;695.52
+144;8;9;TOU39151; Estação de solda portátil  ;2365.56;415.16
+231;5;190;IPB33962; Tapete antiderrapante para banheiro  ;1197.44;210.15
+289;10;72;ZZD46439; Conjunto de colheres medidoras  ;752.22;132.01
+92;1;1;RJU23797; Coletor de pó para furadeira  ;3019.72;529.96
+65;8;56;XVJ63153; Kit de sensores de alarme residencial  ;422.77;74.2
+191;1;127;GLC18718; Cadeira gamer ergonômica  ;3961.58;695.26
+248;4;192;KDG23726; Caixa de ferramentas multiuso  ;750.54;131.72
+169;9;79;AGV66949; Jogo de panelas de cerâmica  ;2533.52;444.63
+115;14;10;NRK27867; Poltrona reclinável elétrica  ;2591.47;454.8
+46;2;61;KSX35957; Plafon de LED embutido  ;4264.54;748.43
+34;14;71;RAY26782; Conjunto de facas de chef  ;594.53;104.34
+51;6;14;EVJ89548; Esteira ergométrica dobrável  ;3275.16;574.79
+245;10;16;ATF62273; Kit de cabeceira de cama estofada  ;3894.01;683.4
+70;12;187;JMY44166; Fechadura eletrônica com senha  ;1004.97;176.37
+186;8;20;RYW88197; Armário aéreo para cozinha  ;4251.89;746.21
+92;1;108;NHS12667; Máquina de fazer sorvete  ;1679.02;294.67
+201;12;165;FBV72574; Panela de arroz elétrica  ;802.4;140.82
+38;10;123;RKQ84954; Organizador de sapatos vertical  ;508.66;89.27
+197;5;104;QVV24452; Jogo de toalhas de banho de algodão  ;2648.73;464.85
+198;4;24;PGD93983; Aquecedor de toalhas elétrico  ;1531.88;268.84
+103;6;54;HKY52552; Extensão elétrica retrátil  ;2221.89;389.94
+86;5;46;MTG85285; Mesa de trabalho com prateleiras  ;4831.12;847.86
+133;14;140;JNE63996; Tábua de passar roupa com suporte  ;297.89;52.28
+252;3;78;OSV93311; Conjunto de taças de cristal  ;4043.12;709.57
+65;8;40;BBU15752; Rádio relógio digital  ;1010.27;177.3
+114;12;98;AZN64152; Dispenser de detergente para pia  ;558.56;98.03
+29;14;27;MVC21396; Luva térmica para forno  ;1009.95;177.25
+249;1;166;WSB98247; Painel decorativo para sala  ;2563.42;449.88
+54;10;15;KSI42998; Colchão inflável com bomba embutida  ;4733.5;830.73
+139;6;49;NAP12239; Máquina de cortar grama elétrica  ;4044.93;709.89
+153;6;30;BXY33255; Conjunto de quadros decorativos  ;2020.42;354.58
+153;12;101;DLP53581; Aquecedor de ambiente cerâmico  ;2683.66;470.98
+243;8;173;RDJ86699; Bolsa térmica para alimentos  ;2322.61;407.62
+151;1;122;MAX42829; Cadeira dobrável portátil  ;670.08;117.6
+253;8;52;BCN12167; Filtro de água para torneira  ;3210.22;563.39
+181;12;71;GBU86626; Guarda-sol com proteção UV  ;2162.03;379.44
+17;4;176;YLQ47635; Carrinho de transporte industrial  ;3420.9;600.37
+220;3;83;ROO93215; Aparador de cabelo e barba  ;2814.19;493.89
+287;13;161;EKF22166; Jogo de pratos em porcelana  ;1687.79;296.21
+153;14;109;EGR75777; Ventilador de coluna oscilante  ;2429.23;426.33
+133;7;183;PHW55288; Armário de lavanderia multiuso  ;557.37;97.82
+97;12;136;AOV89569; Mesa de computador compacta  ;67.02;11.76
+223;3;95;TRC66194; Capa protetora para sofá retrátil  ;1782.65;312.86
+236;5;73;DGR99819; Aparelho de telefone sem fio  ;4410.0;773.96
+84;10;15;DQU59786; Kit de limpeza automotiva  ;1832.15;321.54
+89;13;112;WOA23786; Conjunto de medidores de pressão para pneus  ;3802.02;667.25
+216;8;122;EIS68738; Ferro de passar portátil a vapor  ;3184.31;558.85
+86;14;172;DMQ93579; Luminária de emergência com LED  ;3995.82;701.27
+174;14;70;KZH13713; Varal dobrável para roupas  ;229.83;40.34
+72;10;109;GUH88173; Máquina de lavar compacta  ;3141.01;551.25
+70;10;36;SWP42825; Filtro de carvão ativado para ar-condicionado  ;2948.55;517.47
+197;5;104;BSF89127; Capas para almofadas decorativas  ;1845.07;323.81
+18;1;188;NJD14328; Cadeira de balanço para varanda  ;1506.62;264.41
+128;12;114;GIO54719; Mochila de hidratação para esportes  ;1855.97;325.72
+14;7;118;DPZ57977; Escorredor de louças compacto  ;169.48;29.74
+114;8;166;KYK71673; Relógio digital de parede  ;2484.72;436.07
+226;4;12;QIH26786; Jogo de talheres de bambu  ;1896.86;332.9
+113;13;78;UFT52112; Lixeira com sensor automático  ;2372.31;416.34
+216;2;53;AYF24551; Kit de jardinagem completo  ;3913.22;686.77
+66;1;170;GSQ24197; Pistola pulverizadora para pintura  ;2164.54;379.88
+142;2;75;RBM83158; Estação meteorológica doméstica  ;4478.27;785.94
+41;11;121;RMR68149; Jogo de pesos ajustáveis  ;2518.39;441.98
+157;8;144;MMF62231; Conjunto de cestos organizadores  ;3142.48;551.51
+207;2;82;UUO34533; Caixa organizadora com tampa  ;1632.4;286.49
+56;11;3;FAD57138; Prateleira para banheiro com ventosa  ;3152.11;553.2
+102;8;93;QGX82462; Aquecedor de biberões  ;500.37;87.81
+165;11;49;RSB21416; Máquina de crepe elétrica  ;2513.98;441.2
+200;12;127;YLN41956; Jogo de ferramentas para bicicleta  ;1419.9;249.19
+170;14;151;YKB21336; Banco de jardim em madeira  ;4571.43;802.29
+29;4;97;THE51277; Estufa de plantas portátil  ;18.02;3.16
+253;7;90;DQV66369; Fritadeira elétrica industrial  ;2308.34;405.11
+272;14;12;SKH38222; Tábua de corte de bambu  ;315.59;55.39
+264;5;148;YIY95358; Conjunto de luminárias para jardim  ;3532.17;619.9
+266;13;76;EFP88264; Arara de roupas com rodinhas  ;3484.64;611.55
+222;4;81;EZB15526; Espelho adesivo decorativo  ;2118.84;371.86
+99;4;12;BUA94441; Suporte para teclado ergonômico  ;1896.61;332.86
+272;10;148;KTX95952; Dispenser de papel toalha automático  ;2015.08;353.65
+144;12;33;DKW37848; Conjunto de facas japonesas  ;803.67;141.04
+9;12;173;HZB11571; Armário de ferramentas com gavetas  ;3810.24;668.7
+66;4;161;ZVF96987; Aparelho de remo ergométrico  ;3012.4;528.68
+224;13;55;GMQ61778; Mesa de apoio dobrável  ;1896.73;332.88
+249;4;51;TNN15158; Conjunto de pratos quadrados  ;4523.56;793.88
+194;1;135;UVF84193; Varredeira de piso manual  ;1085.94;190.58
+296;4;172;SLJ46365; Relógio de pulso com monitor de frequência cardíaca  ;1589.44;278.95
+14;10;30;XAR42168; Banheira inflável portátil  ;716.79;125.8
+134;4;175;ESP84248; Tapete térmico para aquecimento  ;1351.42;237.17
+176;7;71;WGR62253; Organizador de gavetas expansível  ;4312.29;756.81
+267;4;60;NZY73938; Conjunto de frigideiras antiaderentes  ;714.49;125.39
+161;6;131;MBP16585; Fogareiro portátil a gás  ;3521.82;618.08
+92;3;159;IAT89651; Aspirador de pó com filtro HEPA  ;4735.08;831.01
+197;9;145;VOL72861; Mala de viagem expansível  ;2618.87;459.61
+212;14;71;ROQ97289; Banco organizador com almofada  ;1489.65;261.43
+272;1;16;SGU69398; Kit de adesivos decorativos para paredes  ;3914.75;687.04
+88;4;152;JFG56865; Kit de cabides antiderrapantes  ;2416.88;424.16
+84;2;162;JVQ75394; Ventilador sem hélices  ;1766.41;310.0
+263;14;91;JRP17125; Espelho para retrovisor de carro  ;3648.36;640.29
+53;14;27;CIH84984; Conjunto de caixas acústicas  ;3788.5;664.88
+31;11;111;PTP21556; Armário modular para escritório  ;1810.45;317.73
+36;9;4;RXB42348; Mesa lateral com porta-revistas  ;139.01;24.4
+156;11;101;FEW24774; Máquina de costura semi-industrial  ;355.86;62.45
+168;11;174;HSE52847; Luminária articulada para escritório  ;3512.04;616.36
+52;1;185;LFD93536; Mochila para câmera fotográfica  ;115.51;20.27
+119;10;88;GSD56537; Organizador de bijuterias para armário  ;1202.01;210.95
+182;7;106;LQA82254; Suporte de garrafas para bicicletas  ;1819.65;319.35
+225;14;37;TOK54684; Aquecedor de lençóis elétrico  ;4137.84;726.19
+93;3;122;PZQ79153; Conjunto de espátulas para pintura  ;904.85;158.8
+295;5;145;TUU29698; Trena digital a laser  ;4731.91;830.45
+254;8;1;ZCR65937; Garrafa térmica com bico retrátil  ;1230.85;216.01
+182;7;185;ZHW72452; Relógio de pulso solar  ;4983.37;874.58
+35;12;66;FAW93145; Balança de banheiro digital  ;362.92;63.69
+69;10;141;YVM46471; Organizador de cabos com zíper  ;2553.72;448.18
+43;2;92;YMC26545; Prateleira para livros infantil  ;1673.21;293.65
+173;12;117;RSV79928; Relógio inteligente com GPS  ;3028.63;531.52
+54;6;110;VVA85169; Máquina de cortar madeira portátil  ;1005.61;176.48
+160;2;69;SLV51323; Kit de proteção para esportes radicais  ;3713.06;651.64
+117;11;29;UUF37756; Organizador de geladeira com divisórias  ;3160.36;554.64
+78;14;28;HJM95143; Bicicleta dobrável urbana  ;585.16;102.7
+215;4;49;VNQ33138; Capa de colchão impermeável  ;2625.33;460.75
+214;7;169;NHN79151; Sistema de irrigação automático  ;845.01;148.3
+206;10;22;YBO86536; Porta-chaves magnético  ;2458.79;431.52
+32;6;106;JYY37522; Cortador de tecido industrial  ;2671.73;468.89
+251;13;12;BSN31539; Maleta de primeiros socorros  ;1668.13;292.76
+91;11;57;OAV24895; Espelho com aumento para maquiagem  ;3823.99;671.11
+7;13;38;RSO54935; Filtro de água central para casa  ;2152.68;377.8
+208;8;29;EGX96635; Máquina de polir carros  ;3527.38;619.06
+22;8;102;EBH24236; Mesa infant;2102.47;368.98
+28;4;14;MAP33857; Luminária solar para jardim  ;1272.88;223.39
+173;2;76;AWH62622; Bomba de ar elétrica portátil  ;4827.89;847.29
+255;9;176;THW55877; Rack para TV com gavetas  ;4814.12;844.88
+254;6;75;PIB16146; Detector de fumaça residencial  ;3963.67;695.62
+261;12;17;PED99161; Kit de ferramentas para eletricista  ;2858.48;501.66
+187;1;50;HBM59269; Toldo retrátil para varanda  ;4431.3;777.69
+214;9;158;XKO35635; Conjunto de colheres de silicone  ;1333.46;234.02
+141;14;21;PZU68379; Cadeira de praia dobrável  ;1247.03;218.85
+33;13;51;YMJ64682; Quadro branco magnético  ;2920.6;512.57
+77;11;57;JWQ56645; Lente de aumento portátil  ;4140.08;726.58
+84;10;177;OUQ11347; Aparelho de massagem portátil  ;1082.87;190.04
+81;11;116;SFZ53264; Tapete infantil educativo  ;3080.08;540.55
+193;10;126;EUL67669; Trava de segurança para janelas  ;4365.4;766.13
+30;4;158;VHK36331; Conjunto de tapetes antiderrapantes  ;2523.66;442.9
+208;14;180;NWO68992; Suporte para tablet ajustável  ;4333.9;760.6
+244;11;92;HRL92889; Fone de ouvido resistente à água  ;1874.97;329.06
+194;10;144;XZX37567; Espelho com luz LED embutida  ;2973.02;521.77
+187;2;161;OFB13312; Cortador de legumes multifuncional  ;4425.39;776.66
+268;10;92;OEL46514; Protetor de colchão impermeável  ;1704.95;299.22
+292;8;106;TIO21975; Kit de bolsas organizadoras para viagem  ;260.61;45.74
+136;8;114;SUG93288; Organizador de porta de armário  ;1971.25;345.95
+143;8;25;MZP17243; Caixa organizadora empilhável  ;3717.66;652.45
+43;12;138;HXZ92612; Relógio de pulso resistente à água  ;4149.69;728.27
+6;4;103;EUD28717; Mochila com compartimento para laptop  ;1252.91;219.89
+131;1;10;NIC15326; Kit de lâmpadas LED inteligentes  ;3920.1;687.98
+115;7;42;NMQ23422; Máquina de bordar portátil  ;320.48;56.24
+170;12;49;WRT75843; Alarme de porta com sensor magnético  ;874.49;153.47
+192;3;51;ZUM54241; Suporte para TV articulado  ;1838.36;322.63
+131;12;14;UAQ82116; Varal de teto retrátil  ;3706.9;650.56
+207;8;29;KSP71149; Cesto de roupa suja dobrável  ;4502.44;790.18
+67;14;137;SZM72286; Kit de adaptadores de tomadas  ;1193.88;209.53
+248;10;54;WIX15541; Termômetro infravermelho digital  ;3596.92;631.26
+257;2;68;APY19315; Aparelho de aquecimento para orelhas  ;4966.27;871.58
+194;6;64;YJZ24972; Mini geladeira portátil  ;1765.5;309.85
+123;3;32;FWI52753; Relógio de parede com termômetro  ;1493.15;262.05
+99;7;103;TBP83936; Estante de madeira modular  ;2744.02;481.58
+255;3;188;HKP63277; Lanterna tática recarregável  ;4299.85;754.62
+274;8;155;FAW74367; Conjunto de panelas de inox  ;4924.67;864.28
+55;11;50;TLO95485; Rede de descanso dobrável  ;935.98;164.26
+38;7;24;LLD13315; Sistema de iluminação para armário  ;228.77;40.15
+269;3;181;WAT87597; Ventilador com controle remoto  ;23.31;4.09
+76;4;160;VJP74962; Máquina de cortar cabelo sem fio  ;2502.12;439.12
+300;8;26;XVI34631; Aspirador de pó robô inteligente  ;1724.4;302.63
+222;4;28;PSJ63148; Mesa de centro com porta-objetos  ;3602.72;632.28
+38;13;96;LVV28211; Caixa térmica com rodas  ;1098.02;192.7
+190;3;8;HEZ37377; Kit de ferramentas manuais  ;723.85;127.04
+120;14;151;IKU84142; Cortador de grama a gasolina  ;4221.6;740.89
+21;12;81;LFG56945; Painel decorativo em MDF  ;2530.88;444.17
+234;2;75;EAJ39341; Mochila com painel solar  ;1906.65;334.62
+126;12;77;QHH45736; Termômetro de alimentos digital  ;1766.47;310.02
+87;14;90;YQJ21648; Conjunto de talheres em aço inox  ;1684.54;295.64
+37;5;30;LXC74867; Tapete de entrada personalizado  ;3555.74;624.03
+245;12;26;NHI78619; Luminária de chão articulada  ;2479.92;435.23
+159;9;33;GOS92828; Cortina blackout térmica  ;4903.24;860.52
+35;1;183;NEG58238; Mochila de viagem com compartimentos  ;1322.49;232.1
+52;8;49;NUI85949; Caixa de som à prova d'água  ;1172.89;205.84
+291;8;123;FJM99324; Tábua de passar roupa compacta  ;4229.09;742.21
+90;10;60;LOH93524; Conjunto de travesseiros de espuma viscoelástica  ;1491.41;261.74
+188;5;141;EUO67283; Filtro de água portátil para camping  ;999.16;175.35
+248;3;128;OVB62914; Tapete de yoga antiderrapante  ;1448.55;254.22
+66;4;163;ZFU24238; Prateleira suspensa ajustável  ;3225.09;566.0
+41;2;90;HIW62987; Suporte de bicicleta para parede  ;900.49;158.04
+211;13;60;EAT69332; Jogo de panelas esmaltadas  ;2126.84;373.26
+188;13;21;JBK98722; Relógio de parede com design moderno  ;3993.14;700.8
+204;4;83;OOJ63656; Suporte de celular para carro magnético  ;1598.33;280.51
+286;6;5;VPZ59672; Caixa organizadora para joias  ;4602.46;807.73
+122;1;21;YPZ11182; Mesa de jantar extensível  ;1110.51;194.89
+185;2;133;RFI51838; Mochila térmica para picnic  ;261.8;45.95
+183;13;95;DGH94647; Ventilador de teto silencioso  ;2767.85;485.76
+45;7;123;PNS53376; Almofada ortopédica para coluna  ;4645.36;815.26
+124;1;107;BHS81654; Aspirador portátil para carro  ;3327.67;584.01
+54;11;152;VRP87728; Filtro de ar para purificador  ;3994.25;700.99
+203;14;105;EWJ91464; Carrinho de supermercado dobrável  ;4240.14;744.14
+17;9;86;ZFF32738; Sofá-cama retrátil  ;1619.65;284.25
+209;8;124;XED89314; Luminária decorativa de mesa  ;2733.5;479.73
+63;13;95;XQW84675; Escova de cabelo elétrica  ;2605.57;457.28
+198;2;170;NNC74365; Jogo de lençóis com elástico  ;3420.42;600.28
+56;2;69;MVH45242; Bolsa de viagem com rodinhas  ;368.26;64.63
+256;3;92;RDN66398; Kit de ferramentas para bicicletas  ;605.57;106.28
+259;9;158;UXW52966; Ventilador torre silencioso  ;2042.04;358.38
+68;9;135;NQB92492; Organizador de gavetas para talheres  ;3246.6;569.78
+36;8;62;UEX21393; Espelho com moldura decorativa  ;309.42;54.3
+216;6;116;FXQ58662; Guarda-sol com base resistente  ;2044.06;358.73
+156;10;80;FLU38563; Relógio com alarme vibratório  ;3760.14;659.9
+89;5;145;VTM84741; Sofá reclinável com porta-copos  ;633.14;111.12
+260;9;111;SVX77387; Conjunto de facas para churrasco  ;889.16;156.05
+113;3;153;BIP55978; Tapete para sala com design moderno  ;2419.75;424.67
+157;1;125;WQV69294; Armário para banheiro compacto  ;4705.44;825.8
+40;8;117;FTR33228; Prateleira organizadora para cozinha  ;2646.02;464.38
+169;5;3;TKR36881; Conjunto de cadeiras empilháveis  ;592.98;104.07

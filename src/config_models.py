@@ -117,18 +117,23 @@ def tables_config() -> dict:
                 id_contato INTEGER AUTO_INCREMENT,
                 id_tipo_contato INTEGER NOT NULL,
                 id_referencia INTEGER NOT NULL,
-                valor VARCHAR (50) NOT NULL,
+                telefone VARCHAR (13),
+                email VARCHAR (50) NOT NULL,
                 status_contato CHAR (1) NOT NULL,
                 CONSTRAINT tbl_contatos_id_contato_pk PRIMARY KEY (id_contato),
-                CONSTRAINT tbl_contatos_id_tipo_contato_fk FOREIGN KEY (id_tipo_contato) REFERENCES tbl_tipos_contatos (id_tipo_contato),
+                CONSTRAINT tbl_contatos_id_tipo_contato_fk FOREIGN KEY (id_tipo_contato) REFERENCES tbl_tipo_contatos (id_tipo_contato),
                 CONSTRAINT tbl_contatos_id_ref_fk FOREIGN KEY (id_referencia) REFERENCES tbl_referencias (id_referencia),
-                CONSTRAINT tbl_contatos_valor_ck CHECK (
-                    (id_tipo_contato = 4 AND valor LIKE '%@%') OR 
-                    (id_tipo_contato IN (1, 2, 3) AND valor NOT LIKE '%@%')
-                )
+                CONSTRAINT tbl_contatos_telefone_ck CHECK (id_tipo_contato IN (1, 2, 3) AND telefone NOT LIKE '%@%'),
+                CONSTRAINT tbl_contatos_email_ck CHECK (id_tipo_contato = 4 AND email LIKE '%@%')
             """,
             "csv_file": "tbl_contatos.csv",
-            "columns": ["id_tipo_contato", "id_referencia", "valor", "status_contato"],
+            "columns": [
+                "id_tipo_contato",
+                "id_referencia",
+                "telefoe",
+                "email",
+                "status_contato",
+            ],
         },
         "tbl_clientes": {
             "schema": """
@@ -187,11 +192,13 @@ def tables_config() -> dict:
                 produto VARCHAR (50) NOT NULL,
                 modelo VARCHAR (20) NOT NULL,
                 preco_unitario DECIMAL (10, 2) NOT NULL,
+                custo_unitario DECIMAL (10, 2) NOT NULL,
                 CONSTRAINT tbl_prod_id_prod_pk PRIMARY KEY (id_produto),
                 CONSTRAINT tbl_prod_id_marca_fk FOREIGN KEY (id_marca) REFERENCES tbl_marcas (id_marca),
                 CONSTRAINT tbl_prod_id_categ_fk FOREIGN KEY (id_categoria) REFERENCES tbl_categorias (id_categoria),
                 CONSTRAINT tbl_prod_id_fornec_fk FOREIGN KEY (id_fornecedor) REFERENCES tbl_fornecedores (id_fornecedor),
-                CONSTRAINT tbl_prod_preco_unit_ck CHECK (preco_unitario > 0)
+                CONSTRAINT tbl_prod_preco_unit_ck CHECK (preco_unitario > 0),
+                CONSTRAINT tbl_prod_custo_unit_ck CHECK (custo_unitario >= 0)
             """,
             "csv_file": "tbl_produtos.csv",
             "columns": [
@@ -201,12 +208,13 @@ def tables_config() -> dict:
                 "produto",
                 "modelo",
                 "preco_unitario",
+                "custo_unitario",
             ],
         },
         "tbl_marcas": {
             "schema": """
                 id_marca INTEGER AUTO_INCREMENT,
-                marca VARCHAR(50),
+                marca VARCHAR(50) NOT NULL,
                 CONSTRAINT tbl_marcas_id_marca_pk PRIMARY KEY (id_marca)
             """,
             "csv_file": "tbl_marcas.csv",
@@ -285,6 +293,7 @@ def tables_config() -> dict:
                 id_funcionario INTEGER AUTO_INCREMENT,
                 id_departamento INTEGER NOT NULL,
                 id_cargo INTEGER NOT NULL,
+                id_loja INTEGER NOT NULL,
                 id_contato INTEGER NOT NULL,
                 id_endereco INTEGER NOT NULL,
                 nome VARCHAR (50) NOT NULL,
@@ -341,19 +350,25 @@ def tables_config() -> dict:
                 id_loja INTEGER NOT NULL,
                 id_transportadora INTEGER NOT NULL,
                 id_status_pedido INTEGER NOT NULL,
+                custo_frete_cliente DECIMAL (10, 2) NOT NULL,
+                custo_frete_transportadora DECIMAL (10, 2) NOT NULL,
                 dt_pedido DATE NOT NULL,
                 dt_estimada_entrega DATE NOT NULL,
                 dt_entrega DATE,
                 CONSTRAINT tbl_ped_id_ped_pk PRIMARY KEY (id_pedido),
                 CONSTRAINT tbl_ped_id_loja_fk FOREIGN KEY (id_loja) REFERENCES tbl_lojas (id_loja),
                 CONSTRAINT tbl_ped_id_transp_fk FOREIGN KEY (id_transportadora) REFERENCES tbl_transportadoras (id_transportadora),
-                CONSTRAINT tbl_ped_id_status_ped_fk FOREIGN KEY (id_status_pedido) REFERENCES tbl_status_pedidos (id_status_pedido)
+                CONSTRAINT tbl_ped_id_status_ped_fk FOREIGN KEY (id_status_pedido) REFERENCES tbl_status_pedidos (id_status_pedido),
+                CONSTRAINT tbl_ped_custo_frete_cliente_ck CHECK (custo_frete_cliente >= 0),
+                CONSTRAINT tbl_ped_custo_frete_transportadora_ck CHECK (custo_frete_transportadora >= 0)
             """,
             "csv_file": "tbl_pedidos.csv",
             "columns": [
                 "id_loja",
                 "id_transportadora",
                 "id_status_pedido",
+                "custo_frete_cliente",
+                "custo_frete_transportadora",
                 "dt_pedido",
                 "dt_estimada_entrega",
                 "dt_entrega",
@@ -393,6 +408,7 @@ def tables_config() -> dict:
                 qtde_itens_vendidos INTEGER NOT NULL,
                 valor_vendido DECIMAL (10, 2) NOT NULL,
                 desconto DECIMAL (2, 2) NOT NULL,
+                custo_total DECIMAL  (10, 2) NOT NULL,
                 dt_venda DATE NOT NULL,
                 CONSTRAINT tbl_vendas_id_venda_pk PRIMARY KEY (id_venda),
                 CONSTRAINT tbl_vendas_id_ped_fk FOREIGN KEY (id_pedido) REFERENCES tbl_pedidos (id_pedido),
@@ -401,6 +417,10 @@ def tables_config() -> dict:
                 CONSTRAINT tbl_vendas_id_func_fk FOREIGN KEY (id_funcionario) REFERENCES tbl_funcionarios (id_funcionario),
                 CONSTRAINT tbl_vendas_id_canal_venda_fk FOREIGN KEY (id_canal_venda) REFERENCES tbl_canal_vendas (id_canal_venda),
                 CONSTRAINT tbl_vendas_id_pgto_fk FOREIGN KEY (id_pagamento) REFERENCES tbl_pagamentos (id_pagamento),
+                CONSTRAINT tbl_vendas_qtde_itens_vendidos_ck CHECK (qtde_itens_vendidos > 0),
+                CONSTRAINT tbl_vendas_valor_vendido_ck CHECK (valor_vendido > 0),
+                CONSTRAINT tbl_vendas_desconto_ck CHECK (desconto >= 0),
+                CONSTRAINT tbl_vendas_custo_total_ck CHECK (valor_pago >= 0)
             """,
             "csv_file": "tbl_vendas.csv",
             "columns": [
@@ -412,6 +432,7 @@ def tables_config() -> dict:
                 "qtde_itens_vendidos",
                 "valor_vendido",
                 "desconto",
+                "custo_total",
                 "dt_venda",
             ],
         },
