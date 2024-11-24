@@ -1,6 +1,4 @@
 .venv
 .env
-assets/data/tbl_pagamentos.csv
-assets/data/tbl_pedidos.csv
-assets/data/tbl_vendas.csv
+assets/data/*.csv
 airflow
