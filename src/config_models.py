@@ -117,7 +117,7 @@ def tables_config() -> dict:
                 id_contato INTEGER AUTO_INCREMENT,
                 id_tipo_contato INTEGER NOT NULL,
                 id_referencia INTEGER NOT NULL,
-                telefone VARCHAR (13),
+                telefone VARCHAR (13) NOT NULL,
                 email VARCHAR (50) NOT NULL,
                 status_contato CHAR (1) NOT NULL,
                 CONSTRAINT tbl_contatos_id_contato_pk PRIMARY KEY (id_contato),
@@ -249,7 +249,7 @@ def tables_config() -> dict:
         "tbl_status_estoques": {
             "schema": """
                 id_status_estoque INTEGER AUTO_INCREMENT,
-                reposicao_estoque INTEGER NOT NULL,
+                reposicao_estoque VARCHAR (20) NOT NULL,
                 CONSTRAINT tbl_status_estoques_id_status_estoque_pk PRIMARY KEY (id_status_estoque)
             """,
             "csv_file": "tbl_status_estoques.csv",
@@ -303,7 +303,7 @@ def tables_config() -> dict:
                 cpf VARCHAR (14) NOT NULL,
                 salario DECIMAL (10, 2) NOT NULL,
                 dt_admissao DATE NOT NULL,
-                dt_demissao DATE NOT NULL,
+                dt_demissao DATE,
                 CONSTRAINT tbl_func_id_func_pk PRIMARY KEY (id_funcionario),
                 CONSTRAINT tbl_func_id_depto_fk FOREIGN KEY (id_departamento) REFERENCES tbl_departamentos (id_departamento),
                 CONSTRAINT tbl_func_id_cargo_fk FOREIGN KEY (id_cargo) REFERENCES tbl_cargos (id_cargo),
