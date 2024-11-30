@@ -4,3 +4,4 @@ assets/data/tbl_pedidos.csv
 assets/data/tbl_pagamentos.csv
 assets/data/tbl_vendas.csv
 airflow
+src/jobs/__pycache__
