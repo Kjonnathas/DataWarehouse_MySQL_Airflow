@@ -312,3 +312,405 @@
 2024-11-30 13:19:03,959 - INFO - Leitura do arquivo tbl_devolucoes.csv realizada com sucesso.
 2024-11-30 13:19:05,115 - INFO - Batch de 30000 registros inseridos na tabela tbl_devolucoes.
 2024-11-30 13:19:05,115 - INFO - Dados inseridos com sucesso na tabela tbl_devolucoes.
+2024-11-30 20:57:39,368 - INFO - A conexão com o banco de dados foi estabelecida com sucesso!
+2024-11-30 20:57:39,392 - INFO - Tabela tbl_canal_vendas criada ou já existe.
+2024-11-30 20:57:39,394 - INFO - Leitura do arquivo tbl_canal_vendas.csv realizada com sucesso.
+2024-11-30 20:57:39,400 - INFO - Batch de 2 registros inseridos na tabela tbl_canal_vendas.
+2024-11-30 20:57:39,400 - INFO - Dados inseridos com sucesso na tabela tbl_canal_vendas.
+2024-11-30 20:57:39,419 - INFO - Tabela tbl_status_pagamentos criada ou já existe.
+2024-11-30 20:57:39,420 - INFO - Leitura do arquivo tbl_status_pagamentos.csv realizada com sucesso.
+2024-11-30 20:57:39,423 - INFO - Batch de 4 registros inseridos na tabela tbl_status_pagamentos.
+2024-11-30 20:57:39,423 - INFO - Dados inseridos com sucesso na tabela tbl_status_pagamentos.
+2024-11-30 20:57:39,438 - INFO - Tabela tbl_forma_pagamentos criada ou já existe.
+2024-11-30 20:57:39,439 - INFO - Leitura do arquivo tbl_forma_pagamentos.csv realizada com sucesso.
+2024-11-30 20:57:39,441 - INFO - Batch de 8 registros inseridos na tabela tbl_forma_pagamentos.
+2024-11-30 20:57:39,441 - INFO - Dados inseridos com sucesso na tabela tbl_forma_pagamentos.
+2024-11-30 20:57:39,454 - INFO - Tabela tbl_status_pedidos criada ou já existe.
+2024-11-30 20:57:39,455 - INFO - Leitura do arquivo tbl_status_pedidos.csv realizada com sucesso.
+2024-11-30 20:57:39,457 - INFO - Batch de 6 registros inseridos na tabela tbl_status_pedidos.
+2024-11-30 20:57:39,457 - INFO - Dados inseridos com sucesso na tabela tbl_status_pedidos.
+2024-11-30 20:57:39,469 - INFO - Tabela tbl_referencias criada ou já existe.
+2024-11-30 20:57:39,470 - INFO - Leitura do arquivo tbl_referencias.csv realizada com sucesso.
+2024-11-30 20:57:39,471 - INFO - Batch de 5 registros inseridos na tabela tbl_referencias.
+2024-11-30 20:57:39,471 - INFO - Dados inseridos com sucesso na tabela tbl_referencias.
+2024-11-30 20:57:39,484 - INFO - Tabela tbl_paises criada ou já existe.
+2024-11-30 20:57:39,485 - INFO - Leitura do arquivo tbl_paises.csv realizada com sucesso.
+2024-11-30 20:57:39,486 - INFO - Batch de 1 registros inseridos na tabela tbl_paises.
+2024-11-30 20:57:39,486 - INFO - Dados inseridos com sucesso na tabela tbl_paises.
+2024-11-30 20:57:39,503 - INFO - Tabela tbl_estados criada ou já existe.
+2024-11-30 20:57:39,503 - INFO - Leitura do arquivo tbl_estados.csv realizada com sucesso.
+2024-11-30 20:57:39,505 - INFO - Batch de 27 registros inseridos na tabela tbl_estados.
+2024-11-30 20:57:39,506 - INFO - Dados inseridos com sucesso na tabela tbl_estados.
+2024-11-30 20:57:39,521 - INFO - Tabela tbl_cidades criada ou já existe.
+2024-11-30 20:57:39,549 - INFO - Leitura do arquivo tbl_cidades.csv realizada com sucesso.
+2024-11-30 20:57:39,691 - INFO - Batch de 5570 registros inseridos na tabela tbl_cidades.
+2024-11-30 20:57:39,691 - INFO - Dados inseridos com sucesso na tabela tbl_cidades.
+2024-11-30 20:57:39,709 - INFO - Tabela tbl_bairros criada ou já existe.
+2024-11-30 20:57:39,762 - INFO - Leitura do arquivo tbl_bairros.csv realizada com sucesso.
+2024-11-30 20:57:39,998 - INFO - Batch de 13951 registros inseridos na tabela tbl_bairros.
+2024-11-30 20:57:39,998 - INFO - Dados inseridos com sucesso na tabela tbl_bairros.
+2024-11-30 20:57:40,020 - INFO - Tabela tbl_enderecos criada ou já existe.
+2024-11-30 20:57:41,588 - INFO - Leitura do arquivo tbl_enderecos.csv realizada com sucesso.
+2024-11-30 20:57:42,826 - INFO - Batch de 50000 registros inseridos na tabela tbl_enderecos.
+2024-11-30 20:57:43,791 - INFO - Batch de 50000 registros inseridos na tabela tbl_enderecos.
+2024-11-30 20:57:44,593 - INFO - Batch de 50000 registros inseridos na tabela tbl_enderecos.
+2024-11-30 20:57:45,504 - INFO - Batch de 50000 registros inseridos na tabela tbl_enderecos.
+2024-11-30 20:57:45,595 - INFO - Batch de 5301 registros inseridos na tabela tbl_enderecos.
+2024-11-30 20:57:45,596 - INFO - Dados inseridos com sucesso na tabela tbl_enderecos.
+2024-11-30 20:57:45,635 - INFO - Tabela tbl_tipos_contatos criada ou já existe.
+2024-11-30 20:57:45,636 - INFO - Leitura do arquivo tbl_tipos_contatos.csv realizada com sucesso.
+2024-11-30 20:57:45,666 - INFO - Batch de 4 registros inseridos na tabela tbl_tipos_contatos.
+2024-11-30 20:57:45,666 - INFO - Dados inseridos com sucesso na tabela tbl_tipos_contatos.
+2024-11-30 20:57:45,698 - INFO - Tabela tbl_contatos criada ou já existe.
+2024-11-30 20:57:47,772 - INFO - Leitura do arquivo tbl_contatos.csv realizada com sucesso.
+2024-11-30 20:57:49,064 - INFO - Batch de 50000 registros inseridos na tabela tbl_contatos.
+2024-11-30 20:57:49,795 - INFO - Batch de 50000 registros inseridos na tabela tbl_contatos.
+2024-11-30 20:57:50,579 - INFO - Batch de 50000 registros inseridos na tabela tbl_contatos.
+2024-11-30 20:57:51,324 - INFO - Batch de 50000 registros inseridos na tabela tbl_contatos.
+2024-11-30 20:57:52,072 - INFO - Batch de 50000 registros inseridos na tabela tbl_contatos.
+2024-11-30 20:57:52,858 - INFO - Batch de 50000 registros inseridos na tabela tbl_contatos.
+2024-11-30 20:57:53,612 - INFO - Batch de 50000 registros inseridos na tabela tbl_contatos.
+2024-11-30 20:57:54,336 - INFO - Batch de 50000 registros inseridos na tabela tbl_contatos.
+2024-11-30 20:57:54,336 - INFO - Dados inseridos com sucesso na tabela tbl_contatos.
+2024-11-30 20:57:54,403 - INFO - Tabela tbl_clientes criada ou já existe.
+2024-11-30 20:57:56,558 - INFO - Leitura do arquivo tbl_clientes.csv realizada com sucesso.
+2024-11-30 20:58:00,384 - INFO - Batch de 50000 registros inseridos na tabela tbl_clientes.
+2024-11-30 20:58:02,038 - INFO - Batch de 50000 registros inseridos na tabela tbl_clientes.
+2024-11-30 20:58:03,624 - INFO - Batch de 50000 registros inseridos na tabela tbl_clientes.
+2024-11-30 20:58:05,071 - INFO - Batch de 44574 registros inseridos na tabela tbl_clientes.
+2024-11-30 20:58:05,071 - INFO - Dados inseridos com sucesso na tabela tbl_clientes.
+2024-11-30 20:58:05,117 - INFO - Tabela tbl_categorias criada ou já existe.
+2024-11-30 20:58:05,118 - INFO - Leitura do arquivo tbl_categorias.csv realizada com sucesso.
+2024-11-30 20:58:05,160 - INFO - Batch de 14 registros inseridos na tabela tbl_categorias.
+2024-11-30 20:58:05,160 - INFO - Dados inseridos com sucesso na tabela tbl_categorias.
+2024-11-30 20:58:05,180 - INFO - Tabela tbl_subcategorias criada ou já existe.
+2024-11-30 20:58:05,182 - INFO - Leitura do arquivo tbl_subcategorias.csv realizada com sucesso.
+2024-11-30 20:58:05,186 - INFO - Batch de 168 registros inseridos na tabela tbl_subcategorias.
+2024-11-30 20:58:05,186 - INFO - Dados inseridos com sucesso na tabela tbl_subcategorias.
+2024-11-30 20:58:05,210 - INFO - Tabela tbl_marcas criada ou já existe.
+2024-11-30 20:58:05,211 - INFO - Leitura do arquivo tbl_marcas.csv realizada com sucesso.
+2024-11-30 20:58:05,216 - INFO - Batch de 303 registros inseridos na tabela tbl_marcas.
+2024-11-30 20:58:05,216 - INFO - Dados inseridos com sucesso na tabela tbl_marcas.
+2024-11-30 20:58:05,237 - INFO - Tabela tbl_fornecedores criada ou já existe.
+2024-11-30 20:58:05,238 - INFO - Leitura do arquivo tbl_fornecedores.csv realizada com sucesso.
+2024-11-30 20:58:05,245 - INFO - Batch de 192 registros inseridos na tabela tbl_fornecedores.
+2024-11-30 20:58:05,245 - INFO - Dados inseridos com sucesso na tabela tbl_fornecedores.
+2024-11-30 20:58:05,267 - INFO - Tabela tbl_produtos criada ou já existe.
+2024-11-30 20:58:05,277 - INFO - Leitura do arquivo tbl_produtos.csv realizada com sucesso.
+2024-11-30 20:58:05,308 - INFO - Batch de 1006 registros inseridos na tabela tbl_produtos.
+2024-11-30 20:58:05,308 - INFO - Dados inseridos com sucesso na tabela tbl_produtos.
+2024-11-30 20:58:05,326 - INFO - Tabela tbl_lojas criada ou já existe.
+2024-11-30 20:58:05,327 - INFO - Leitura do arquivo tbl_lojas.csv realizada com sucesso.
+2024-11-30 20:58:05,330 - INFO - Batch de 67 registros inseridos na tabela tbl_lojas.
+2024-11-30 20:58:05,330 - INFO - Dados inseridos com sucesso na tabela tbl_lojas.
+2024-11-30 20:58:05,345 - INFO - Tabela tbl_status_estoques criada ou já existe.
+2024-11-30 20:58:05,346 - INFO - Leitura do arquivo tbl_status_estoques.csv realizada com sucesso.
+2024-11-30 20:58:05,348 - INFO - Batch de 3 registros inseridos na tabela tbl_status_estoques.
+2024-11-30 20:58:05,348 - INFO - Dados inseridos com sucesso na tabela tbl_status_estoques.
+2024-11-30 20:58:05,369 - INFO - Tabela tbl_estoques criada ou já existe.
+2024-11-30 20:58:05,375 - INFO - Leitura do arquivo tbl_estoques.csv realizada com sucesso.
+2024-11-30 20:58:05,394 - INFO - Batch de 1006 registros inseridos na tabela tbl_estoques.
+2024-11-30 20:58:05,395 - INFO - Dados inseridos com sucesso na tabela tbl_estoques.
+2024-11-30 20:58:05,408 - INFO - Tabela tbl_departamentos criada ou já existe.
+2024-11-30 20:58:05,408 - INFO - Leitura do arquivo tbl_departamentos.csv realizada com sucesso.
+2024-11-30 20:58:05,410 - INFO - Batch de 10 registros inseridos na tabela tbl_departamentos.
+2024-11-30 20:58:05,411 - INFO - Dados inseridos com sucesso na tabela tbl_departamentos.
+2024-11-30 20:58:05,422 - INFO - Tabela tbl_cargos criada ou já existe.
+2024-11-30 20:58:05,423 - INFO - Leitura do arquivo tbl_cargos.csv realizada com sucesso.
+2024-11-30 20:58:05,425 - INFO - Batch de 9 registros inseridos na tabela tbl_cargos.
+2024-11-30 20:58:05,425 - INFO - Dados inseridos com sucesso na tabela tbl_cargos.
+2024-11-30 20:58:05,454 - INFO - Tabela tbl_funcionarios criada ou já existe.
+2024-11-30 20:58:05,529 - INFO - Leitura do arquivo tbl_funcionarios.csv realizada com sucesso.
+2024-11-30 20:58:05,929 - INFO - Batch de 4999 registros inseridos na tabela tbl_funcionarios.
+2024-11-30 20:58:05,929 - INFO - Dados inseridos com sucesso na tabela tbl_funcionarios.
+2024-11-30 20:58:05,951 - INFO - Tabela tbl_transportadoras criada ou já existe.
+2024-11-30 20:58:05,953 - INFO - Leitura do arquivo tbl_transportadoras.csv realizada com sucesso.
+2024-11-30 20:58:05,956 - INFO - Batch de 39 registros inseridos na tabela tbl_transportadoras.
+2024-11-30 20:58:05,956 - INFO - Dados inseridos com sucesso na tabela tbl_transportadoras.
+2024-11-30 20:58:05,976 - INFO - Tabela tbl_pedidos criada ou já existe.
+2024-11-30 20:58:09,342 - INFO - Leitura do arquivo tbl_pedidos.csv realizada com sucesso.
+2024-11-30 20:58:21,322 - INFO - Batch de 50000 registros inseridos na tabela tbl_pedidos.
+2024-11-30 20:58:22,397 - INFO - Batch de 50000 registros inseridos na tabela tbl_pedidos.
+2024-11-30 20:58:23,446 - INFO - Batch de 50000 registros inseridos na tabela tbl_pedidos.
+2024-11-30 20:58:24,426 - INFO - Batch de 50000 registros inseridos na tabela tbl_pedidos.
+2024-11-30 20:58:25,458 - INFO - Batch de 50000 registros inseridos na tabela tbl_pedidos.
+2024-11-30 20:58:26,490 - INFO - Batch de 50000 registros inseridos na tabela tbl_pedidos.
+2024-11-30 20:58:27,498 - INFO - Batch de 50000 registros inseridos na tabela tbl_pedidos.
+2024-11-30 20:58:27,498 - INFO - Dados inseridos com sucesso na tabela tbl_pedidos.
+2024-11-30 20:58:27,549 - INFO - Tabela tbl_pagamentos criada ou já existe.
+2024-11-30 20:58:30,846 - INFO - Leitura do arquivo tbl_pagamentos.csv realizada com sucesso.
+2024-11-30 20:58:39,502 - INFO - Batch de 50000 registros inseridos na tabela tbl_pagamentos.
+2024-11-30 20:58:40,517 - INFO - Batch de 50000 registros inseridos na tabela tbl_pagamentos.
+2024-11-30 20:58:41,563 - INFO - Batch de 50000 registros inseridos na tabela tbl_pagamentos.
+2024-11-30 20:58:42,598 - INFO - Batch de 50000 registros inseridos na tabela tbl_pagamentos.
+2024-11-30 20:58:43,554 - INFO - Batch de 50000 registros inseridos na tabela tbl_pagamentos.
+2024-11-30 20:58:44,566 - INFO - Batch de 50000 registros inseridos na tabela tbl_pagamentos.
+2024-11-30 20:58:45,675 - INFO - Batch de 50000 registros inseridos na tabela tbl_pagamentos.
+2024-11-30 20:58:46,774 - INFO - Batch de 50000 registros inseridos na tabela tbl_pagamentos.
+2024-11-30 20:58:47,780 - INFO - Batch de 50000 registros inseridos na tabela tbl_pagamentos.
+2024-11-30 20:58:48,854 - INFO - Batch de 50000 registros inseridos na tabela tbl_pagamentos.
+2024-11-30 20:58:48,854 - INFO - Dados inseridos com sucesso na tabela tbl_pagamentos.
+2024-11-30 20:58:48,931 - INFO - Tabela tbl_vendas criada ou já existe.
+2024-11-30 20:58:51,804 - INFO - Leitura do arquivo tbl_vendas.csv realizada com sucesso.
+2024-11-30 20:58:58,189 - INFO - Batch de 50000 registros inseridos na tabela tbl_vendas.
+2024-11-30 20:59:00,136 - INFO - Batch de 50000 registros inseridos na tabela tbl_vendas.
+2024-11-30 20:59:02,113 - INFO - Batch de 50000 registros inseridos na tabela tbl_vendas.
+2024-11-30 20:59:04,190 - INFO - Batch de 50000 registros inseridos na tabela tbl_vendas.
+2024-11-30 20:59:06,137 - INFO - Batch de 50000 registros inseridos na tabela tbl_vendas.
+2024-11-30 20:59:06,137 - INFO - Dados inseridos com sucesso na tabela tbl_vendas.
+2024-11-30 20:59:06,176 - INFO - Tabela tbl_motivo_devolucoes criada ou já existe.
+2024-11-30 20:59:06,176 - INFO - Leitura do arquivo tbl_motivo_devolucoes.csv realizada com sucesso.
+2024-11-30 20:59:06,231 - INFO - Batch de 9 registros inseridos na tabela tbl_motivo_devolucoes.
+2024-11-30 20:59:06,231 - INFO - Dados inseridos com sucesso na tabela tbl_motivo_devolucoes.
+2024-11-30 20:59:06,263 - INFO - Tabela tbl_devolucoes criada ou já existe.
+2024-11-30 20:59:06,427 - INFO - Leitura do arquivo tbl_devolucoes.csv realizada com sucesso.
+2024-11-30 20:59:06,972 - ERROR - Erro ao criar ou inserir dados na tabela tbl_devolucoes.
+
+Erro: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`db_prod`.`tbl_devolucoes`, CONSTRAINT `tbl_devol_id_ped_fk` FOREIGN KEY (`id_pedido`) REFERENCES `tbl_pedidos` (`id_pedido`))
+2024-11-30 21:02:06,548 - INFO - A conexão com o banco de dados foi estabelecida com sucesso!
+2024-11-30 21:02:06,567 - INFO - Tabela tbl_devolucoes criada ou já existe.
+2024-11-30 21:02:06,740 - INFO - Leitura do arquivo tbl_devolucoes.csv realizada com sucesso.
+2024-11-30 21:02:07,831 - INFO - Batch de 30000 registros inseridos na tabela tbl_devolucoes.
+2024-11-30 21:02:07,831 - INFO - Dados inseridos com sucesso na tabela tbl_devolucoes.
+2024-11-30 22:39:07,760 - INFO - A conexão com o banco de dados foi estabelecida com sucesso!
+2024-11-30 22:39:07,822 - INFO - Tabela tbl_canal_vendas criada ou já existe.
+2024-11-30 22:39:07,826 - INFO - Leitura do arquivo tbl_canal_vendas.csv realizada com sucesso.
+2024-11-30 22:39:07,832 - INFO - Batch de 2 registros inseridos na tabela tbl_canal_vendas.
+2024-11-30 22:39:07,832 - INFO - Dados inseridos com sucesso na tabela tbl_canal_vendas.
+2024-11-30 22:39:07,847 - INFO - Tabela tbl_status_pagamentos criada ou já existe.
+2024-11-30 22:39:07,847 - INFO - Leitura do arquivo tbl_status_pagamentos.csv realizada com sucesso.
+2024-11-30 22:39:07,848 - INFO - Batch de 4 registros inseridos na tabela tbl_status_pagamentos.
+2024-11-30 22:39:07,848 - INFO - Dados inseridos com sucesso na tabela tbl_status_pagamentos.
+2024-11-30 22:39:07,865 - INFO - Tabela tbl_forma_pagamentos criada ou já existe.
+2024-11-30 22:39:07,865 - INFO - Leitura do arquivo tbl_forma_pagamentos.csv realizada com sucesso.
+2024-11-30 22:39:07,869 - INFO - Batch de 8 registros inseridos na tabela tbl_forma_pagamentos.
+2024-11-30 22:39:07,869 - INFO - Dados inseridos com sucesso na tabela tbl_forma_pagamentos.
+2024-11-30 22:39:07,882 - INFO - Tabela tbl_status_pedidos criada ou já existe.
+2024-11-30 22:39:07,883 - INFO - Leitura do arquivo tbl_status_pedidos.csv realizada com sucesso.
+2024-11-30 22:39:07,885 - INFO - Batch de 6 registros inseridos na tabela tbl_status_pedidos.
+2024-11-30 22:39:07,885 - INFO - Dados inseridos com sucesso na tabela tbl_status_pedidos.
+2024-11-30 22:39:07,900 - INFO - Tabela tbl_referencias criada ou já existe.
+2024-11-30 22:39:07,901 - INFO - Leitura do arquivo tbl_referencias.csv realizada com sucesso.
+2024-11-30 22:39:07,903 - INFO - Batch de 5 registros inseridos na tabela tbl_referencias.
+2024-11-30 22:39:07,903 - INFO - Dados inseridos com sucesso na tabela tbl_referencias.
+2024-11-30 22:39:07,921 - INFO - Tabela tbl_paises criada ou já existe.
+2024-11-30 22:39:07,922 - INFO - Leitura do arquivo tbl_paises.csv realizada com sucesso.
+2024-11-30 22:39:07,923 - INFO - Batch de 1 registros inseridos na tabela tbl_paises.
+2024-11-30 22:39:07,924 - INFO - Dados inseridos com sucesso na tabela tbl_paises.
+2024-11-30 22:39:07,945 - INFO - Tabela tbl_estados criada ou já existe.
+2024-11-30 22:39:07,946 - INFO - Leitura do arquivo tbl_estados.csv realizada com sucesso.
+2024-11-30 22:39:07,949 - INFO - Batch de 27 registros inseridos na tabela tbl_estados.
+2024-11-30 22:39:07,949 - INFO - Dados inseridos com sucesso na tabela tbl_estados.
+2024-11-30 22:39:07,967 - INFO - Tabela tbl_cidades criada ou já existe.
+2024-11-30 22:39:07,982 - INFO - Leitura do arquivo tbl_cidades.csv realizada com sucesso.
+2024-11-30 22:39:08,130 - INFO - Batch de 5570 registros inseridos na tabela tbl_cidades.
+2024-11-30 22:39:08,130 - INFO - Dados inseridos com sucesso na tabela tbl_cidades.
+2024-11-30 22:39:08,150 - INFO - Tabela tbl_bairros criada ou já existe.
+2024-11-30 22:39:08,187 - INFO - Leitura do arquivo tbl_bairros.csv realizada com sucesso.
+2024-11-30 22:39:08,546 - INFO - Batch de 13951 registros inseridos na tabela tbl_bairros.
+2024-11-30 22:39:08,546 - INFO - Dados inseridos com sucesso na tabela tbl_bairros.
+2024-11-30 22:39:08,570 - INFO - Tabela tbl_enderecos criada ou já existe.
+2024-11-30 22:39:09,706 - INFO - Leitura do arquivo tbl_enderecos.csv realizada com sucesso.
+2024-11-30 22:39:12,015 - INFO - Batch de 50000 registros inseridos na tabela tbl_enderecos.
+2024-11-30 22:39:13,024 - INFO - Batch de 50000 registros inseridos na tabela tbl_enderecos.
+2024-11-30 22:39:13,897 - INFO - Batch de 50000 registros inseridos na tabela tbl_enderecos.
+2024-11-30 22:39:14,750 - INFO - Batch de 50000 registros inseridos na tabela tbl_enderecos.
+2024-11-30 22:39:14,835 - INFO - Batch de 5301 registros inseridos na tabela tbl_enderecos.
+2024-11-30 22:39:14,835 - INFO - Dados inseridos com sucesso na tabela tbl_enderecos.
+2024-11-30 22:39:14,910 - INFO - Tabela tbl_tipos_contatos criada ou já existe.
+2024-11-30 22:39:14,911 - INFO - Leitura do arquivo tbl_tipos_contatos.csv realizada com sucesso.
+2024-11-30 22:39:14,941 - INFO - Batch de 4 registros inseridos na tabela tbl_tipos_contatos.
+2024-11-30 22:39:14,941 - INFO - Dados inseridos com sucesso na tabela tbl_tipos_contatos.
+2024-11-30 22:39:14,968 - INFO - Tabela tbl_contatos criada ou já existe.
+2024-11-30 22:39:16,529 - INFO - Leitura do arquivo tbl_contatos.csv realizada com sucesso.
+2024-11-30 22:39:17,584 - INFO - Batch de 50000 registros inseridos na tabela tbl_contatos.
+2024-11-30 22:39:18,237 - INFO - Batch de 50000 registros inseridos na tabela tbl_contatos.
+2024-11-30 22:39:18,938 - INFO - Batch de 50000 registros inseridos na tabela tbl_contatos.
+2024-11-30 22:39:19,591 - INFO - Batch de 50000 registros inseridos na tabela tbl_contatos.
+2024-11-30 22:39:20,195 - INFO - Batch de 50000 registros inseridos na tabela tbl_contatos.
+2024-11-30 22:39:20,905 - INFO - Batch de 50000 registros inseridos na tabela tbl_contatos.
+2024-11-30 22:39:21,545 - INFO - Batch de 50000 registros inseridos na tabela tbl_contatos.
+2024-11-30 22:39:22,183 - INFO - Batch de 50000 registros inseridos na tabela tbl_contatos.
+2024-11-30 22:39:22,183 - INFO - Dados inseridos com sucesso na tabela tbl_contatos.
+2024-11-30 22:39:22,238 - INFO - Tabela tbl_clientes criada ou já existe.
+2024-11-30 22:39:23,842 - INFO - Leitura do arquivo tbl_clientes.csv realizada com sucesso.
+2024-11-30 22:39:26,888 - INFO - Batch de 50000 registros inseridos na tabela tbl_clientes.
+2024-11-30 22:39:28,162 - INFO - Batch de 50000 registros inseridos na tabela tbl_clientes.
+2024-11-30 22:39:29,360 - INFO - Batch de 50000 registros inseridos na tabela tbl_clientes.
+2024-11-30 22:39:30,590 - INFO - Batch de 44574 registros inseridos na tabela tbl_clientes.
+2024-11-30 22:39:30,590 - INFO - Dados inseridos com sucesso na tabela tbl_clientes.
+2024-11-30 22:39:30,643 - INFO - Tabela tbl_categorias criada ou já existe.
+2024-11-30 22:39:30,644 - INFO - Leitura do arquivo tbl_categorias.csv realizada com sucesso.
+2024-11-30 22:39:30,677 - INFO - Batch de 14 registros inseridos na tabela tbl_categorias.
+2024-11-30 22:39:30,677 - INFO - Dados inseridos com sucesso na tabela tbl_categorias.
+2024-11-30 22:39:30,699 - INFO - Tabela tbl_subcategorias criada ou já existe.
+2024-11-30 22:39:30,700 - INFO - Leitura do arquivo tbl_subcategorias.csv realizada com sucesso.
+2024-11-30 22:39:30,704 - INFO - Batch de 168 registros inseridos na tabela tbl_subcategorias.
+2024-11-30 22:39:30,704 - INFO - Dados inseridos com sucesso na tabela tbl_subcategorias.
+2024-11-30 22:39:30,717 - INFO - Tabela tbl_marcas criada ou já existe.
+2024-11-30 22:39:30,718 - INFO - Leitura do arquivo tbl_marcas.csv realizada com sucesso.
+2024-11-30 22:39:30,726 - INFO - Batch de 303 registros inseridos na tabela tbl_marcas.
+2024-11-30 22:39:30,726 - INFO - Dados inseridos com sucesso na tabela tbl_marcas.
+2024-11-30 22:39:30,760 - INFO - Tabela tbl_fornecedores criada ou já existe.
+2024-11-30 22:39:30,762 - INFO - Leitura do arquivo tbl_fornecedores.csv realizada com sucesso.
+2024-11-30 22:39:30,767 - INFO - Batch de 192 registros inseridos na tabela tbl_fornecedores.
+2024-11-30 22:39:30,767 - INFO - Dados inseridos com sucesso na tabela tbl_fornecedores.
+2024-11-30 22:39:30,788 - INFO - Tabela tbl_produtos criada ou já existe.
+2024-11-30 22:39:30,796 - INFO - Leitura do arquivo tbl_produtos.csv realizada com sucesso.
+2024-11-30 22:39:30,807 - ERROR - Erro ao criar ou inserir dados na tabela tbl_produtos.
+
+Erro: 1054 (42S22): Unknown column 'id_categoria' in 'field list'
+2024-11-30 22:40:46,932 - INFO - A conexão com o banco de dados foi estabelecida com sucesso!
+2024-11-30 22:40:46,978 - INFO - Tabela tbl_canal_vendas criada ou já existe.
+2024-11-30 22:40:46,979 - INFO - Leitura do arquivo tbl_canal_vendas.csv realizada com sucesso.
+2024-11-30 22:40:46,982 - INFO - Batch de 2 registros inseridos na tabela tbl_canal_vendas.
+2024-11-30 22:40:46,982 - INFO - Dados inseridos com sucesso na tabela tbl_canal_vendas.
+2024-11-30 22:40:46,994 - INFO - Tabela tbl_status_pagamentos criada ou já existe.
+2024-11-30 22:40:46,995 - INFO - Leitura do arquivo tbl_status_pagamentos.csv realizada com sucesso.
+2024-11-30 22:40:46,997 - INFO - Batch de 4 registros inseridos na tabela tbl_status_pagamentos.
+2024-11-30 22:40:46,997 - INFO - Dados inseridos com sucesso na tabela tbl_status_pagamentos.
+2024-11-30 22:40:47,008 - INFO - Tabela tbl_forma_pagamentos criada ou já existe.
+2024-11-30 22:40:47,009 - INFO - Leitura do arquivo tbl_forma_pagamentos.csv realizada com sucesso.
+2024-11-30 22:40:47,011 - INFO - Batch de 8 registros inseridos na tabela tbl_forma_pagamentos.
+2024-11-30 22:40:47,011 - INFO - Dados inseridos com sucesso na tabela tbl_forma_pagamentos.
+2024-11-30 22:40:47,024 - INFO - Tabela tbl_status_pedidos criada ou já existe.
+2024-11-30 22:40:47,024 - INFO - Leitura do arquivo tbl_status_pedidos.csv realizada com sucesso.
+2024-11-30 22:40:47,026 - INFO - Batch de 6 registros inseridos na tabela tbl_status_pedidos.
+2024-11-30 22:40:47,026 - INFO - Dados inseridos com sucesso na tabela tbl_status_pedidos.
+2024-11-30 22:40:47,038 - INFO - Tabela tbl_referencias criada ou já existe.
+2024-11-30 22:40:47,039 - INFO - Leitura do arquivo tbl_referencias.csv realizada com sucesso.
+2024-11-30 22:40:47,041 - INFO - Batch de 5 registros inseridos na tabela tbl_referencias.
+2024-11-30 22:40:47,041 - INFO - Dados inseridos com sucesso na tabela tbl_referencias.
+2024-11-30 22:40:47,054 - INFO - Tabela tbl_paises criada ou já existe.
+2024-11-30 22:40:47,054 - INFO - Leitura do arquivo tbl_paises.csv realizada com sucesso.
+2024-11-30 22:40:47,055 - INFO - Batch de 1 registros inseridos na tabela tbl_paises.
+2024-11-30 22:40:47,055 - INFO - Dados inseridos com sucesso na tabela tbl_paises.
+2024-11-30 22:40:47,071 - INFO - Tabela tbl_estados criada ou já existe.
+2024-11-30 22:40:47,072 - INFO - Leitura do arquivo tbl_estados.csv realizada com sucesso.
+2024-11-30 22:40:47,075 - INFO - Batch de 27 registros inseridos na tabela tbl_estados.
+2024-11-30 22:40:47,075 - INFO - Dados inseridos com sucesso na tabela tbl_estados.
+2024-11-30 22:40:47,092 - INFO - Tabela tbl_cidades criada ou já existe.
+2024-11-30 22:40:47,108 - INFO - Leitura do arquivo tbl_cidades.csv realizada com sucesso.
+2024-11-30 22:40:47,193 - INFO - Batch de 5570 registros inseridos na tabela tbl_cidades.
+2024-11-30 22:40:47,193 - INFO - Dados inseridos com sucesso na tabela tbl_cidades.
+2024-11-30 22:40:47,207 - INFO - Tabela tbl_bairros criada ou já existe.
+2024-11-30 22:40:47,244 - INFO - Leitura do arquivo tbl_bairros.csv realizada com sucesso.
+2024-11-30 22:40:47,423 - INFO - Batch de 13951 registros inseridos na tabela tbl_bairros.
+2024-11-30 22:40:47,423 - INFO - Dados inseridos com sucesso na tabela tbl_bairros.
+2024-11-30 22:40:47,443 - INFO - Tabela tbl_enderecos criada ou já existe.
+2024-11-30 22:40:48,588 - INFO - Leitura do arquivo tbl_enderecos.csv realizada com sucesso.
+2024-11-30 22:40:49,701 - INFO - Batch de 50000 registros inseridos na tabela tbl_enderecos.
+2024-11-30 22:40:50,355 - INFO - Batch de 50000 registros inseridos na tabela tbl_enderecos.
+2024-11-30 22:40:51,006 - INFO - Batch de 50000 registros inseridos na tabela tbl_enderecos.
+2024-11-30 22:40:51,681 - INFO - Batch de 50000 registros inseridos na tabela tbl_enderecos.
+2024-11-30 22:40:51,754 - INFO - Batch de 5301 registros inseridos na tabela tbl_enderecos.
+2024-11-30 22:40:51,754 - INFO - Dados inseridos com sucesso na tabela tbl_enderecos.
+2024-11-30 22:40:51,788 - INFO - Tabela tbl_tipos_contatos criada ou já existe.
+2024-11-30 22:40:51,789 - INFO - Leitura do arquivo tbl_tipos_contatos.csv realizada com sucesso.
+2024-11-30 22:40:51,814 - INFO - Batch de 4 registros inseridos na tabela tbl_tipos_contatos.
+2024-11-30 22:40:51,814 - INFO - Dados inseridos com sucesso na tabela tbl_tipos_contatos.
+2024-11-30 22:40:51,829 - INFO - Tabela tbl_contatos criada ou já existe.
+2024-11-30 22:40:53,373 - INFO - Leitura do arquivo tbl_contatos.csv realizada com sucesso.
+2024-11-30 22:40:54,405 - INFO - Batch de 50000 registros inseridos na tabela tbl_contatos.
+2024-11-30 22:40:54,980 - INFO - Batch de 50000 registros inseridos na tabela tbl_contatos.
+2024-11-30 22:40:55,592 - INFO - Batch de 50000 registros inseridos na tabela tbl_contatos.
+2024-11-30 22:40:56,175 - INFO - Batch de 50000 registros inseridos na tabela tbl_contatos.
+2024-11-30 22:40:56,752 - INFO - Batch de 50000 registros inseridos na tabela tbl_contatos.
+2024-11-30 22:40:57,328 - INFO - Batch de 50000 registros inseridos na tabela tbl_contatos.
+2024-11-30 22:40:57,903 - INFO - Batch de 50000 registros inseridos na tabela tbl_contatos.
+2024-11-30 22:40:58,482 - INFO - Batch de 50000 registros inseridos na tabela tbl_contatos.
+2024-11-30 22:40:58,482 - INFO - Dados inseridos com sucesso na tabela tbl_contatos.
+2024-11-30 22:40:58,529 - INFO - Tabela tbl_clientes criada ou já existe.
+2024-11-30 22:41:00,072 - INFO - Leitura do arquivo tbl_clientes.csv realizada com sucesso.
+2024-11-30 22:41:02,923 - INFO - Batch de 50000 registros inseridos na tabela tbl_clientes.
+2024-11-30 22:41:04,066 - INFO - Batch de 50000 registros inseridos na tabela tbl_clientes.
+2024-11-30 22:41:05,261 - INFO - Batch de 50000 registros inseridos na tabela tbl_clientes.
+2024-11-30 22:41:06,330 - INFO - Batch de 44574 registros inseridos na tabela tbl_clientes.
+2024-11-30 22:41:06,330 - INFO - Dados inseridos com sucesso na tabela tbl_clientes.
+2024-11-30 22:41:06,369 - INFO - Tabela tbl_categorias criada ou já existe.
+2024-11-30 22:41:06,370 - INFO - Leitura do arquivo tbl_categorias.csv realizada com sucesso.
+2024-11-30 22:41:06,403 - INFO - Batch de 14 registros inseridos na tabela tbl_categorias.
+2024-11-30 22:41:06,403 - INFO - Dados inseridos com sucesso na tabela tbl_categorias.
+2024-11-30 22:41:06,416 - INFO - Tabela tbl_subcategorias criada ou já existe.
+2024-11-30 22:41:06,417 - INFO - Leitura do arquivo tbl_subcategorias.csv realizada com sucesso.
+2024-11-30 22:41:06,421 - INFO - Batch de 168 registros inseridos na tabela tbl_subcategorias.
+2024-11-30 22:41:06,421 - INFO - Dados inseridos com sucesso na tabela tbl_subcategorias.
+2024-11-30 22:41:06,432 - INFO - Tabela tbl_marcas criada ou já existe.
+2024-11-30 22:41:06,433 - INFO - Leitura do arquivo tbl_marcas.csv realizada com sucesso.
+2024-11-30 22:41:06,436 - INFO - Batch de 303 registros inseridos na tabela tbl_marcas.
+2024-11-30 22:41:06,436 - INFO - Dados inseridos com sucesso na tabela tbl_marcas.
+2024-11-30 22:41:06,454 - INFO - Tabela tbl_fornecedores criada ou já existe.
+2024-11-30 22:41:06,455 - INFO - Leitura do arquivo tbl_fornecedores.csv realizada com sucesso.
+2024-11-30 22:41:06,460 - INFO - Batch de 192 registros inseridos na tabela tbl_fornecedores.
+2024-11-30 22:41:06,461 - INFO - Dados inseridos com sucesso na tabela tbl_fornecedores.
+2024-11-30 22:41:06,477 - INFO - Tabela tbl_produtos criada ou já existe.
+2024-11-30 22:41:06,486 - INFO - Leitura do arquivo tbl_produtos.csv realizada com sucesso.
+2024-11-30 22:41:06,514 - INFO - Batch de 1006 registros inseridos na tabela tbl_produtos.
+2024-11-30 22:41:06,514 - INFO - Dados inseridos com sucesso na tabela tbl_produtos.
+2024-11-30 22:41:06,529 - INFO - Tabela tbl_lojas criada ou já existe.
+2024-11-30 22:41:06,529 - INFO - Leitura do arquivo tbl_lojas.csv realizada com sucesso.
+2024-11-30 22:41:06,532 - INFO - Batch de 67 registros inseridos na tabela tbl_lojas.
+2024-11-30 22:41:06,532 - INFO - Dados inseridos com sucesso na tabela tbl_lojas.
+2024-11-30 22:41:06,544 - INFO - Tabela tbl_status_estoques criada ou já existe.
+2024-11-30 22:41:06,544 - INFO - Leitura do arquivo tbl_status_estoques.csv realizada com sucesso.
+2024-11-30 22:41:06,546 - INFO - Batch de 3 registros inseridos na tabela tbl_status_estoques.
+2024-11-30 22:41:06,546 - INFO - Dados inseridos com sucesso na tabela tbl_status_estoques.
+2024-11-30 22:41:06,561 - INFO - Tabela tbl_estoques criada ou já existe.
+2024-11-30 22:41:06,565 - INFO - Leitura do arquivo tbl_estoques.csv realizada com sucesso.
+2024-11-30 22:41:06,584 - INFO - Batch de 1006 registros inseridos na tabela tbl_estoques.
+2024-11-30 22:41:06,584 - INFO - Dados inseridos com sucesso na tabela tbl_estoques.
+2024-11-30 22:41:06,596 - INFO - Tabela tbl_departamentos criada ou já existe.
+2024-11-30 22:41:06,596 - INFO - Leitura do arquivo tbl_departamentos.csv realizada com sucesso.
+2024-11-30 22:41:06,598 - INFO - Batch de 10 registros inseridos na tabela tbl_departamentos.
+2024-11-30 22:41:06,598 - INFO - Dados inseridos com sucesso na tabela tbl_departamentos.
+2024-11-30 22:41:06,609 - INFO - Tabela tbl_cargos criada ou já existe.
+2024-11-30 22:41:06,610 - INFO - Leitura do arquivo tbl_cargos.csv realizada com sucesso.
+2024-11-30 22:41:06,612 - INFO - Batch de 9 registros inseridos na tabela tbl_cargos.
+2024-11-30 22:41:06,612 - INFO - Dados inseridos com sucesso na tabela tbl_cargos.
+2024-11-30 22:41:06,633 - INFO - Tabela tbl_funcionarios criada ou já existe.
+2024-11-30 22:41:06,687 - INFO - Leitura do arquivo tbl_funcionarios.csv realizada com sucesso.
+2024-11-30 22:41:06,975 - INFO - Batch de 4999 registros inseridos na tabela tbl_funcionarios.
+2024-11-30 22:41:06,975 - INFO - Dados inseridos com sucesso na tabela tbl_funcionarios.
+2024-11-30 22:41:06,994 - INFO - Tabela tbl_transportadoras criada ou já existe.
+2024-11-30 22:41:06,995 - INFO - Leitura do arquivo tbl_transportadoras.csv realizada com sucesso.
+2024-11-30 22:41:07,001 - INFO - Batch de 39 registros inseridos na tabela tbl_transportadoras.
+2024-11-30 22:41:07,001 - INFO - Dados inseridos com sucesso na tabela tbl_transportadoras.
+2024-11-30 22:41:07,022 - INFO - Tabela tbl_pedidos criada ou já existe.
+2024-11-30 22:41:09,398 - INFO - Leitura do arquivo tbl_pedidos.csv realizada com sucesso.
+2024-11-30 22:41:17,854 - INFO - Batch de 50000 registros inseridos na tabela tbl_pedidos.
+2024-11-30 22:41:18,705 - INFO - Batch de 50000 registros inseridos na tabela tbl_pedidos.
+2024-11-30 22:41:19,502 - INFO - Batch de 50000 registros inseridos na tabela tbl_pedidos.
+2024-11-30 22:41:20,322 - INFO - Batch de 50000 registros inseridos na tabela tbl_pedidos.
+2024-11-30 22:41:21,285 - INFO - Batch de 50000 registros inseridos na tabela tbl_pedidos.
+2024-11-30 22:41:22,142 - INFO - Batch de 50000 registros inseridos na tabela tbl_pedidos.
+2024-11-30 22:41:23,053 - INFO - Batch de 50000 registros inseridos na tabela tbl_pedidos.
+2024-11-30 22:41:23,053 - INFO - Dados inseridos com sucesso na tabela tbl_pedidos.
+2024-11-30 22:41:23,110 - INFO - Tabela tbl_pagamentos criada ou já existe.
+2024-11-30 22:41:25,790 - INFO - Leitura do arquivo tbl_pagamentos.csv realizada com sucesso.
+2024-11-30 22:41:32,213 - INFO - Batch de 50000 registros inseridos na tabela tbl_pagamentos.
+2024-11-30 22:41:33,062 - INFO - Batch de 50000 registros inseridos na tabela tbl_pagamentos.
+2024-11-30 22:41:33,960 - INFO - Batch de 50000 registros inseridos na tabela tbl_pagamentos.
+2024-11-30 22:41:34,881 - INFO - Batch de 50000 registros inseridos na tabela tbl_pagamentos.
+2024-11-30 22:41:35,710 - INFO - Batch de 50000 registros inseridos na tabela tbl_pagamentos.
+2024-11-30 22:41:36,623 - INFO - Batch de 50000 registros inseridos na tabela tbl_pagamentos.
+2024-11-30 22:41:37,447 - INFO - Batch de 50000 registros inseridos na tabela tbl_pagamentos.
+2024-11-30 22:41:38,272 - INFO - Batch de 50000 registros inseridos na tabela tbl_pagamentos.
+2024-11-30 22:41:39,115 - INFO - Batch de 50000 registros inseridos na tabela tbl_pagamentos.
+2024-11-30 22:41:39,954 - INFO - Batch de 50000 registros inseridos na tabela tbl_pagamentos.
+2024-11-30 22:41:39,954 - INFO - Dados inseridos com sucesso na tabela tbl_pagamentos.
+2024-11-30 22:41:40,007 - INFO - Tabela tbl_vendas criada ou já existe.
+2024-11-30 22:41:42,432 - INFO - Leitura do arquivo tbl_vendas.csv realizada com sucesso.
+2024-11-30 22:41:47,135 - INFO - Batch de 50000 registros inseridos na tabela tbl_vendas.
+2024-11-30 22:41:48,609 - INFO - Batch de 50000 registros inseridos na tabela tbl_vendas.
+2024-11-30 22:41:50,100 - INFO - Batch de 50000 registros inseridos na tabela tbl_vendas.
+2024-11-30 22:41:51,634 - INFO - Batch de 50000 registros inseridos na tabela tbl_vendas.
+2024-11-30 22:41:53,255 - INFO - Batch de 50000 registros inseridos na tabela tbl_vendas.
+2024-11-30 22:41:53,256 - INFO - Dados inseridos com sucesso na tabela tbl_vendas.
+2024-11-30 22:41:53,288 - INFO - Tabela tbl_motivo_devolucoes criada ou já existe.
+2024-11-30 22:41:53,289 - INFO - Leitura do arquivo tbl_motivo_devolucoes.csv realizada com sucesso.
+2024-11-30 22:41:53,337 - INFO - Batch de 9 registros inseridos na tabela tbl_motivo_devolucoes.
+2024-11-30 22:41:53,337 - INFO - Dados inseridos com sucesso na tabela tbl_motivo_devolucoes.
+2024-11-30 22:41:53,361 - INFO - Tabela tbl_devolucoes criada ou já existe.
+2024-11-30 22:41:53,519 - INFO - Leitura do arquivo tbl_devolucoes.csv realizada com sucesso.
+2024-11-30 22:41:54,350 - INFO - Batch de 30000 registros inseridos na tabela tbl_devolucoes.
+2024-11-30 22:41:54,350 - INFO - Dados inseridos com sucesso na tabela tbl_devolucoes.

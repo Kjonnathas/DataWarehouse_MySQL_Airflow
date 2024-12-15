@@ -10,16 +10,13 @@ from typing import Iterator, Optional
 from config_models import tables_config
 import unicodedata
 
-# Variáveis de data
 date = datetime.today()
 day = date.day
 month = date.month
 year = date.year
 
-# Carrega as variáveis do arquivo .env
 load_dotenv()
 
-# Acessa as variáveis de ambiente
 host = os.getenv("MYSQL_HOST")
 port = os.getenv("MYSQL_PORT")
 user = os.getenv("MYSQL_USER")
@@ -28,7 +25,6 @@ db = os.getenv("MYSQL_DB")
 folder = os.getenv("FOLDER_PATH")
 logs = os.getenv("FOLDER_LOGS")
 
-# Configurar o logger
 logging.basicConfig(
     level=logging.DEBUG,
     format="%(asctime)s - %(levelname)s - %(message)s",
@@ -50,15 +46,12 @@ def normalize_text(text: str) -> str:
     if not isinstance(text, str):
         return text
 
-    # Normaliza a string para forma NFD (decomposição de caracteres)
     normalized = unicodedata.normalize("NFD", text)
 
-    # Remove caracteres diacríticos (acentos)
     without_accent = "".join(
         char for char in normalized if unicodedata.category(char) != "Mn"
     )
 
-    # Retorna a string normalizada na forma NFC (composição de caracteres)
     return unicodedata.normalize("NFC", without_accent)
 
 

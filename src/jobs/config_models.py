@@ -1,4 +1,33 @@
 def tables_config() -> dict:
+    """
+    Define a configuração das tabelas de um banco de dados relacional, incluindo seus esquemas,
+    nomes de arquivos CSV correspondentes e colunas esperadas.
+
+    Retorna:
+        dict: Um dicionário onde as chaves representam os nomes das tabelas e os valores são
+        dicionários com as seguintes informações:
+            - schema (str): Esquema da tabela, incluindo definições de colunas, tipos de dados,
+            chaves primárias e estrangeiras, e constraints adicionais.
+            - csv_file (str): Nome do arquivo CSV associado à tabela, utilizado para importar ou
+            exportar dados.
+            - columns (list): Lista das colunas que a tabela possui, geralmente correspondendo
+            às colunas do arquivo CSV.
+
+    Exemplos de uso:
+        config = tables_config()
+        print(config["tbl_canal_vendas"]["schema"])  # Exibe o esquema da tabela "tbl_canal_vendas"
+
+    Estrutura de exemplo:
+
+        {
+            "tbl_nome_tabela": {
+                "schema": "SQL de criação da tabela",
+                "csv_file": "arquivo_csv_associado.csv",
+                "columns": ["coluna1", "coluna2", ...]
+            },
+            ...
+        }
+    """
     dict_tables_config = {
         "tbl_canal_vendas": {
             "schema": """
@@ -211,15 +240,15 @@ def tables_config() -> dict:
             "schema": """
                 id_produto INTEGER AUTO_INCREMENT,
                 id_marca INTEGER NOT NULL,
-                id_categoria INTEGER NOT NULL,
+                id_subcategoria INTEGER NOT NULL,
                 id_fornecedor INTEGER NOT NULL,
-                produto VARCHAR (100) NOT NULL,
                 modelo VARCHAR (100) NOT NULL,
+                produto VARCHAR (100) NOT NULL,
                 preco_unitario DECIMAL (10, 2) NOT NULL,
                 custo_unitario DECIMAL (10, 2) NOT NULL,
                 CONSTRAINT tbl_prod_id_prod_pk PRIMARY KEY (id_produto),
                 CONSTRAINT tbl_prod_id_marca_fk FOREIGN KEY (id_marca) REFERENCES tbl_marcas (id_marca),
-                CONSTRAINT tbl_prod_id_categ_fk FOREIGN KEY (id_categoria) REFERENCES tbl_categorias (id_categoria),
+                CONSTRAINT tbl_prod_id_subcateg_fk FOREIGN KEY (id_subcategoria) REFERENCES tbl_subcategorias (id_subcategoria),
                 CONSTRAINT tbl_prod_id_fornec_fk FOREIGN KEY (id_fornecedor) REFERENCES tbl_fornecedores (id_fornecedor),
                 CONSTRAINT tbl_prod_preco_unit_ck CHECK (preco_unitario > 0),
                 CONSTRAINT tbl_prod_custo_unit_ck CHECK (custo_unitario >= 0)
@@ -227,7 +256,7 @@ def tables_config() -> dict:
             "csv_file": "tbl_produtos.csv",
             "columns": [
                 "id_marca",
-                "id_categoria",
+                "id_subcategoria",
                 "id_fornecedor",
                 "produto",
                 "modelo",
