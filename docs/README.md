@@ -7,7 +7,7 @@
 
 # 1. Descrição do Projeto
 
-Este projeto foi desenvolvido com o objetivo de criar uma estrutura robusta de Data Warehouse, abrangendo desde a modelagem entidade-relacionamento (ER) até as etapas de modelagem conceitual, lógica e física. O trabalho incluiu a criação de um banco de dados transacional (OLTP) e a implementação de um pipeline ETL (Extração, Transformação e Carregamento) para integrar os dados ao Data Warehouse (DW).
+Este projeto foi desenvolvido com o objetivo de criar uma estrutura robusta de Data Warehouse, abrangendo desde a implementação da modelagem conceitual, lógica e física. O trabalho incluiu a criação de um banco de dados transacional (OLTP) e a implementação de um pipeline ETL (Extração, Transformação e Carregamento) para integrar os dados ao Data Warehouse (DW).
 
 O fluxo de dados foi estruturado da seguinte forma:
 
@@ -27,7 +27,21 @@ Desenvolver uma solução completa de Data Warehouse que integre modelagem de da
 
 ![Arquitetura do Projeto Data Warehouse](/assets/images/arquitetura_projeto.png)
 
-# 4. Tecnologias Utilizadas
+# 4. Modelagem de Dados
+
+## 4.1 Modelo Conceitual (Diagrama Entidade-Relacionamento - DER)
+
+![Modelo Conceitual](/assets/images/modelo_conceitual.png)
+
+## 4.2 Modelo Lógico
+
+![Modelo Lógico](/assets/images/modelo_logico.png)
+
+## 4.3 Modelo Dimensional
+
+![Modelo Dimensional](/assets/images/modelo_dimensional.png)
+
+# 5. Tecnologias Utilizadas
 
 - Git
 - SQL
@@ -39,7 +53,7 @@ Desenvolver uma solução completa de Data Warehouse que integre modelagem de da
 - Docker
 - UML
 
-# 5. Descrição de como as Tecnologias foram utilizadas através da ótica da Arquitetura
+# 6. Descrição de como as Tecnologias foram utilizadas através da ótica da Arquitetura
 
 1.  Criação do Banco de Dados Transacional (OLTP) 🏦
 
@@ -69,7 +83,7 @@ Desenvolver uma solução completa de Data Warehouse que integre modelagem de da
 
 Este projeto não apenas simula uma arquitetura real de Data Warehouse como também aplica conceitos fundamentais de engenharia de dados e automação de pipelines. 🐍🐘⚙️
 
-# 6. Descrição de como as Tecnologias foram utilizadas através da ótica das Ferramentas
+# 7. Descrição de como as Tecnologias foram utilizadas através da ótica das Ferramentas
 
 1. <strong> 🐍 Python </strong>
 
@@ -95,8 +109,94 @@ Este projeto não apenas simula uma arquitetura real de Data Warehouse como tamb
 
    O PostgreSQL foi utilizado de duas maneiras: como a staging area e como o banco de dados do Data Warehouse (DW). Na staging area, o PostgreSQL recebeu os dados extraídos do MySQL via Airbyte, e no Data Warehouse, o PostgreSQL foi utilizado para armazenar os dados transformados, permitindo consultas analíticas e a geração de insights de forma eficiente. Antes do processo de ETL começar, as tabelas foram criadas no PostgreSQL com scripts SQL, que definiram a estrutura do banco de dados.
 
-# 7. Exibição do Projeto
+# 8. Exibição do Projeto
 
-# 8. Instalação e Configuração (Replicação)
+## 8.1 Contêineres Docker
 
-# 9. Licença
+![Cônteires Docker](/assets/images/docker.png)
+
+## 8.2 Banco de Dados Transacional no MySQL
+
+### 8.2.1 Tabelas do Banco de Dados
+
+![Banco de Dados MySQL](/assets/images/mysql_1.png)
+
+### 8.2.2 Tabela de Produtos
+
+![Tabela de Produtos no MySQL](/assets/images/mysql_2.png)
+
+### 8.2.3 Tabela de Pedidos
+
+![Tabela de Pedidos no MySQL](/assets/images/mysql_3.png)
+
+### 8.2.4 Tabela de Endereços
+
+![Tabela de Endereços no MySQL](/assets/images/mysql_4.png)
+
+## 8.3 Airbyte
+
+### 8.3.1 Airbyte Source (Fonte de Dados)
+
+![Source do Airbyte](/assets/images/airbyte_1.png)
+
+### 8.3.2 Airbyte Destination (Destino dos Dados)
+
+![Destination do Airbyte](/assets/images/airbyte_2.png)
+
+### 8.3.3 Airbyte Connections (Conexão dos Dados)
+
+![Connection do Airbyte](/assets/images/airbyte_3.png)
+
+![Connection do Airbyte](/assets/images/airbyte_4.png)
+
+## 8.4 Área Intermediária e Banco de Dados Analítico no PostgreSQL
+
+### 8.4.1 Servidores PostgreSQL
+
+![Servidores PostgreSQL](/assets/images/postgresql_1.png)
+
+### 8.4.2 Servidor da Staging Area
+
+![Servidor da Staging Area](/assets/images/postgresql_2.png)
+
+### 8.4.3 Tabelas no Schema da Staging Area
+
+![Tabelas no Schema da Staging Area](/assets/images/postgresql_3.png)
+
+### 8.4.4 Servidor do Data Warehouse (DW)
+
+![Servidor do Data Warehouse](/assets/images/postgresql_4.png)
+
+### 8.4.5 Tabelas no Schema do Data Warehouse
+
+![Tabelas no Schema do Data Warehouse](/assets/images/postgresql_5.png)
+
+### 8.4.6 Tabela Fato Vendas
+
+![Tabela Fato Vendas](/assets/images/postgresql_6.png)
+
+### 8.4.7 Tabela Dimensão Cliente
+
+![Tabela Dimensão Cliente](/assets/images/postgresql_7.png)
+
+## 8.5 Airflow
+
+### 8.5.1 Área de DAGS
+
+![Área de DAGS no Airflow](/assets/images/airflow_1.png)
+
+### 8.5.2 Fluxo da DAG
+
+![Fluxo da DAG no Airflow](/assets/images/airflow_2.png)
+
+![Fluxo da DAG no Airflow](/assets/images/airflow_3.png)
+
+![Fluxo da DAG no Airflow](/assets/images/airflow_4.png)
+
+![Fluxo da DAG no Airflow](/assets/images/airflow_5.png)
+
+![Fluxo da DAG no Airflow](/assets/images/airflow_6.png)
+
+# 9. Instalação e Configuração (Replicação)
+
+# 10. Licença
