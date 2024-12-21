@@ -327,6 +327,32 @@ cd src/jobs
 python job_etl.py
 ```
 
+Fluxo do script "job_etl.py"
+
+```mermaid
+graph TD
+A[Início] --> B[Carregar variáveis de ambiente com dotenv]
+B --> C[Configurar logging]
+C --> D[Função normalize_text]
+D --> E[Função read_files]
+E --> F[Função connection_database]
+F --> G[Função create_table_and_insert_data]
+G --> H[Executar script principal]
+H --> I[Estabelecer conexão com o banco de dados]
+I --> J{Conexão bem-sucedida?}
+J -- Sim --> K[Criação de tabelas e inserção de dados]
+J -- Não --> L[Registrar erro no log]
+K --> M{Existem arquivos CSV na pasta?}
+M -- Sim --> N[Processar cada arquivo]
+N --> O[Normalizar e formatar dados]
+O --> P[Inserir dados no banco]
+M -- Não --> Q[Registrar aviso no log]
+P --> R[Commit na transação]
+R --> S[Fim]
+Q --> S
+L --> S
+```
+
 18. No banco de dados da staging, a única coisa que precisa ser feita neste momento é a criação do schema. Para isso, você pode tanto criar manualmente quanto via código. Manualmente, bastá ir até o objeto "Schemas" dentro da hierarquia do banco de dados e clicar com o botão direito escolhendo a opção "Create" e em seguida "Schema...". Com isso, abrirá uma janela onde você incluirá o nome do Schema na caixa de texto da opção "Name" e posteriormente clique em "Save". Com isso, o seu schema será criado. Caso prefira a opção via código SQL, apenas abra o query tool clicando novamente sobre o objeto Schema e em "Query Tool" e digite "CREATE SCHEMA nome_do_schema" e execute apertando a tecla F5 ou no botão de run e o schema será criado da mesma forma;
 
 19. Se o passo anterior deu certo, podemos avançar na criação do contéiner do Airbyte e suas configurações. Aqui é importante que você já tenha feito o download do arquivo que é disponibilizado pelo Airbyte na própria documentação. O arquivo será baixado em uma pasta zipada, portanto, faça a descompactação da pasta após o download ter sido concluído. Feito isso, precisamos adicionar uma variável de ambiente para que o sistema operacional reconheça os comandos do Airbyte. Para isso, vá até suas variáveis de ambiente (explicado mais acima como se chega) e procure pela variável de ambiente "Path" na parte de variáveis de ambiente de usuário. Depois que encontrar, clique sobre ela e em seguida em "Editar". Após isso, abrirá uma janela com todas os caminhos associados ao "Path". O que você precisa fazer é pegar o caminho completo da pasta do Airbyte e adicionar na última linha disponível. Depois que o fizer, apenas clique em "Ok" e saia da tela de variáveis de ambiente. Caso esteja com o prompt de comando aberto, feche-o e abra novamente.
@@ -416,27 +442,3 @@ Feita todas as configurações clique em "Test and save". Se o teste concluir se
 # 10. Licença
 
 Este projeto está licenciado sob os termos da licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-```mermaid
-graph TD
-A[Início] --> B[Carregar variáveis de ambiente com dotenv]
-B --> C[Configurar logging]
-C --> D[Função normalize_text]
-D --> E[Função read_files]
-E --> F[Função connection_database]
-F --> G[Função create_table_and_insert_data]
-G --> H[Executar script principal]
-H --> I[Estabelecer conexão com o banco de dados]
-I --> J{Conexão bem-sucedida?}
-J -- Sim --> K[Criação de tabelas e inserção de dados]
-J -- Não --> L[Registrar erro no log]
-K --> M{Existem arquivos CSV na pasta?}
-M -- Sim --> N[Processar cada arquivo]
-N --> O[Normalizar e formatar dados]
-O --> P[Inserir dados no banco]
-M -- Não --> Q[Registrar aviso no log]
-P --> R[Commit na transação]
-R --> S[Fim]
-Q --> S
-L --> S
-```
