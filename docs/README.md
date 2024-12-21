@@ -327,7 +327,89 @@ cd src/jobs
 python job_etl.py
 ```
 
-18. Se o passo anterior deu certo, podemos avançar na criação do contéiner do Airbyte e suas configurações.
+18. No banco de dados da staging, a única coisa que precisa ser feita neste momento é a criação do schema. Para isso, você pode tanto criar manualmente quanto via código. Manualmente, bastá ir até o objeto "Schemas" dentro da hierarquia do banco de dados e clicar com o botão direito escolhendo a opção "Create" e em seguida "Schema...". Com isso, abrirá uma janela onde você incluirá o nome do Schema na caixa de texto da opção "Name" e posteriormente clique em "Save". Com isso, o seu schema será criado. Caso prefira a opção via código SQL, apenas abra o query tool clicando novamente sobre o objeto Schema e em "Query Tool" e digite "CREATE SCHEMA nome_do_schema" e execute apertando a tecla F5 ou no botão de run e o schema será criado da mesma forma;
+
+19. Se o passo anterior deu certo, podemos avançar na criação do contéiner do Airbyte e suas configurações. Aqui é importante que você já tenha feito o download do arquivo que é disponibilizado pelo Airbyte na própria documentação. O arquivo será baixado em uma pasta zipada, portanto, faça a descompactação da pasta após o download ter sido concluído. Feito isso, precisamos adicionar uma variável de ambiente para que o sistema operacional reconheça os comandos do Airbyte. Para isso, vá até suas variáveis de ambiente (explicado mais acima como se chega) e procure pela variável de ambiente "Path" na parte de variáveis de ambiente de usuário. Depois que encontrar, clique sobre ela e em seguida em "Editar". Após isso, abrirá uma janela com todas os caminhos associados ao "Path". O que você precisa fazer é pegar o caminho completo da pasta do Airbyte e adicionar na última linha disponível. Depois que o fizer, apenas clique em "Ok" e saia da tela de variáveis de ambiente. Caso esteja com o prompt de comando aberto, feche-o e abra novamente.
+
+20. Depois dessas configurações, execute o comando abaixo para virmos se o sistema operacional já está reconhecendo os comandos do Airbyte.
+
+```
+abctl version
+```
+
+21. Caso o prompt de comando retorne a versão do Airbyte significa que está tudo certo e podemos prosseguir para a próxima etapa, que é criação do contéiner do Airbyte. Para isso, precisa estar com o Docker Desktop aberto. Com ele aberto, vá até o seu prompt de comando e digite:
+
+```
+abctl local install
+```
+
+22. Essa etapa costuma demorar pela primeira vez, então tenha paciência! É importante verificar na documentação a exigência mínima de hardware, pois o Airbyte é pesado e consome bastante memória. Se seu computador não for muito bom, é provável que vá ter problemas com travamento.
+
+23. Após a instalação ter sido concluída com sucesso, você pode abrir seu Docker Desktop e verificar se o contéiner do Airbyte foi criado com sucesso. Caso tenha sido, digite o comando abaixo:
+
+```
+abctl local credentials
+```
+
+24. O comando acima lhe dará um ID e uma senha, que serão necessários para logar no Airbyte via navegador. Teste a sua conexão indo até o navegador e acessando "localhost:8000". Insira suas credenciais e o Airbyte lhe levará para a tela principal da plataforma.
+
+25. Com o contéiner do Airbyte criado precisamos fazer uma configuração de rede para que ele consiga se comunicar com os outros contéineres criados anteriormente (do postgresql e do mysql). Se você retornar na etapa que criamos esses outros dois conténeires notará que passamos um parâmetro chamado "--network" e esse parâmetro é responsável por dizer em qual rede o contéiner estará localizado. Portanto, vamos fazer o mesmo agora para o Airbyte. Siga os comandos abaixo em sequência. Substituia <rede_atual> pela rede que Airbyte está e também substitua <container_name> pelo nome do contéiner que certamente deve ser "airbyte-abctl-control-plane". O primeiro comando mostrará a você a rede do contéiner. O nome da rede está antes dos dois pontos e dentro do par de colchetes. Se você copiar todo o resultado e substituir em <rede_atual> resultará em erro. Portanto, pegue exatamente a parte que eu descrevi.
+
+```
+docker inspect -f '{{.NetworkSettings.Networks}}' <container_name>
+docker network disconnect <rede_atual> <container_name>
+docker network connect bridge <container_name>
+```
+
+26. Com o ambiente do Airbyte agora configurado, precisamos apenas criar a source, o destination e a connection para que a ETL seja capaz de extrair os dados do servidor de produção e levá-los ao ambiente da staging area. No painel lateral esquerdo, clique em "Sources". Em seguida, clique em "New source". Na caixa de buscas, procure por "mysql" e clique sobre o conector do MySQL. Agora, aparecerá uma série de configurações que precisam ser feitas:
+
+    a. Em "Source name" dê um nome para a sua fonte de dados;
+
+    b. Em "Host" você precisa incluir o endereço IP da máquina do contéiner, usando o comando "docker inspect <container_name>" você consegue encontrar na parte final da estrutura json que é retornada. Adicionalmente, você pode testar se o nome do contéiner também funciona nessa etapa;
+
+    c. Em "Port" você precisa colocar a porta mapeada pro contéiner. Como a comunicação são entre conténeires, ou seja, uma comunicação apenas no mundo interno, você irá colocar a porta 3306;
+
+    d. Em "Database" precisamos colocar o nome do banco de dados e caso você não tenha alterado, o nome será "db_prod". Não coloque as aspas;
+
+    d. Em "Username" você vai pôr "root". Novamente não inclua as aspas;
+
+    e. Em "Password" inclua a senha que foi definida durante a criação do contéiner;
+
+    f. Em "SSL modes" escolha a opção "preferred";
+
+    g. Em "Update Method" escolha a opção "Scan Changes with User Defined Cursor";
+
+    h. Em "SSH Tunnel Method" escolha a opção "No Tunnel".
+
+Feita todas as configurações clique em "Test and save". Se o teste concluir sem qualquer erro a source está criada.
+
+27. Agora vamos criar e configurar a etapa de Destination. Para isso, clique em "Destinations" no menu lateral esquerdo. Em seguida clique em "New destination". No campo de pesquisa procure por "postgres" e clique no conector. Novamente aparecerá uma série de configurações que precisam ser realizadas:
+
+    a. Em "Destination name" escolha um nome para o seu destino;
+
+    b. Em "Host" você seguirá a mesma explicação que foi dada na etapa de configuração da Source. Aqui, obviamente, o host será diferente, tanto se você optar pelo endereço IP quanto através do nome do contéiner;
+
+    c. Em "Port" você colocará a porta 5432;
+
+    d. Em "DB Name" terá que incluir o nome do banco de dados que você escolheu no momento de criar o contéiner do postgresql;
+
+    e. Em "Default Schema" apague o schema public que vem por padrão e inclua o schema que foi criado;
+
+    f. Em "User" você indicará o nome do usuário;
+
+    g. Em "SSL modes" escolherá a opção "disable";
+
+    h. Em "SSH Tunnel Method" escolherá a opção "No Tunnel";
+
+    i. Em "Password" você definirá a senha escolhida no momento de criação do contéiner.
+
+Feita todas as configurações clique em "Test and save". Se o teste concluir sem qualquer erro a destination está criada.
+
+28. Por fim, vamos criar a nossa connection. Para isso, vá até o menu lateral esquerdo e clique sobre "Connections". Posteriormente clique em "New connection". Nesse momento, o Airbyte apresentará as sources que você tem configurada. Então, escolha a source que criamos anteriormente. Em seguida, precisamos definir qual será a destination. Similarmente a etapa anterior, basta escolher a destination que criamos e seguir em frente. Com isso, o Airbyte fará o carregamento e nos dará a opção de escolher os "streams", que nada mais são do que as tabelas do banco de dados. Selecione todas as tabelas e na parte de "Sync mode" escolha a opção "Full refresh | Overwrite + Deduped". Na aba de "Settings" apenas defina o nome da connection e em "schedule type" defina como "Manual". Depois, basta habilitar a connection na parte superior direita e executar o processo clicando em "Sync now";
+
+29. Se a etapa anterior funcionar, vamos seguir em frente para criação do servidor do Data Warehouse, criação das tabelas do DW e ajuste e configuração do Airflow para fazer o Orquestramento do nosso pipeline de dados;
+
+30.
 
 # 10. Licença
 
