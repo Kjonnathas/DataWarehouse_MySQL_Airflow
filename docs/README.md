@@ -227,13 +227,13 @@ Este projeto não apenas simula uma arquitetura real de Data Warehouse como tamb
 
 1. Primeira coisa que precisamos fazer é instalar o python. Para isso, vamos utilizar o Pyenv que é um pacote que permite gerenciar diversas versões do Python na mesma máquina.
 
-```
+```bash
 git clone https://github.com/pyenv-win/pyenv-win.git %USERPROFILE%\.pyenv
 ```
 
 2. Após executar o comando acima, será criada uma pasta no seu usuário chamada .pyenv, que conterá todos os arquivos necessários para que o Pyenv possa funcionar. Agora, precisamos configurar variáveis de ambiente para que o sistema operacional consiga compreender os comandos do Pyenv no prompt de comando. Vá até a lupa de pesquisa e procure por "configurações avançadas do sistema". Em seguida, clique em "Variáveis de ambiente" e posteriormente clique em "Novo" na parte de variáveis do usuário. Após isso, abrirá uma janela para incluir o nome e o valor da variável de ambiente que está logo abaixo.
 
-```
+```bash
 PYENV=C:\Users\seu_usuario\.pyenv\pyenv-win\
 PYENV_HOME=C:\Users\seu_usuario\.pyenv\pyenv-win\
 PYENV_ROOT=C:\Users\seu_usuario\.pyenv\pyenv-win\
@@ -241,37 +241,37 @@ PYENV_ROOT=C:\Users\seu_usuario\.pyenv\pyenv-win\
 
 3. Para ter certeza que o Pyenv está instalado e funcionando corretamente, abra o prompt de comando e digite:
 
-```
+```bash
 pyenv --version
 ```
 
 4. Se após a execução do código acima retornar a versão do Pyenv é porque o sistema operacional já está conseguindo compreender os comandos. Caso contrário, revise o passo a passo descrito e se for necessário busque ajuda no Google. Por conseguinte, agora com as configurações necessárias, precisamos instalar o Python através do Pyenv.
 
-```
+```bash
 pyenv install 3.12.1
 ```
 
 5. Com o Python instalado, precisamos agora clonar o projeto. Caso queira manter o projeto em uma pasta específica, você pode navegar através da estrutura de pastas do seu notebook/computador com o comando "cd nome_pasta". Se não especificar a pasta, provavelmente o projeto será criado na sua pasta de usuário.Feito isso, digite:
 
-```
+```bash
 git clone https://github.com/Kjonnathas/DataWarehouse_MySQL_Airflow.git
 ```
 
 6. Com o projeto clonado, precisamos especificar a versão do python que irá rodar no projeto. Para isso, execute o seguinte comando dentro da pasta do projeto:
 
-```
+```bash
 pyenv local 3.12.1
 ```
 
 7. Em seguida, vamos criar nosso ambiente virtual. O ambiente virtual é uma boa prática que visa manter um ambiente único para cada projeto desenvolvido. Sendo assim, execute o comando:
 
-```
+```bash
 python -m venv .venv
 ```
 
 8. Agora precisamos ativar o ambiente virtual. Para isso, execute:
 
-```
+```bash
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 .venv/Scripts/Activate.ps1
@@ -279,25 +279,25 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 9. Depois de ter feito o passo anterior, é preciso agora realizar a instalação das bibliotecas que são utilizadas no projeto. Portanto, dentro da pasta "DataWarehouse_MySQL_Airflow", use o seguinte comando:
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
 10. Nesse momento, podemos começar a criação do contéiner que rodará o servidor do nosso banco de dados transacional via Docker. Abra o Docker Desktop. Em seguida, abra o prompt de comando caso ainda não esteja aberto ou tenha fechado e execute:
 
-```
+```bash
 docker pull mysql:8.0-debian
 ```
 
 11. O passo acima fará o download da imagem do MySQL do Docker Hub. Agora, com o download feito, podemos criar o contéiner. Depois de executar o comando abaixo, abra o Docker Desktop e veja se o contéiner foi criado.
 
-```
+```bash
 docker run --name mysql_prod -p 3307:3306 -e MYSQL_ROOT_PASSWORD=escolha_uma_senha -d mysql:8.0-debian
 ```
 
 12. Vamos aproveitar e criar logo também o servidor que usaremos para armazenar a nossa staging area. Após executar, faça o mesmo check no Docker Desktop para averiguar se o contéiner foi criado direitinho.
 
-```
+```bash
 docker run --name postgres_stg --network bridge -p 5433:5432 -e POSTGRES_DB=escolha_nome_do_banco -e POSTGRES_USER=escolha_nome_do_usuario -e POSTGRES_PASSWORD=escolha_uma_senha -d postgres
 ```
 
@@ -307,7 +307,7 @@ docker run --name postgres_stg --network bridge -p 5433:5432 -e POSTGRES_DB=esco
 
 15. Agora que temos o banco de dados e as tabelas criadas, vamos precisar executar um script Python para popular as tabelas que estarão simulando nosso ambiente transacional. Procure pelo script "job_etl.py" dentro da pasta "jobs" que está dentro da pasta "src". Navegue até esta pasta através do seu terminal. Você pode fazer isso usando o seguinte comando:
 
-```
+```bash
 cd src/jobs
 ```
 
@@ -323,7 +323,7 @@ cd src/jobs
 
 17. Depois de ter entrado na pasta jobs e configurado o arquivo ".env", basta apenas executar o código Python para que ele possa ler os arquivos csv e depois carregá-los no banco de dados. Para isso, digite no seu terminal:
 
-```
+```bash
 python job_etl.py
 ```
 
@@ -333,13 +333,13 @@ python job_etl.py
 
 20. Depois dessas configurações, execute o comando abaixo para virmos se o sistema operacional já está reconhecendo os comandos do Airbyte.
 
-```
+```bash
 abctl version
 ```
 
 21. Caso o prompt de comando retorne a versão do Airbyte significa que está tudo certo e podemos prosseguir para a próxima etapa, que é criação do contéiner do Airbyte. Para isso, precisa estar com o Docker Desktop aberto. Com ele aberto, vá até o seu prompt de comando e digite:
 
-```
+```bash
 abctl local install
 ```
 
@@ -347,7 +347,7 @@ abctl local install
 
 23. Após a instalação ter sido concluída com sucesso, você pode abrir seu Docker Desktop e verificar se o contéiner do Airbyte foi criado com sucesso. Caso tenha sido, digite o comando abaixo:
 
-```
+```bash
 abctl local credentials
 ```
 
@@ -355,9 +355,11 @@ abctl local credentials
 
 25. Com o contéiner do Airbyte criado precisamos fazer uma configuração de rede para que ele consiga se comunicar com os outros contéineres criados anteriormente (do postgresql e do mysql). Se você retornar na etapa que criamos esses outros dois conténeires notará que passamos um parâmetro chamado "--network" e esse parâmetro é responsável por dizer em qual rede o contéiner estará localizado. Portanto, vamos fazer o mesmo agora para o Airbyte. Siga os comandos abaixo em sequência. Substituia <rede_atual> pela rede que Airbyte está e também substitua <container_name> pelo nome do contéiner que certamente deve ser "airbyte-abctl-control-plane". O primeiro comando mostrará a você a rede do contéiner. O nome da rede está antes dos dois pontos e dentro do par de colchetes. Se você copiar todo o resultado e substituir em <rede_atual> resultará em erro. Portanto, pegue exatamente a parte que eu descrevi.
 
-```
+```bash
 docker inspect -f '{{.NetworkSettings.Networks}}' <container_name>
+
 docker network disconnect <rede_atual> <container_name>
+
 docker network connect bridge <container_name>
 ```
 
@@ -414,3 +416,27 @@ Feita todas as configurações clique em "Test and save". Se o teste concluir se
 # 10. Licença
 
 Este projeto está licenciado sob os termos da licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+```mermaid
+graph TD
+A[Início] --> B[Carregar variáveis de ambiente com dotenv]
+B --> C[Configurar logging]
+C --> D[Função normalize_text]
+D --> E[Função read_files]
+E --> F[Função connection_database]
+F --> G[Função create_table_and_insert_data]
+G --> H[Executar script principal]
+H --> I[Estabelecer conexão com o banco de dados]
+I --> J{Conexão bem-sucedida?}
+J -- Sim --> K[Criação de tabelas e inserção de dados]
+J -- Não --> L[Registrar erro no log]
+K --> M{Existem arquivos CSV na pasta?}
+M -- Sim --> N[Processar cada arquivo]
+N --> O[Normalizar e formatar dados]
+O --> P[Inserir dados no banco]
+M -- Não --> Q[Registrar aviso no log]
+P --> R[Commit na transação]
+R --> S[Fim]
+Q --> S
+L --> S
+```
