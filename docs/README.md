@@ -5,7 +5,7 @@
 ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
-# 1. Descrição do Projeto
+# 1. Descrição do Projeto 📋
 
 Este projeto foi desenvolvido com o objetivo de criar uma estrutura robusta de Data Warehouse, abrangendo desde a implementação da modelagem conceitual, lógica e física. O trabalho incluiu a criação de um banco de dados transacional (OLTP) e a implementação de um pipeline ETL (Extração, Transformação e Carregamento) para integrar os dados ao Data Warehouse (DW).
 
@@ -19,15 +19,15 @@ O fluxo de dados foi estruturado da seguinte forma:
 
 Este projeto demonstra o processo completo de desenvolvimento de um Data Warehouse, desde a modelagem inicial até a automação de pipelines ETL, proporcionando uma base sólida para análises de dados e suporte à tomada de decisões.
 
-# 2. Objetivo do Projeto
+# 2. Objetivo do Projeto 🎯
 
 Desenvolver uma solução completa de Data Warehouse que integre modelagem de dados, criação de um banco transacional (OLTP) e automação de pipelines ETL, utilizando tecnologias modernas como Docker, Airbyte e Apache Airflow. O projeto visa demonstrar, na prática, o fluxo completo de dados desde a origem até a consolidação em um ambiente otimizado para análises estratégicas, com foco em escalabilidade, portabilidade e organização eficiente dos dados. Além disso, busca aplicar os conhecimentos adquiridos na formação de Engenheiro de Dados da Data Science Academy, servindo como inspiração para que outros profissionais possam utilizar esta arquitetura em seus próprios projetos, tanto pessoais quanto profissionais.
 
-# 3. Arquitetura do Projeto
+# 3. Arquitetura do Projeto 🏗️
 
 ![Arquitetura do Projeto Data Warehouse](/assets/images/arquitetura_projeto.png)
 
-# 4. Modelagem de Dados
+# 4. Modelagem de Dados 🏛️
 
 ## 4.1 Modelo Conceitual (Diagrama Entidade-Relacionamento - DER)
 
@@ -41,7 +41,7 @@ Desenvolver uma solução completa de Data Warehouse que integre modelagem de da
 
 ![Modelo Dimensional](/assets/images/modelo_dimensional.png)
 
-# 5. Tecnologias Utilizadas
+# 5. Tecnologias Utilizadas 💻
 
 - Git
 - SQL
@@ -53,7 +53,7 @@ Desenvolver uma solução completa de Data Warehouse que integre modelagem de da
 - Docker
 - UML
 
-# 6. Descrição de como as Tecnologias foram utilizadas através da ótica da Arquitetura
+# 6. Descrição de como as Tecnologias foram utilizadas através da ótica da Arquitetura 📝
 
 1.  Criação do Banco de Dados Transacional (OLTP) 🏦
 
@@ -83,7 +83,7 @@ Desenvolver uma solução completa de Data Warehouse que integre modelagem de da
 
 Este projeto não apenas simula uma arquitetura real de Data Warehouse como também aplica conceitos fundamentais de engenharia de dados e automação de pipelines. 🐍🐘⚙️
 
-# 7. Descrição de como as Tecnologias foram utilizadas através da ótica das Ferramentas
+# 7. Descrição de como as Tecnologias foram utilizadas através da ótica das Ferramentas 📝
 
 1. <strong> 🐍 Python </strong>
 
@@ -109,7 +109,7 @@ Este projeto não apenas simula uma arquitetura real de Data Warehouse como tamb
 
    O PostgreSQL foi utilizado de duas maneiras: como a staging area e como o banco de dados do Data Warehouse (DW). Na staging area, o PostgreSQL recebeu os dados extraídos do MySQL via Airbyte, e no Data Warehouse, o PostgreSQL foi utilizado para armazenar os dados transformados, permitindo consultas analíticas e a geração de insights de forma eficiente. Antes do processo de ETL começar, as tabelas foram criadas no PostgreSQL com scripts SQL, que definiram a estrutura do banco de dados.
 
-# 8. Exibição do Projeto
+# 8. Exibição do Projeto 👁️
 
 ## 8.1 Contêineres Docker
 
@@ -197,7 +197,7 @@ Este projeto não apenas simula uma arquitetura real de Data Warehouse como tamb
 
 ![Fluxo da DAG no Airflow](/assets/images/airflow_6.png)
 
-# 9. Instalação e Configuração (Replicação)
+# 9. Instalação e Configuração 🔗
 
 - Pré-requisitos:
 
@@ -353,7 +353,7 @@ Q --> S
 L --> S
 ```
 
-18. No banco de dados da staging, a única coisa que precisa ser feita neste momento é a criação do schema. Para isso, você pode tanto criar manualmente quanto via código. Manualmente, bastá ir até o objeto "Schemas" dentro da hierarquia do banco de dados e clicar com o botão direito escolhendo a opção "Create" e em seguida "Schema...". Com isso, abrirá uma janela onde você incluirá o nome do Schema na caixa de texto da opção "Name" e posteriormente clique em "Save". Com isso, o seu schema será criado. Caso prefira a opção via código SQL, apenas abra o query tool clicando novamente sobre o objeto Schema e em "Query Tool" e digite "CREATE SCHEMA nome_do_schema" e execute apertando a tecla F5 ou no botão de run e o schema será criado da mesma forma;
+18. No banco de dados da staging, a única coisa que precisa ser feita neste momento é a criação do schema. Mas antes de criar o schema, precisamos registrar o servidor. Sendo assim, clique em "Servers" com o botão direito e em seguida em "Register" e "Server...". Forneça um nome para o seu servidor da staging area. Após isso, vá até a aba de "Connection" e configure o "Host name/address" com o endereço IP da máquina ou tente com o nome do contéiner, inclua a porta (5433), em "Maintenance database" coloque o nome do banco de dados e, por fim, insira o nome de usuário no campo "Username". Após essas configurações, clique em save e seu servidor já deve estar registrado. Para a criação do schema, você pode tanto criar manualmente quanto via código. Manualmente, bastá ir até o objeto "Schemas" dentro da hierarquia do banco de dados e clicar com o botão direito escolhendo a opção "Create" e em seguida "Schema...". Com isso, abrirá uma janela onde você incluirá o nome do Schema na caixa de texto da opção "Name" e posteriormente clique em "Save". Com isso, o seu schema será criado. Caso prefira a opção via código SQL, apenas abra o query tool clicando novamente sobre o objeto Schema e em "Query Tool" e digite "CREATE SCHEMA nome_do_schema" e execute apertando a tecla F5 ou no botão de run e o schema será criado da mesma forma.
 
 19. Se o passo anterior deu certo, podemos avançar na criação do contéiner do Airbyte e suas configurações. Aqui é importante que você já tenha feito o download do arquivo que é disponibilizado pelo Airbyte na própria documentação. O arquivo será baixado em uma pasta zipada, portanto, faça a descompactação da pasta após o download ter sido concluído. Feito isso, precisamos adicionar uma variável de ambiente para que o sistema operacional reconheça os comandos do Airbyte. Para isso, vá até suas variáveis de ambiente (explicado mais acima como se chega) e procure pela variável de ambiente "Path" na parte de variáveis de ambiente de usuário. Depois que encontrar, clique sobre ela e em seguida em "Editar". Após isso, abrirá uma janela com todas os caminhos associados ao "Path". O que você precisa fazer é pegar o caminho completo da pasta do Airbyte e adicionar na última linha disponível. Depois que o fizer, apenas clique em "Ok" e saia da tela de variáveis de ambiente. Caso esteja com o prompt de comando aberto, feche-o e abra novamente.
 
@@ -433,11 +433,163 @@ Feita todas as configurações clique em "Test and save". Se o teste concluir se
 
 Feita todas as configurações clique em "Test and save". Se o teste concluir sem qualquer erro a destination está criada.
 
-28. Por fim, vamos criar a nossa connection. Para isso, vá até o menu lateral esquerdo e clique sobre "Connections". Posteriormente clique em "New connection". Nesse momento, o Airbyte apresentará as sources que você tem configurada. Então, escolha a source que criamos anteriormente. Em seguida, precisamos definir qual será a destination. Similarmente a etapa anterior, basta escolher a destination que criamos e seguir em frente. Com isso, o Airbyte fará o carregamento e nos dará a opção de escolher os "streams", que nada mais são do que as tabelas do banco de dados. Selecione todas as tabelas e na parte de "Sync mode" escolha a opção "Full refresh | Overwrite + Deduped". Na aba de "Settings" apenas defina o nome da connection e em "schedule type" defina como "Manual". Depois, basta habilitar a connection na parte superior direita e executar o processo clicando em "Sync now";
+28. Por fim, vamos criar a nossa connection. Para isso, vá até o menu lateral esquerdo e clique sobre "Connections". Posteriormente clique em "New connection". Nesse momento, o Airbyte apresentará as sources que você tem configurada. Então, escolha a source que criamos anteriormente. Em seguida, precisamos definir qual será a destination. Similarmente a etapa anterior, basta escolher a destination que criamos e seguir em frente. Com isso, o Airbyte fará o carregamento e nos dará a opção de escolher os "streams", que nada mais são do que as tabelas do banco de dados. Selecione todas as tabelas e na parte de "Sync mode" escolha a opção "Full refresh | Overwrite + Deduped". Na aba de "Settings" apenas defina o nome da connection e em "schedule type" defina como "Manual". Depois, basta habilitar a connection na parte superior direita e executar o processo clicando em "Sync now".
 
-29. Se a etapa anterior funcionar, vamos seguir em frente para criação do servidor do Data Warehouse, criação das tabelas do DW e ajuste e configuração do Airflow para fazer o Orquestramento do nosso pipeline de dados;
+29. Se a etapa anterior funcionar, vamos seguir em frente para criação do servidor do Data Warehouse, criação das tabelas do DW e ajuste e configuração do Airflow para fazer o orquestramento do nosso pipeline de dados.
 
-30.
+30. Sendo assim, vamos agora executar o comando que fará a criação do nosso servidor do DW.
+
+```bash
+docker run --name postgres_dw --network bridge -p 5434:5432 -e POSTGRES_DB=db_dw -e POSTGRES_USER=data_warehouse -e POSTGRES_PASSWORD=dw_123 -d postgres
+```
+
+31. Logo após a execução do passo anterior, faça aquele check no Docker Desktop para verificar se o contéiner foi criado sem problemas.
+
+32. Em seguida nós vamos precisar baixar o arquivo docker compose do Airflow. Normalmente, antes de fazer o download deste arquivo costumamos criar uma pasta na raiz do projeto chamada "airflow", que conterá além do próprio arquivo docker compose, alguns outros arquivos e pastas que são necessárias para que a ferramenta funcione da maneira adequada. Como inicialmente você clonou o projeto, essa pasta já está criada, isto é, não é necessário criá-la agora. Tendo isso em vista, navegue até entrar dentro do diretório da pasta "airflow". Depois que estiver dentro dela, execute o comando abaixo:
+
+```bash
+curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.10.3/docker-compose.yaml'
+```
+
+Obs.: O comando curl é um comando do Linux, portanto, caso você seu sistema operacional seja Windows, você tem duas opções: Copiar e colar este link no seu navegador e assim que o fizer seu computador/notebook fará do download do arquivo ou você pode abrir o terminal do Git que funciona com comandos Linux. Caso queira optar por essa segunda opção, vá até seu pesquisador e digite "git bash" e em seguida abra-o. Feito isso, navegue até o diretório da pasta "airflow" e execute o comando acima, que funcionará normalmente.
+
+33. Ainda dentro do diretório do "airflow" precisamos criar algumas pastas que são padrão da ferramenta e está na documentação. Portanto, faça o seguinte:
+
+```bash
+mkdir -p ./logs ./plugins ./config
+echo -e "AIRFLOW_UID=$(id -u)" > .env
+```
+
+Obs.: Se por acaso o arquivo ".env" não for criado na pasta, faça a criação de forma manual, abrindo um editor de texto e incluindo dentro dele "AIRFLOW_UID=50000" e o salve exatamente como ".env".
+
+34. Na sequência, vamos executar um comando que fará a parte de incialização do banco de dados do Airflow.
+
+<strong> Obs.: Antes de prosseguir, vá até a etapa 39 e faça ela primeiro. Caso você não faça a etapa 39 antes de prosseguir, você terá que refazer todas essas etapas novamente, pois será necessário deletar a stack do airflow e criá-la novamente para que a configuração do arquivo docker-compose seja válida. Então vá até lá, faça a etapa e depois volte aqui para prosseguir. </strong>
+
+```bash
+docker compose up airflow-init
+```
+
+35. Após isso, vamos agora inicializar a stack de conténeires do Airflow, executando o seguinte comando:
+
+```bash
+docker compose up
+```
+
+36. Neste momento é esperado que a stack de conténeires do airflow esteja em pleno funcionamento no Docker Desktop, portanto, vá até lá e faça essa verificação. Se preferir você também pode abrir seu terminal - que já deve estar aberto - e executar o comando "docker ps" que irá listar todos os contéineres em execução.
+
+37. Se tudo estiver corretamente configurado, agora nos falta fazer a configuração de rede, pois o Airflow, por padrão, cria sua própria rede no Docker, chamada de "airflow_default". No entanto, lembre que nossos servidores e nossa plataforma de ETL do Airbyte estão na rede "bridge". Para que possamos fazer a comunicação entre eles, vamos ter que migrar os contéineres do Airflow para esta outra rede. Sendo assim, execute os seguintes comandos:
+
+```bash
+docker network disconnect airflow_default airflow-postgres-1
+
+docker network disconnect airflow_default airflow-redis-1
+
+docker network disconnect airflow_default airflow-airflow-init-1
+
+docker network disconnect airflow_default airflow-airflow-scheduler-1
+
+docker network disconnect airflow_default airflow-airflow-webserver-1
+
+docker network disconnect airflow_default airflow-airflow-worker-1
+
+docker network disconnect airflow_default airflow-airflow-triggerer-1
+
+docker network connect bridge airflow-postgres-1
+
+docker network connect bridge airflow-redis-1
+
+docker network connect bridge airflow-airflow-init-1
+
+docker network connect bridge airflow-airflow-scheduler-1
+
+docker network connect bridge airflow-airflow-webserver-1
+
+docker network connect bridge airflow-airflow-worker-1
+
+docker network connect bridge airflow-airflow-triggerer-1
+```
+
+38. A série de comandos acima fará a desconexão da rede atual e em seguida conectará na rede correta. Com isso, a parte de rede está corretamente configurada e podemos avançar nas próximas configurações. Neste momento, vamos entrar dentro do contéiner webserver do Airflow para ajustar algumas configurações padrão. Para isso, vamos precisar instalar o pacote vim do Linux que permitirá abrir e editar arquivos presentes dentro do contéiner. Siga os passos abaixo:
+
+    a. No prompt de comando execute o comando, execute:
+
+    ```bash
+    docker exec -it -u root airflow-airflow-webserver-1 bash
+    ```
+
+    Por padrão o Airflow sempre abre com o usuário default que não possui certos privilégios e um deles é que não pode fazer instalação de pacotes. Como precisamos instalar o pacote vim, o comando acima permite a gente entrar no contéiner através do usuário root que possui esse tipo de privilégio.
+
+    b. Agora, execute os comandos na sequência:
+
+    ```bash
+    apt-get update
+
+    apt-get install vim
+
+    exit
+    ```
+
+    c. Vá até o Docker Desktop;
+
+    b. Procure pelo contéiner airflow-webserver-1 dentro da stack do "airflow";
+
+    c. Clique nos três pontinhos e depois em "open in terminal";
+
+    d. Assim que o terminal abrir, digite:
+
+    ```bash
+    bash
+    ```
+
+    e. Em seguida, digite:
+
+    ```bash
+    ls -la
+    ```
+
+    O comando acima listará pastas e arquivos dentro do diretório corrente, incluindo arquivos e pastas ocultas. Neste momento, você conseguirá vir que há uma pasta chamada "config". Precisamos entrar dentro dela.
+
+    f. Nesse sentido, vamos prosseguir com o comando abaixo:
+
+    ```bash
+    cd config
+    ```
+
+    g. Dentro da pasta "config" há um arquivo chamado "airflow.cfg". Precisamos abri-lo para manipular o valor de algumas variáveis. Dito isto, digite:
+
+    ```bash
+    vim airflow.cfg
+    ```
+
+    h. Dentro do arquivo "airflow.cfg" tome muito cuidado pois é um arquivo de configuração super importante e que pode danificar o funcionamento do seu Airflow. Faça exatamente o que está sendo dito aqui. Navegue pelo arquivo com o scroll do seu mouse e procure pela variável "expose_config" e altere seu valor para "True". Para fazer isso, clique na tecla "I" para poder editar o arquivo através do vim, após ter feito a alteração aperte em "ESC" e depois faça ":w" para salvar a alteração. Em seguida, localize a variável "smtp_host" e altere para "smtp.gmail.com" se seu e-mail for gmail. Caso seja outlook ou algum outro provedor, faça uma busca no google para descobrir qual é o smtp dele. Novamente, clique em "I" para poder alterar o arquivo. Em seguida, procure por "smtp_starttls" e coloque como "True". Caso já esteja, não precisa alterar, apenas mantenha. Agora, procure por "smtp_ssl" que deve estar logo abaixo e coloque como "False". Se já estiver, apenas mantenha. Em "smtp_user" inclua seu e-mail. Em "smtp_password" coloque sua senha. Aqui é importante estar atento que, não é possível passar sua senha de acesso diretamente. Você precisa criar uma senha de aplicativo e usá-la neste caso. Vá até o google e procure como criá-la. Após isso, retorne aqui e inclua esta senha de aplicativo. Em "smtp_port" coloque a porta "587" e em "smtp_mail_from" coloque novamente o seu e-mail. Após essas alterações, clique em "ESC" e depois faça ":w" para salvar as alterações que foram feitas. Por fim, procure pela variável "test_connection" e altere de "Disabled" para "Enabled". Essa variável é que permite realizar teste de conexão na UI (User Interface). Feito isso, faça ":wq" que irá salvar as alterações e sair do editor de texto.
+
+39. Para fechar essa etapa árdua de configuração do Airflow, precisamos fazer dois ajustes no arquivo docker-compose.yaml que está presente dentro da pasta "airflow". Abra o arquivo e faça o seguinte:
+
+    a. Logo abaixo da variável "AIRFLOW_CONFIG", insira as seguintes variáveis:
+
+    - AIRFLOW_SCHEDULER_MIN_FILE_PROCESS_INTERVAL": 5
+    - AIRFLOW_SCHEDULER_DAG_DIR_LIST_INTERVAL: 20
+    - AIRFLOW_EMAIL_EMAIL_BACKEND: airflow.utils.email.send_email_smtp
+    - AIRFLOW_SMTP_SMTP_HOST: "o smtp do seu provedor"
+    - AIRFLOW_SMTP_SMTP_STARTTLS: true
+    - AIRFLOW_SMTP_SMTP_SSL: false
+    - AIRFLOW_SMTP_SMTP_USER: "seu e-mail"
+    - AIRFLOW_SMTP_SMTP_MAIL_FROM: "seu e-mail"
+    - AIRFLOW_SMTP_SMTP_PASSWORD: "sua senha de aplicativo"
+    - AIRFLOW_SMTP_SMTP_PORT: "a porta de conexão"
+
+    b. Por fim, dentro da tag "volumes", inclua a seguinte linha:
+
+    - ${AIRFLOW_PROJ_DIR:-.}/models:/opt/airflow/models
+
+Obs.: Após a palavra "AIRFLOW", "SCHEDULER" e o primeiro "SMTP" coloque dois underlines em vez de um como está especificado. Tentei colocar os dois underlines mas por algum motivo o arquivo não está permitindo, portanto, mantive apenas um. Mas se não fizer como estou informando, resultará em erro, então preste bastante atenção nisso.
+
+Obs.²: Essa etapa é necessária para que o Airflow consiga enviar e-mails para você. Sem isso, o seu fluxo irá quebrar quando chegar na task que envia o e-mail de sucesso do fluxo.
+
+40. Agora que temos o Airflow com suas configurações de rede e configurações de parametrização realizadas, vamos criar as tabelas do nosso DW (Data Warehouse). Para isso, abra o PgAdmin (Client do PostgreSQL) e registre o servidor do DW (mostrei na etapa 18 como registrar). Depois que concluir o registro do servidor, vá até o script "database_dw.sql", copie o código SQL, vá até seu servidor do DW, abra um query tool, cole o código e execute-o. Depois de fazê-lo, veja se o banco de dados, o schema e as tabelas foram criadas corretamente.
+
+41.
 
 # 10. Licença
 
