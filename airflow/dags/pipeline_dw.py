@@ -33,7 +33,7 @@ logging.basicConfig(
 
 default_args = {
     "owner": "data_engineer",
-    "email": ["kjonnathas@gmail.com"],
+    "email": ["seu email"],
     "email_on_failure": True,
     "email_on_retry": True,
     "retries": 1,
@@ -225,7 +225,7 @@ with DAG(
 
     send_email = EmailOperator(
         task_id="enviar_email_sucesso",
-        to="kjonnathas@gmail.com",
+        to="seu email",
         subject="Pipeline DW",
         html_content="""
         <p>A DAG <strong>pipeline_dw</strong> foi concluída sem erros.</p>
