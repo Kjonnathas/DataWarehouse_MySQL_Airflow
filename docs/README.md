@@ -201,25 +201,25 @@ Este projeto não apenas simula uma arquitetura real de Data Warehouse como tamb
 
 - Pré-requisitos:
 
-  1. Baixar e instalar o Docker Desktop;
+  a. Baixar e instalar o Docker Desktop;
 
-     Link para download: https://www.docker.com/
+  Link para download: https://www.docker.com/
 
-  2. Baixar e instalar o PgAdmin (Client do PostgreSQL);
+  b. Baixar e instalar o PgAdmin (Client do PostgreSQL);
 
-     Link para download: https://www.pgadmin.org/download/
+  Link para download: https://www.pgadmin.org/download/
 
-  3. Baixar e instalar o Workbench (Client do MySQL);
+  c. Baixar e instalar o Workbench (Client do MySQL);
 
-     Link para download: https://dev.mysql.com/downloads/workbench/
+  Link para download: https://dev.mysql.com/downloads/workbench/
 
-  4. Baixar e instalar o Airbyte;
+  d. Baixar e instalar o Airbyte;
 
-     Link para download: https://docs.airbyte.com/using-airbyte/getting-started/oss-quickstart
+  Link para download: https://docs.airbyte.com/using-airbyte/getting-started/oss-quickstart
 
-  5. Baixar e instalar o Git;
+  e. Baixar e instalar o Git;
 
-     Link para download: https://git-scm.com/downloads
+  Link para download: https://git-scm.com/downloads
 
 <br>
 
@@ -587,9 +587,13 @@ Obs.: Após a palavra "AIRFLOW", "SCHEDULER" e o primeiro "SMTP" coloque dois un
 
 Obs.²: Essa etapa é necessária para que o Airflow consiga enviar e-mails para você. Sem isso, o seu fluxo irá quebrar quando chegar na task que envia o e-mail de sucesso do fluxo.
 
-40. Agora que temos o Airflow com suas configurações de rede e configurações de parametrização realizadas, vamos criar as tabelas do nosso DW (Data Warehouse). Para isso, abra o PgAdmin (Client do PostgreSQL) e registre o servidor do DW (mostrei na etapa 18 como registrar). Depois que concluir o registro do servidor, vá até o script "database_dw.sql", copie o código SQL, vá até seu servidor do DW, abra um query tool, cole o código e execute-o. Depois de fazê-lo, veja se o banco de dados, o schema e as tabelas foram criadas corretamente.
+40. Abra seu navegador e digite "localhost:8080". Se solicitar usuário e senha digite "airflow" em ambos. Em seguida, vá na aba "Admin" e clique na opção "Connections". Aqui você terá que configurar tanto a conexão com o servidor da staging area quanto do servidor do DW. Sendo assim, clique primeiramente no botão de "+". Em "Connection Id" forneça um nome para essa conexão. Sugiro colocar "postgres_data_warehouse" porque este é o nome que já está no script Python. Se você colocar outro nome terá que ajustar no script para que não dê erro. Em "Connection Type" você irá selecionar "Postgres". Em "Description" você pode colocar uma descrição sobre essa conexão ou não colocar nada, fica a seu critério. Em "Host" precisa ser inserido o endereço IP da máquina (já ensinado mais acima). Em "Database" coloque o nome do banco de dados. Em "Login" coloque o nome de usuário. Em "Password" coloque a senha. Em "Port" inclua a porta 5432 e depois clique em "Test" para vir se a conexão funcionou corretamente. Caso tenha dado sucesso clique em "Save" e faça o mesmo processo para a conexão da staging area.
 
-41.
+41. Agora que temos o Airflow com suas configurações de rede e configurações de parametrização realizadas, vamos criar as tabelas do nosso DW (Data Warehouse). Para isso, abra o PgAdmin (Client do PostgreSQL) e registre o servidor do DW (mostrei na etapa 18 como registrar). Depois que concluir o registro do servidor, vá até o script "database_dw.sql", copie o código SQL, vá até seu servidor do DW, abra um query tool, cole o código e execute-o. Depois de fazê-lo, veja se o banco de dados, o schema e as tabelas foram criadas corretamente.
+
+42. Caso tenha concluído com sucesso o passo anterior, volte a UI do Airflow e habilite a DAG na aba de "DAGs". Procure pelo nome da sua dag, que provavelmente será "pipeline_dw" e habilite-a. A partir do momento que você habilitar ela já deve ser executada de imediatado devido a configuração de início dela.
+
+43. Bom, o projeto é este e o passo a passo de configuração foi descrito da melhor maneira que consegui. São muitas etapas e configurações, principalmente quando chega no Airflow, então é muito suscetível a erros. Caso tenha alguma dificuldade ou dê erro em alguma etapa, pesquise sobre o erro no google, em fóruns ou até mesmo peça ajuda ao CHATGPT. Certeza que se correr atrás, consegue chegar no mesmo resultado que alcancei. Boa sorte!
 
 # 10. Licença
 
